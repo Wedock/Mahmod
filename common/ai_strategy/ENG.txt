@@ -181,7 +181,7 @@ protect_poland_against_germany = {
 	allowed = { original_tag = ENG }
 	enable = {
 		NOT = {
-			has_country_leader = { ruling_only = yes name = "Oswald Mosley" }
+			has_country_leader = { ruling_only = yes name = "Sophie Turner" }
 		}
 		GER = { 
 			OR = {
@@ -221,7 +221,7 @@ protect_poland_against_germany_even_more = {
 	allowed = { original_tag = ENG }
 	enable = {
 		NOT = {
-			has_country_leader = { ruling_only = yes name = "Oswald Mosley" }
+			has_country_leader = { ruling_only = yes name = "Sophie Turner" }
 		}
 		GER = { 
 			OR = {
@@ -252,7 +252,7 @@ defend_poland_against_germany = {
 	allowed = { original_tag = ENG }
 	enable = {
 		NOT = {
-			has_country_leader = { ruling_only = yes name = "Oswald Mosley" }
+			has_country_leader = { ruling_only = yes name = "Sophie Turner" }
 		}		
 		GER = { has_war_with = POL }
 		country_exists = POL

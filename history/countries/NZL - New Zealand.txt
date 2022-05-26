@@ -137,7 +137,7 @@ set_party_name = {
     name = "Governor General Position"
 }
 #create_country_leader = {
-#	name = "Michael Joseph Savage"
+#	name = "Rose McIver"
 #	desc = "POLITICS_MICHAEL_JOSEPH_SAVAGE_DESC"
 #	picture = "r56_portrait_NZL_Michael_Joseph_Savage.dds"
 #	expire = "1965.1.1"
@@ -148,7 +148,7 @@ set_party_name = {
 #}
 
 #create_country_leader = {
-#	name = "Cyril Louis Newall"
+#	name = "Lucy Lawless"
 #	desc = "POLITICS_Cyril_Louis_Newall"
 #	picture = "gfx/leaders/NZL/r56_portrait_NZL_Cyril_Louis_Newall.dds"
 #	expire = "1965.1.1"
@@ -159,7 +159,7 @@ set_party_name = {
 #}
 
 #create_country_leader = {
-#	name = "John Ormond"
+#	name = "Stella Maxwell"
 #	desc = "POLITICS_JOHN_ORMOND_DESC"
 #	picture = "gfx/leaders/NZL/r56_portrait_NZL_John_Ormond.dds"
 #	expire = "1965.1.1"
@@ -170,7 +170,7 @@ set_party_name = {
 #}
 
 #create_country_leader = {
-#	name = "Clemet Gordon Watson"
+#	name = "Thomasin McKenzie"
 #	desc = "POLITICS_GORDON_WATSON_DESC"
 #	picture = "gfx/leaders/NZL/r56_portrait_NZL_Gordon_Watson.dds"
 #	expire = "1965.1.1"
@@ -183,7 +183,7 @@ set_party_name = {
 set_convoys = 70
 
 #create_corps_commander = {
-#	name = "Harold Barrowclough"
+#	name = "Frankie Adams"
 #	portrait_path = "gfx/leaders/NZL/r56_portrait_NZL_Harold_Barrowclough.dds"
 #	traits = { infantry_officer }
 #	skill = 3
@@ -238,7 +238,7 @@ set_convoys = 70
 #}
 
 #create_navy_leader = {
-#	name = "Peter Phipps"
+#	name = "Sally Martin"
 #	portrait_path = "gfx/leaders/NZL/r56_portrait_NZL_Peter_Phipps.dds"
 #	traits = { navy_career_officer }
 #	skill = 3

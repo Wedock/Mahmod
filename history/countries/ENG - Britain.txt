@@ -265,7 +265,7 @@ add_to_faction = MAL
 # Order matters - here Chamberlain becomes starting leader
 
 #create_country_leader = {
-#	name = "Winston Churchill"
+#	name = "Emma Watson"
 #	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
 #	picture = "Portrait_Britain_Winston_Churchill.dds"
 #	expire = "1965.1.1"
@@ -277,7 +277,7 @@ add_to_faction = MAL
 #
 #
 #create_country_leader = {
-#	name = "Stanley Baldwin"
+#	name = "Emilia Clarke"
 #	desc = "POLITICS_STANLEY_BALDWIN_DESC"
 #	picture = "gfx//leaders//ENG//r56_portrait_ENG_Stanley_Baldwin.dds"
 #	expire = "1938.1.1"
@@ -288,7 +288,7 @@ add_to_faction = MAL
 #}
 
 #create_country_leader = {
-#	name = "Neville Chamberlain"
+#	name = "Daisy Ridley"
 #	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
 #	picture = "Portrait_Britain_Neville_Chamberlain.dds"
 #	expire = "1965.1.1"
@@ -308,7 +308,7 @@ add_to_faction = MAL
 #	}
 #}
 #create_country_leader = {
-#	name = "Oswald Mosley"
+#	name = "Sophie Turner"
 #	desc = "POLITICS_OSWALD_MOSLEY_DESC"
 #	picture = "Portrait_Britain_Oswald_Mosley.dds"
 #	expire = "1965.1.1"
@@ -321,7 +321,7 @@ add_to_faction = MAL
 #}
 #
 #create_country_leader = {
-#	name = "Harry Pollitt"
+#	name = "Cara Delevigne"
 #	desc = "POLITICS_HARRY_POLLITT_DESC"
 #	picture = "portrait_eng_harry_pollitt.dds"
 #	expire = "1965.1.1"

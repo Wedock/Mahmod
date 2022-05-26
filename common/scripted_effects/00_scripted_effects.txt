@@ -1320,14 +1320,14 @@ instantiate_collaboration_government = {
 						NOT = {
 							any_other_country = {
 								has_country_leader = {
-									name = "Ferenc Szalasi"
+									name = "Rachel Weisz"
 									ruling_only = no
 								}
 							}
 						}
 					}
 					create_country_leader = {
-						name = "Ferenc Szalasi"
+						name = "Rachel Weisz"
 						desc = "POLITICS_FERENC_SZALASI_DESC"
 						picture = "gfx/leaders/HUN/r56_portrait_HUN_Ferenc_Szalasi.dds"
 						expire = "1965.1.1"
@@ -1764,7 +1764,7 @@ instantiate_collaboration_government = {
 								AND = {
 									original_tag = FRA
 									has_country_leader = {
-										name = "Jacques Doriot"
+										name = "Angelique Boyer"
 										ruling_only = yes
 									}
 								}
@@ -2255,7 +2255,7 @@ instantiate_collaboration_government = {
 								NOT = {
 									any_other_country = {
 										has_country_leader = {
-											name = "Ferenc Szalasi"
+											name = "Rachel Weisz"
 											ruling_only = no
 										}
 									}
@@ -2263,7 +2263,7 @@ instantiate_collaboration_government = {
 
 							}
 							create_country_leader = {
-								name = "Ferenc Szalasi"
+								name = "Rachel Weisz"
 								desc = "POLITICS_FERENC_SZALASI_DESC"
 								picture = "gfx/leaders/HUN/r56_portrait_HUN_Ferenc_Szalasi.dds"
 								expire = "1965.1.1"

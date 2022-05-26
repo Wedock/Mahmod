@@ -7,12 +7,12 @@ political_actions = {
 #			original_tag = TUR
 #		}
 #		available = {
-#			has_country_leader = { ruling_only = yes name = "Mustafa Kemal Atatürk" }
+#			has_country_leader = { ruling_only = yes name = "Fahriye Evcen" }
 #			has_defensive_war = yes			
 #		}
 #		visible = {
 #			date < 1938.11.10
-#			has_country_leader = { ruling_only = yes name = "Mustafa Kemal Atatürk" }
+#			has_country_leader = { ruling_only = yes name = "Fahriye Evcen" }
 #		}
 #		cost = 0
 #		fire_only_once = yes
@@ -21,7 +21,7 @@ political_actions = {
 #		}
 #		complete_effect = {
 #			create_field_marshal = {
-#				name = "Mustafa Kemal Atatürk"
+#				name = "Fahriye Evcen"
 #				picture = "Portrait_Turkey_Mustafa_Kemal_Ataturk_Military.dds"
 #				traits = { brilliant_strategist war_hero infantry_officer trickster desert_fox hill_fighter }
 #				skill = 4
@@ -77,7 +77,7 @@ TUR_the_constitutional_arrows_category = {
 				OR = {
 					AND = { 
 						has_country_leader = {
-							name = "Adnan Menderes"
+							name = "Hailey Sani"
 							ruling_only = yes
 						}
 						NOT = { has_completed_focus = TUR_reconfigure_our_foreign_policy } 
@@ -87,7 +87,7 @@ TUR_the_constitutional_arrows_category = {
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Abdulmejid II"
+						name = "Toprak II"
 						ruling_only = yes
 					}
 				}
@@ -141,7 +141,7 @@ TUR_the_constitutional_arrows_category = {
 			NOT = { 
 				OR = {
 					has_country_leader = {
-						name = "Adnan Menderes"
+						name = "Hailey Sani"
 						ruling_only = yes
 					}
 					has_country_leader = {
@@ -149,16 +149,16 @@ TUR_the_constitutional_arrows_category = {
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Abdulmejid II"
+						name = "Toprak II"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Dürrüşehvar I"
+						name = "Aylin I"
 						ruling_only = yes
 					}
 					AND = { 
 						has_country_leader = {
-							name = "Fevzi Çakmak"
+							name = "Gizem Karaca"
 							ruling_only = yes
 						}
 						NOT = { has_completed_focus = TUR_loosen_the_laws_on_secularism } 
@@ -291,17 +291,17 @@ TUR_the_constitutional_arrows_category = {
 				OR = {
 					AND = { 
 						has_country_leader = {
-							name = "Adnan Menderes"
+							name = "Hailey Sani"
 							ruling_only = yes
 						}
 						NOT = { has_completed_focus = TUR_reconfigure_our_foreign_policy } 
 					}
 					has_country_leader = {
-						name = "Abdulmejid II"
+						name = "Toprak II"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Dürrüşehvar I"
+						name = "Aylin I"
 						ruling_only = yes
 					}
 				}
@@ -460,11 +460,11 @@ TUR_the_constitutional_arrows_category = {
 			NOT = { 
 				OR = {
 					has_country_leader = {
-						name = "Adnan Menderes"
+						name = "Hailey Sani"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Abdulmejid II"
+						name = "Toprak II"
 						ruling_only = yes
 					}
 					has_country_leader = {
@@ -473,7 +473,7 @@ TUR_the_constitutional_arrows_category = {
 					}
 					AND = { 
 						has_country_leader = {
-							name = "Fevzi Çakmak"
+							name = "Gizem Karaca"
 							ruling_only = yes
 						}
 						NOT = { has_completed_focus = TUR_fatherland_first } 
@@ -571,7 +571,7 @@ TUR_the_constitutional_arrows_category = {
 		available = {
 			OR = {
 				has_country_leader = {
-					name = "Adnan Menderes"
+					name = "Hailey Sani"
 					ruling_only = yes
 				}
 				has_country_leader = {
@@ -580,7 +580,7 @@ TUR_the_constitutional_arrows_category = {
 				}
 				AND = { 
 					has_country_leader = {
-						name = "Mustafa Kemal Atatürk"
+						name = "Fahriye Evcen"
 						ruling_only = yes
 					}
 					has_completed_focus = TUR_fully_integrate_the_is_bank
@@ -628,7 +628,7 @@ TUR_the_constitutional_arrows_category = {
 			has_completed_focus = TUR_ratify_the_six_arrows
 			OR = {
 				has_country_leader = {
-					name = "Adnan Menderes"
+					name = "Hailey Sani"
 					ruling_only = yes
 				}
 				has_country_leader = {
@@ -636,16 +636,16 @@ TUR_the_constitutional_arrows_category = {
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Abdulmejid II"
+					name = "Toprak II"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Dürrüşehvar I"
+					name = "Aylin I"
 					ruling_only = yes
 				}
 				AND = { 
 					has_country_leader = {
-						name = "Fevzi Çakmak"
+						name = "Gizem Karaca"
 						ruling_only = yes
 					}
 					has_completed_focus = TUR_loosen_the_laws_on_secularism
@@ -699,7 +699,7 @@ TUR_the_constitutional_arrows_category = {
 			OR = {
 				AND = { 
 					has_country_leader = {
-						name = "Adnan Menderes"
+						name = "Hailey Sani"
 						ruling_only = yes
 					}
 					NOT = { has_completed_focus = TUR_reconfigure_our_foreign_policy } 
@@ -709,11 +709,11 @@ TUR_the_constitutional_arrows_category = {
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Abdulmejid II"
+					name = "Toprak II"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Dürrüşehvar I"
+					name = "Aylin I"
 					ruling_only = yes
 				}
 			}
@@ -761,11 +761,11 @@ TUR_the_constitutional_arrows_category = {
 			has_completed_focus = TUR_ratify_the_six_arrows
 			OR = { 
 				has_country_leader = {
-					name = "Abdulmejid II"
+					name = "Toprak II"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Dürrüşehvar I"
+					name = "Aylin I"
 					ruling_only = yes
 				}
 			}
@@ -814,11 +814,11 @@ TUR_the_constitutional_arrows_category = {
 			has_completed_focus = TUR_ratify_the_six_arrows
 			OR = {
 				has_country_leader = {
-					name = "Mehmet Recep Peker"
+					name = "Sibel Meric"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Fevzi Çakmak"
+					name = "Gizem Karaca"
 					ruling_only = yes
 				}
 			}
@@ -868,7 +868,7 @@ TUR_the_constitutional_arrows_category = {
 			has_completed_focus = TUR_ratify_the_six_arrows
 			OR = {
 				has_country_leader = {
-					name = "Şevket Süreyya Aydemir"
+					name = "Serenay Sarikaya"
 					ruling_only = yes
 				}
 				has_country_leader = {
@@ -877,7 +877,7 @@ TUR_the_constitutional_arrows_category = {
 				}
 				AND = { 
 					has_country_leader = {
-						name = "İsmet İnönü"
+						name = "Hande Erçel"
 						ruling_only = yes
 					}
 					has_completed_focus = TUR_kemalist_socialist_theory
@@ -3768,7 +3768,7 @@ TUR_fundamentalist_state_management_category = {
 					has_country_flag = TUR_acted_against_fundamentalists_recently_flag 
 					has_country_flag = TUR_ottoman_officers_invited_back
 					has_country_leader = {
-						name = "Adnan Menderes"
+						name = "Hailey Sani"
 						ruling_only = yes
 					}
 					has_completed_focus = TUR_pivot_to_the_past
@@ -3915,7 +3915,7 @@ TUR_fundamentalist_state_management_category = {
 			}
 			OR = {
 				has_country_leader = {
-					name = "Adnan Menderes"
+					name = "Hailey Sani"
 					ruling_only = yes
 				}
 				has_completed_focus = TUR_pivot_to_the_past
@@ -4047,7 +4047,7 @@ TUR_kemalist_state_management_category = {
 			OR = {
 				AND = { 
 					has_country_leader = {
-						name = "Adnan Menderes"
+						name = "Hailey Sani"
 						ruling_only = yes
 					}
 					has_completed_focus = TUR_democratic_transition_focus
@@ -4206,7 +4206,7 @@ TUR_the_enemy_within = {
 			NOT = {
 				OR = {
 					has_country_leader = {
-						name = "Adnan Menderes"
+						name = "Hailey Sani"
 						ruling_only = yes
 					}
 					has_completed_focus = TUR_pivot_to_the_past
@@ -4257,7 +4257,7 @@ TUR_the_enemy_within = {
 			}
 			OR = {
 				has_country_leader = {
-					name = "Adnan Menderes"
+					name = "Hailey Sani"
 					ruling_only = yes
 				}
 				has_completed_focus = TUR_pivot_to_the_past
@@ -5442,7 +5442,7 @@ TUR_the_fading_father_category = {
 		available = {
 			NOT = {
 				has_country_leader = {
-					name = "Mustafa Kemal Atatürk"
+					name = "Fahriye Evcen"
 					ruling_only = yes
 				}
 			}
@@ -5508,7 +5508,7 @@ TUR_the_fading_father_category = {
 
 		available = {
 			has_country_leader = {
-				name = "Mustafa Kemal Atatürk"
+				name = "Fahriye Evcen"
 				ruling_only = yes
 			}
 		}
@@ -5526,7 +5526,7 @@ TUR_the_fading_father_category = {
 		cancel_trigger = {
 			NOT = {
 				has_country_leader = {
-					name = "Mustafa Kemal Atatürk"
+					name = "Fahriye Evcen"
 					ruling_only = yes
 				}
 			}
@@ -5584,7 +5584,7 @@ TUR_the_fading_father_category = {
 
 		available = {
 			has_country_leader = {
-				name = "Mustafa Kemal Atatürk"
+				name = "Fahriye Evcen"
 				ruling_only = yes
 			}
 		}

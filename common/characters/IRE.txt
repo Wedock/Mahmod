@@ -1,6 +1,6 @@
 characters={
 	IRE_Éamon_de_valera={
-		name="Éamon de Valera"
+		name="Saoirse Ronan"
 		portraits={
 			civilian={
 				large="gfx/leaders/IRE/r56_portrait_IRE_Eamon_De_Varela.dds"
@@ -16,7 +16,7 @@ characters={
 		}
 	}
 	IRE_eoin_oduffy={
-		name="Eoin O'Duffy"
+		name="Becky Lynch"
 		portraits={
 			civilian={
 				large="gfx/leaders/IRE/r56_portrait_IRE_Eoin_O_Duffy.dds"
@@ -32,7 +32,7 @@ characters={
 		}
 	}
 	IRE_james_larkin={
-		name="James Larkin"
+		name="Aisling Bea"
 		portraits={
 			civilian={
 				large="gfx/leaders/IRE/r56_portrait_IRE_James_Larkin.dds"
@@ -48,10 +48,10 @@ characters={
 		}
 	}
 	IRE_william_norton={
-		name="William Norton"
+		name="Evanna Lynch"
 		portraits={
 			civilian={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+				large="gfx/leaders/IRE/r56_portrait_IRE_Evanna_Lynch.dds"
 			}
 		}
 		country_leader={
@@ -99,10 +99,10 @@ characters={
 			legacy_id=-1
 		}		
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Michael Costello"
+		name="Hannah Rose May"
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+				large="gfx/leaders/IRE/r56_portrait_IRE_Hannah_Rose_May.dds"
 				small="gfx/interface/ideas/idea_ENG_generic_land_4.dds"
 			}
 		}
@@ -314,10 +314,11 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Richard James Mulcahy"
+		name="Dilla Harper"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_europe_5"
+				large="gfx/leaders/IRE/r56_portrait_IRE_Richard_Mulcahy.dds"
 			}
 		}
 	}
@@ -339,7 +340,7 @@ characters={
 					factor = 1.000
 				}
 		}
-		name="Daniel McKenna"
+		name="Katie McGrath"
 		portraits={
 			army={
 				large="gfx/leaders/IRE/r56_portrait_IRE_Daniel_McKenna.dds"
@@ -382,10 +383,10 @@ characters={
 			planning_skill = 1
 			logistics_skill = 1
 		}		
-		name="Hugo MacNeill"
+		name="Dillion Harper"
 		portraits={
 			army={
-				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_2.dds"
+				large="gfx/leaders/IRE/r56_portrait_IRE_Dillion_Harper.dds"
 				small="GFX_idea_generic_army_europe_1"
 			}
 		}

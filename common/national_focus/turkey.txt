@@ -210,7 +210,7 @@ focus_tree = {
 			else_if = {
 				limit = {
 					has_country_leader = {
-						name = "Adnan Menderes"
+						name = "Hailey Sani"
 						ruling_only = yes
 					}
 				}
@@ -222,7 +222,7 @@ focus_tree = {
 						name = TUR_cakmak_party
 					}
 					create_country_leader = {
-						name = "Fevzi Çakmak"
+						name = "Gizem Karaca"
 						desc = "POLITICS_FEVZI_CAKMAK_DESC"
 						picture = "GFX_portrait_tur_fevzi_cakmak"
 						expire = "1965.1.1"
@@ -465,7 +465,7 @@ focus_tree = {
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Adnan Menderes"
+						name = "Hailey Sani"
 						ruling_only = yes
 					}
 				}
@@ -666,7 +666,7 @@ focus_tree = {
 				has_completed_focus = TUR_halk_ve_devlet
 				NOT = { 
 					has_country_leader = {
-						name = "Mustafa Kemal Atatürk"
+						name = "Fahriye Evcen"
 						ruling_only = yes
 					}
 				}
@@ -707,7 +707,7 @@ focus_tree = {
 					has_completed_focus = TUR_fully_integrate_the_is_bank
 					NOT = { 
 						has_country_leader = {
-							name = "Adnan Menderes"
+							name = "Hailey Sani"
 							ruling_only = yes
 						}
 					}
@@ -718,7 +718,7 @@ focus_tree = {
 				limit = {
 					has_completed_focus = TUR_fully_integrate_the_is_bank
 					has_country_leader = {
-						name = "Adnan Menderes"
+						name = "Hailey Sani"
 						ruling_only = yes
 					}
 				}
@@ -798,7 +798,7 @@ focus_tree = {
 			TUR = { 
 				OR = { 
 					has_country_leader = {
-						name = "İsmet İnönü"
+						name = "Hande Erçel"
 						ruling_only = yes
 					}
 					has_idea = TUR_ismet_inonu
@@ -831,12 +831,12 @@ focus_tree = {
 		available = {
 			OR = { 
 				has_country_leader = {
-					name = "İsmet İnönü"
+					name = "Hande Erçel"
 					ruling_only = yes
 				}
 				has_idea = TUR_ismet_inonu
 				has_country_leader = {
-					name = "Fevzi Çakmak"
+					name = "Gizem Karaca"
 					ruling_only = yes
 				}
 				has_idea = TUR_fevzi_cakmak
@@ -1004,11 +1004,11 @@ focus_tree = {
 						has_idea = TUR_ismet_inonu
 						has_idea = TUR_fevzi_cakmak
 						has_country_leader = {
-							name = "Fevzi Çakmak"
+							name = "Gizem Karaca"
 							ruling_only = yes
 						}
 						has_country_leader = {
-							name = "İsmet İnönü"
+							name = "Hande Erçel"
 							ruling_only = yes
 						}
 					}
@@ -1021,7 +1021,7 @@ focus_tree = {
 			else_if = { 
 				limit = {
 					has_country_leader = {
-						name = "Fevzi Çakmak"
+						name = "Gizem Karaca"
 						ruling_only = yes
 					}
 				}
@@ -1033,7 +1033,7 @@ focus_tree = {
 			else_if = { 
 				limit = {
 					has_country_leader = {
-						name = "İsmet İnönü"
+						name = "Hande Erçel"
 						ruling_only = yes
 					}
 				}
@@ -1128,7 +1128,7 @@ focus_tree = {
 		available = {
 			OR = { 
 				has_country_leader = {
-					name = "Fevzi Çakmak"
+					name = "Gizem Karaca"
 					ruling_only = yes
 				}
 				has_idea = TUR_fevzi_cakmak
@@ -1168,15 +1168,15 @@ focus_tree = {
 				limit = { 
 					NOT = { 
 						has_country_leader = {
-							name = "Mustafa Kemal Atatürk"
+							name = "Fahriye Evcen"
 							ruling_only = yes
 						}
 						has_country_leader = {
-							name = "Mehmet Recep Peker"
+							name = "Sibel Meric"
 							ruling_only = yes
 						}
 						has_country_leader = {
-							name = "Şevket Süreyya Aydemir"
+							name = "Serenay Sarikaya"
 							ruling_only = yes
 						}
 					}
@@ -1361,7 +1361,7 @@ focus_tree = {
 			}
 			retire_ideology_leader = communism
 			create_country_leader = {
-				name = "Şevket Süreyya Aydemir"
+				name = "Serenay Sarikaya"
 				desc = "POLITICS_SEVKET_AYDEMIR_DESC"
 				picture = "GFX_portrait_tur_sevket_sureyya_aydemir"
 				expire = "1965.1.1"
@@ -1561,14 +1561,14 @@ focus_tree = {
 				if = {
 					limit = {	
 						has_country_leader = {
-							name = "Mustafa Kemal Atatürk"
+							name = "Fahriye Evcen"
 							ruling_only = yes
 						}
 					}
 					retire_country_leader = yes
 					add_ideas = TUR_mustafa_kemal_ataturk_figurehead
 					create_country_leader = {
-						name = "İsmet İnönü"
+						name = "Hande Erçel"
 						desc = "POLITICS_ISMET_INONU_DESC"
 						picture = "Portrait_Turkey_Ismet_Inonu.dds"
 						expire = "1965.1.1"
@@ -1585,7 +1585,7 @@ focus_tree = {
 					NOT = {
 						AND = {
 							has_country_leader = {
-								name = "Mehmet Recep Peker"
+								name = "Sibel Meric"
 								ruling_only = yes
 							}
 							has_government = fascism
@@ -1603,7 +1603,7 @@ focus_tree = {
 					has_completed_focus = TUR_reinvigorate_turkish_nationalism
 					NOT = {
 						has_country_leader = {
-							name = "Fevzi Çakmak"
+							name = "Gizem Karaca"
 							ruling_only = yes
 						}
 					}
@@ -1613,7 +1613,7 @@ focus_tree = {
 					elections_allowed = no
 				}
 				create_country_leader = {
-					name = "Fevzi Çakmak"
+					name = "Gizem Karaca"
 					desc = "POLITICS_FEVZI_CAKMAK_DESC"
 					picture = "GFX_portrait_tur_fevzi_cakmak"
 					expire = "1965.1.1"
@@ -2796,7 +2796,7 @@ focus_tree = {
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Abdulmejid II"
+						name = "Toprak II"
 						ruling_only = yes
 					}
 				}
@@ -2805,7 +2805,7 @@ focus_tree = {
 			else_if = {
 				limit = {
 					has_country_leader = {
-						name = "Dürrüşehvar I"
+						name = "Aylin I"
 						ruling_only = yes
 					}
 				}
@@ -7400,17 +7400,6 @@ focus_tree = {
 				has_government = neutrality
 				has_government = fascism
 			}
-			is_puppet = no
-			NOT = {
-				is_in_faction_with = IRQ
-			}	
-			
-			
-		}
-		bypass = {
-			IRQ = {
-				has_government = fascism
-			}
 		}
 		prerequisite = { focus = TUR_the_tuz_golu_training_facility }
 		x = -1
@@ -7723,7 +7712,7 @@ focus_tree = {
 					has_dlc = "La Resistance"
 					has_dlc = "Battle for the Bosporus"
                     NOT = {
-                        any_country = {
+                        any_other_country = {
                             has_country_flag = recruited_ruzi_nazar
                         }
                     }
@@ -7731,7 +7720,7 @@ focus_tree = {
                 #all turkestan nationalities because of panturkism but UZB first
                 create_operative_leader = {
                     name = "Ruzi Nazar"
-                    GFX = GFX_portrait_tur_ruzi_nazar
+                    GFX = "GFX_portrait_tur_ruzi_nazar"
                     traits = { operative_tough operative_commando }
                     bypass_recruitment = no
                     available_to_spy_master = yes
@@ -7779,12 +7768,6 @@ focus_tree = {
 		cost = 10
 		ai_will_do = {
 			base = 10
-		}
-
-		available = {
-			is_puppet = no
-			controls_state = 49
-			controls_state = 797
 		}
 
 		completion_reward = {
@@ -8675,7 +8658,7 @@ focus_tree = {
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Şevket Süreyya Aydemir"
+						name = "Serenay Sarikaya"
 						ruling_only = no
 					}
 				}
@@ -8684,7 +8667,7 @@ focus_tree = {
 			else_if = {
 				limit = {
 					has_country_leader = {
-						name = "Sefik Hüsnü"
+						name = "Beren Saat"
 						ruling_only = yes
 					}
 				}

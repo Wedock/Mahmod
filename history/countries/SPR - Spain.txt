@@ -197,7 +197,7 @@ if = {
 	recruit_character = SPA_mauricio_de_sivatte
 
 	create_country_leader = {
-		name = "Manuel Portela Valladares"
+		name = "Penelope Cruz"
 		desc = "POLITICS_MANUEL_PORTELA_VALLADARES_DESC"
 		picture = "gfx/leaders/SPR/r56_portrait_SPR_Manuel_Portela_Valladares.dds"
 		expire = "1965.1.1"
@@ -374,7 +374,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	#create_corps_commander = {
-	#	name = "Vicente Rojo Lluch"
+	#	name = "Apolonia Lapiedra"
 	#	id = 1102
 	#	gfx = "GFX_portrait_SPR_vicente_rojo_lluch"
 	#	traits = { brilliant_strategist }
@@ -398,7 +398,7 @@ if = {
 #	}
 
 #	create_corps_commander = {
-#		name = "José Asensio Torrado"
+#		name = "Blanca Padilla"
 #		id = 1101
 #		gfx = "GFX_portrait_SPR_jose_asensio_torrado"
 #		traits = { career_officer infantry_leader }
@@ -412,7 +412,7 @@ if = {
 	# Republican leaders - Stalinist Communist
 	
 #	create_corps_commander = { # Becomes Field Marshal at SCW start
-#		name = "Valentín González"
+#		name = "Astrid Berges-Frisbey"
 #		id = 1104
 #		gfx = "GFX_portrait_SPR_valentin_gonzalez"
 #		traits = { harsh_leader }
@@ -424,7 +424,7 @@ if = {
 #	}
 	
 #	create_corps_commander = {
-#		name = "Juan Modesto"
+#		name = "Barbara Amerigo"
 #		id = 1105
 #		gfx = "GFX_portrait_SPR_juan_modesto"
 #		traits = { trait_mountaineer }
@@ -436,7 +436,7 @@ if = {
 #	}
 	
 #	create_corps_commander = {
-#		name = "Antonio Cordón García"
+#		name = "Ariadne Artiles"
 #		id = 1106
 #		gfx = "GFX_portrait_SPR_antonio_cordon_garcia"
 #		traits = { infantry_leader }
@@ -464,7 +464,7 @@ if = {
 	# Nationalists leaders - Francoists
 	
 #	create_field_marshal = {
-#		name = "Francisco Franco"
+#		name = "Elsa Pataky"
 #		id = 1108
 #		portrait_path = "gfx/leaders/SPR/r56_portrait_SPR_Francisco_Franco.dds"
 #		traits = { organisational_leader logistics_wizard expert_delegator }
@@ -476,7 +476,7 @@ if = {
 #	}
 	
 #	create_corps_commander = {
-#		name = "Mohamed Meziane"
+#		name = "Diana Morales"
 #		id = 1109
 #		gfx = "GFX_portrait_SPA_mohamed_meziane"
 #		traits = { harsh_leader career_officer trait_SPA_nationalist_sympathies }
@@ -488,7 +488,7 @@ if = {
 #	}
 	
 #	create_corps_commander = { # Could fit for all 3 factions
-#		name = "Gonzalo Queipo de Llano"
+#		name = "Paola Hard"
 #		id = 1110
 #		gfx = "GFX_portrait_SPA_gonzalo_queipo_de_llano"
 #		traits = { infantry_officer trait_SPA_nationalist_sympathies }
@@ -502,7 +502,7 @@ if = {
 	# Nationalists leaders - Fascists
 	
 #	create_field_marshal = {
-#		name = "Emilio Mola"
+#		name = "Cristina Pedroche"
 #		id = 1111
 #		gfx = "GFX_portrait_SPA_emilio_mola"
 #		traits = { organisational_leader trait_cautious thorough_planner trait_SPA_nationalist_sympathies }
@@ -526,7 +526,7 @@ if = {
 #	}
 	
 #	create_corps_commander = {
-#		name = "Agustín Muñoz Grandes"
+#		name = "Paula Prendes"
 #		id = 1113
 #		gfx = "GFX_portrait_SPA_augustin_muynoz_grandes"
 #		traits = { infantry_officer trait_SPA_nationalist_sympathies }
@@ -540,7 +540,7 @@ if = {
 	# Nationalists leaders - Carlists
 	
 #	create_corps_commander = {
-#		name = "José Enrique Varela"
+#		name = "Carolina Ballesteros"
 #		id = 1114
 #		gfx = "GFX_portrait_SPA_jose_enrique_varela"
 #		traits = { organizer infantry_leader trait_SPA_nationalist_sympathies }
@@ -564,7 +564,7 @@ if = {
 #	}
 	
 #	create_corps_commander = {
-#		name = "José Millán Astray"
+#		name = "Carolina Abril"
 #		id = 1116
 #		gfx = "GFX_portrait_SPA_jose_millan_astray"
 #		traits = { war_hero trait_reckless trait_SPA_nationalist_sympathies }
@@ -578,7 +578,7 @@ if = {
 	# Naval Leaders - Republicans
 	
 	#create_navy_leader = {
-	#	name = "Miguel Buiza Fernández-Palacios"
+	#	name = "Ester Expósito"
 	#	id = 1117
 	#	gfx = "GFX_portrait_SPR_miguel_buiza_fernandez_palacios"
 	#	traits = { craven }
@@ -592,7 +592,7 @@ if = {
 	# Naval Leaders - Nationalists
 	
 	#create_navy_leader = {
-	#	name = "Luis Carrero Blanco"
+	#	name = "Montse Roura"
 	#	id = 1118
 	#	gfx = "GFX_portrait_SPA_luis_carrero_blanco"
 	#	traits = { seawolf trait_SPA_nationalist_sympathies }
@@ -613,7 +613,7 @@ if = {
 	}
 
 	create_country_leader = {
-		name = "Manuel Portela Valladares"
+		name = "Penelope Cruz"
 		desc = "POLITICS_MANUEL_PORTELA_VALLADARES_DESC"
 		picture = "gfx/leaders/SPR/r56_portrait_SPR_Manuel_Portela_Valladares.dds"
 		expire = "1965.1.1"
@@ -624,7 +624,7 @@ if = {
 	}
 
 	create_country_leader = {
-		name = "Francisco Franco"
+		name = "Elsa Pataky"
 		desc = "POLITICS_FRANCISCO_FRANCO_DESC"
 		picture = "gfx/leaders/SPR/r56_portrait_SPR_Francisco_Franco.dds"
 		expire = "1965.1.1"
@@ -635,7 +635,7 @@ if = {
 	}
 
 	create_country_leader = {
-		name = "Juan III"
+		name = "Alba I Flores"
 		desc = "POLITICS_JUAN_III_DESC"
 		picture = "gfx/leaders/SPR/r56_portrait_SPR_Juan_III.dds"
 		expire = "1965.1.1"
@@ -646,7 +646,7 @@ if = {
 	}
 
 	#create_field_marshal = {
-	#	name = "José Asensio Torrado"
+	#	name = "Blanca Padilla"
 	#	portrait_path = "gfx/leaders/SPR/r56_portrait_SPR_jose_asensio_torrado.dds"
 	#	traits = { defensive_doctrine }
 	#	id = 6008

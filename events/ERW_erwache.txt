@@ -86,8 +86,8 @@ country_event = { #Peaceful Empire
 		}
 
 		create_country_leader = {
-			name = "Wilhelm II"
-			desc = "Wilhelm II"
+			name = "Laura Müller"
+			desc = "Laura Müller"
 			picture = "r56_portrait_GER_King_Wilhelm.dds"
 			expire = 1965.1.1
 			ideology = absolute_monarchism
@@ -96,7 +96,7 @@ country_event = { #Peaceful Empire
 			}
 		}
 		create_field_marshal = {
-			name = "Werner von Blomberg"
+			name = "Laura Offermann"
 			picture = "r56_portrait_GER_Werner_von_Blomberg.dds"
 			traits = {  infantry_leader  }
 			skill = 3
@@ -106,7 +106,7 @@ country_event = { #Peaceful Empire
 			logistics_skill = 3
 		}
 		create_field_marshal = {
-			name = "Werner von Fritsch"
+			name = "Nicola Cavanis"
 			picture = "r56_portrait_GER_Werner_von_Fritsch.dds"
 			traits = { infantry_leader skilled_staffer expert_delegator }
 			skill = 3
@@ -127,8 +127,8 @@ country_event = { #Peaceful Empire
 		}
 
 		create_country_leader = {
-			name = "Wilhelm III"
-			desc = "Wilhelm III"
+			name = "Claudia Schiffer"
+			desc = "Claudia Schiffer"
 			picture = "r56_portrait_GER_Prince_Wilhelm.dds"
 			expire = 1965.1.1
 			ideology = absolute_monarchism
@@ -137,7 +137,7 @@ country_event = { #Peaceful Empire
 			}
 		}
 		create_field_marshal = {
-			name = "Werner von Blomberg"
+			name = "Laura Offermann"
 			picture = "r56_portrait_GER_Werner_von_Blomberg.dds"
 			traits = {  infantry_leader  }
 			skill = 3
@@ -147,7 +147,7 @@ country_event = { #Peaceful Empire
 			logistics_skill = 3
 		}
 		create_field_marshal = {
-			name = "Werner von Fritsch"
+			name = "Nicola Cavanis"
 			picture = "r56_portrait_GER_Werner_von_Fritsch.dds"
 			traits = { infantry_leader skilled_staffer expert_delegator }
 			skill = 3
@@ -190,8 +190,8 @@ country_event = { #Crazy Empire
 		}	
 		
 		create_country_leader = {
-			name = "Wilhelm II"
-			desc = "Wilhelm II"
+			name = "Laura Müller"
+			desc = "Laura Müller"
 			picture = "r56_portrait_GER_King_Wilhelm.dds"
 			expire = 1965.1.1
 			ideology = absolute_monarchism
@@ -214,7 +214,7 @@ country_event = { #Crazy Empire
 				has_government = neutrality 
 			}
 			create_field_marshal = {
-				name = "Werner von Blomberg"
+				name = "Laura Offermann"
 				picture = "r56_portrait_GER_Werner_von_Blomberg.dds"
 				traits = {  infantry_leader  }
 				skill = 3
@@ -224,7 +224,7 @@ country_event = { #Crazy Empire
 				logistics_skill = 3
 			}
 			create_field_marshal = {
-				name = "Werner von Fritsch"
+				name = "Nicola Cavanis"
 				picture = "r56_portrait_GER_Werner_von_Fritsch.dds"
 				traits = { infantry_leader skilled_staffer expert_delegator }
 				skill = 3
@@ -256,8 +256,8 @@ country_event = { #Crazy Empire
 		}
 
 		create_country_leader = {
-			name = "Wilhelm III"
-			desc = "Wilhelm III"
+			name = "Claudia Schiffer"
+			desc = "Claudia Schiffer"
 			picture = "r56_portrait_GER_Prince_Wilhelm.dds"
 			expire = 1965.1.1
 			ideology = absolute_monarchism
@@ -266,7 +266,7 @@ country_event = { #Crazy Empire
 			}
 		}
 		create_field_marshal = {
-			name = "Werner von Blomberg"
+			name = "Laura Offermann"
 			picture = "r56_portrait_GER_Werner_von_Blomberg.dds"
 			traits = {  infantry_leader  }
 			skill = 3
@@ -276,7 +276,7 @@ country_event = { #Crazy Empire
 			logistics_skill = 3
 		}
 		create_field_marshal = {
-			name = "Werner von Fritsch"
+			name = "Nicola Cavanis"
 			picture = "r56_portrait_GER_Werner_von_Fritsch.dds"
 			traits = { infantry_leader skilled_staffer expert_delegator }
 			skill = 3

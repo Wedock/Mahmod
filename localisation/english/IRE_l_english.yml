@@ -83,10 +83,6 @@
  IRE_trade_war:0 "Crippling Trade War"
  IRE_trade_war_desc:0 "The Anglo-Irish Trade War has been occurring for quite some time over disputed trade agreements and the status of the constitution of Ireland. It needs to be ended before our economy is harmed further."
  IRE_IRELAND:0 "Ireland"
- IRE_claim_the_celtic_world:0 "Claim the Celtic World"
- IRE_claim_the_celtic_world_desc:0 "Uniting Ireland is not enough, our objective is the liberation of all our Celtic brothers."
-
-
 ireland.1.t:0 "Northern Ireland for Assistance"
 ireland.1.d:0 "Malcolm MacDonald, who negotiated with the Irish Free State with Neville Chamberlain, has been sent to Ireland to meet with us and discuss an interesting proposal. [ENG.GetNameDefCap] offers to rescind the partition of Ireland, returning Northern Ireland to our control, as long as we join the Allied war effort."
 ireland.1.a:0 "Anything for an ally."
@@ -170,7 +166,7 @@ IRE_fort_tt:0 "We will construct Coastal Forts on our Ports"
 
 IRE_generic_head_of_intelligence:0 "Liam Archer"
 IRE_richard_hayes:0 "Richard Hayes"
-IRE_daniel_mckenna:0 "Daniel McKenna"
+IRE_daniel_mckenna:0 "Katie McGrath"
 IRE_michael_brennan:0 "Michael Brennan"
-IRE_michael_costello:0 "Michael Costello"
+IRE_michael_costello:0 "Hannah Rose May"
 IRE_hugo_mcneill:0 "Hugo McNeill"

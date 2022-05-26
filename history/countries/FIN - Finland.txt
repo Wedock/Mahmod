@@ -146,7 +146,7 @@ set_popularities = {
 }
 
 #create_country_leader = {
-#	name = "Pehr Evind Svinhufvud"
+#	name = "Sade Katarina"
 #	desc = "POLITICS_PE_SVINHUFVUD_DESC"
 #	picture = "gfx/leaders/FIN/r56_portrait_FIN_PE_svinhufvud.dds"
 #	expire = "1965.1.1"
@@ -157,7 +157,7 @@ set_popularities = {
 #}
 
 #create_country_leader = {
-#	name = "Aimo Aaltonen"
+#	name = "Minttu Virtanen"
 #	desc = "POLITICS_AIMO_AALTONEN_DESC"
 #	picture = "gfx/leaders/FIN/r56_portrait_FIN_aimo_aaltonen.dds"
 #	expire = "1965.1.1"
@@ -168,7 +168,7 @@ set_popularities = {
 #}
 
 #create_country_leader = {
-#	name = "Vilho Annala"
+#	name = "Vera Jordanova"
 #	desc = "POLITICS_VILHO_ANNALA_DESC"
 #	picture = "gfx/leaders/FIN/r56_portrait_FIN_vilho_annala.dds"
 #	expire = "1965.1.1"
@@ -179,7 +179,7 @@ set_popularities = {
 #}
 #
 #create_country_leader = {
-#	name = "Kyösti Kallio"
+#	name = "Laura Birn"
 #	desc = "POLITICS_KYÖSTI_KALLIO_DESC"
 #	picture = "gfx/leaders/FIN/r56_portrait_FIN_kyosti_kallio.dds"
 #	expire = "1965.1.1"
@@ -212,7 +212,7 @@ set_popularities = {
 #}
 
 #create_field_marshal = {
-#	name = "Carl Gustaf Emil Mannerheim"
+#	name = "Sabina Särkkä"
 #	picture = "portrait_fin_carl_mannerheim.dds"
 #	traits = { inflexible_strategist war_hero trait_cautious defensive_doctrine trickster winter_specialist }
 #	skill = 5

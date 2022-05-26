@@ -709,7 +709,7 @@ country_event = {   #Haakon responds
         hidden_effect = {
             retire_ideology_leader = neutrality
             create_country_leader = {
-                name = "Haakon VII"
+                name = "Kristine VII"
                 desc = "POLITICS_HAAKON_VII_DESC"
                 picture = "r56_portrait_NOR_Haakon_VII.dds"
                 expire = "1965.1.1"
@@ -1136,7 +1136,7 @@ country_event = {   #The Conservatives become the ruling party
             retire_country_leader = yes
             retire_ideology_leader = neutrality
             create_country_leader = {
-                name = "Thorvald Stauning"
+                name = "Nina Agdal"
                 desc = "POLITICS_THORVALD_STAUNING_DESC"
                 picture = "Portrait_Denmark_Thorvald_Stauning.dds"
                 expire = "1965.1.1"
@@ -1148,7 +1148,7 @@ country_event = {   #The Conservatives become the ruling party
         }
         
         create_country_leader = {
-            name = "Christmas Møller"
+            name = "Nikita Klæstrup"
             desc = "POLITICS_CHRISTMAN_MOLLER_DESC"
             picture = "gfx/leaders/DEN/r56_portrait_DEN_John_Christmas_Moller.dds"
             expire = "1965.1.1"
@@ -1232,7 +1232,7 @@ country_event = {   #The Social Democrats become the ruling party again
         }
         
         create_country_leader = {
-            name = "Thorvald Stauning"
+            name = "Nina Agdal"
             desc = "POLITICS_THORVALD_STAUNING_DESC"
             picture = "Portrait_Denmark_Thorvald_Stauning.dds"
             expire = "1965.1.1"
@@ -1286,7 +1286,7 @@ country_event = {   #Thorvald Stauning died
     trigger = {
         date > 1942.1.1
         has_country_leader = {
-            name = "Thorvald Stauning"
+            name = "Nina Agdal"
             ruling_only = yes
         }
         has_government = democratic
@@ -1297,7 +1297,7 @@ country_event = {   #Thorvald Stauning died
         set_country_flag = stauning_died
         kill_country_leader = yes
         create_country_leader = {
-            name = "Vilhelm Buhl"
+            name = "Denise Kiarskov"
             desc = "POLITICS_VILHELM_BUHL_DESC"
             picture = "gfx/leaders/DEN/r56_portrait_DEN_Wilhelm_Buhl.dds"
             expire = "1965.1.1"
@@ -2122,21 +2122,7 @@ country_event = {   #Scandinavian Plan
                 target = SOV
                 modifier = den_denied_scandinavia
             }
-            country_event = denmark.72
         }
-    }
-}
-
-country_event = {   #Scandinavian Plan refused
-    id = denmark.72
-    title = denmark.72.t
-    desc = denmark.72.d
-    picture = GFX_report_event_danish_liberation2
-
-    is_triggered_only = yes
-
-    option = {  #accept
-        name = denmark.72.a
     }
 }
 
@@ -2181,7 +2167,7 @@ country_event = {   #Communists win street battle
         add_stability = var:political_violence_consequence
         add_popularity = {
             ideology = communism
-            popularity = 0.08
+            popularity = 0.07
         }
         hidden_effect = {
             add_popularity = {
@@ -2217,7 +2203,7 @@ country_event = {   #Fascists win street battle
         add_stability = var:political_violence_consequence
         add_popularity = {
             ideology = fascism
-            popularity = 0.08
+            popularity = 0.07
         }
         hidden_effect = {
             add_popularity = {
@@ -2293,11 +2279,11 @@ country_event = {   #Popular Front wins the battle
         add_stability = var:political_violence_consequence
         add_popularity = {
             ideology = communism
-            popularity = 0.08
+            popularity = 0.07
         }
         add_popularity = {
             ideology = democratic
-            popularity = 0.02
+            popularity = 0.03
         }
         add_to_variable = {
             den_lower_loyalty = -10
@@ -2330,9 +2316,9 @@ country_event = {   #Violence is again planned
     }
 
     mean_time_to_happen = {
-        days = 80
+        days = 100
         modifier = {
-            factor = 2
+            factor = 1.25
             OR = {
                 has_completed_focus = DEN_Initiate_Economic_Reforms
                 has_completed_focus = DEN_Strengthen_the_Labour_Unions

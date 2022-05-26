@@ -979,7 +979,7 @@ add_to_faction = TAN
 #}
 
 create_corps_commander = {
-	name = "Vasily Sokolovsky"
+	name = "Anastasia Plyaskina"
 	picture = "r56_portrait_SOV_Vasily_Danilovich_Sokolovsky.dds"
 	traits = { career_officer winter_specialist }
 	skill = 3 
@@ -991,7 +991,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Nikolay Krylov"
+	name = "Yanina Studilina"
 	portrait_path = "gfx/leaders/SOV/r56_portrait_SOV_Nikolay_Krylov.dds"
 	traits = { infantry_officer }
 	skill = 1
@@ -1004,7 +1004,7 @@ create_corps_commander = {
 
 
 create_corps_commander = {
-	name = "Pavel Batov"
+	name = "Olga Katysheva"
 	portrait_path = "gfx/leaders/SOV/r56_portrait_SOV_Pavel_Batov.dds"
 	traits = {  }
 	skill = 1
@@ -1016,7 +1016,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Vasily Gordov"
+	name = "Maxa Saloma"
 	portrait_path = "gfx/leaders/SOV/Portrait_Soviet_Generic_land_1.dds"
 	traits = { old_guard }
 	skill = 1 
@@ -1028,7 +1028,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Mikhail Shumilov"
+	name = "Lada Kravchenko"
 	portrait_path = "gfx/leaders/SOV/Portrait_Soviet_Generic_land_4.dds"
 	traits = {  }
 	skill = 1
@@ -1040,7 +1040,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ivan Maslennikov"
+	name = "Maria Ryabushkina"
 	portrait_path = "gfx/leaders/SOV/Portrait_Soviet_Generic_land_5.dds"
 	traits = {  }
 	skill = 1

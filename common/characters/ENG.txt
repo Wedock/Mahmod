@@ -793,7 +793,7 @@ characters={
 	}
 
 	ENG_john_dill = {
-		name = "John Dill"
+		name = "Elsie Hewitt"
 		portraits={
 			army={
 				large="gfx/leaders/ENG/r56_portrait_ENG_John_Dill.dds"
@@ -823,7 +823,7 @@ characters={
 		}
 	}
 	ENG_herbert_lumsden = {
-		name = "Herbert Lumsden"
+		name = "Holly Henderson"
 		portraits={
 			army={
 				large="gfx/leaders/ENG/r56_portrait_ENG_Herbert_Lumsden.dds"
@@ -842,7 +842,7 @@ characters={
 	}	
 
 	ENG_richard_mccreery = {
-		name = "Richard McCreery"
+		name = "Gemma Massey"
 		portraits={
 			army={
 				large="gfx/leaders/ENG/r56_portrait_ENG_Richard_McCreery.dds"
@@ -861,7 +861,7 @@ characters={
 	}
 
 	ENG_john_crocker = {
-		name = "John Crocker"
+		name = "Gemma Arterton"
 		portraits={
 			army={
 				large="gfx/leaders/ENG/r56_portrait_ENG_John_Crocker.dds"
@@ -879,7 +879,7 @@ characters={
 		}
 	}	
 	ENG_Bernard_Paget = {
-		name = "Bernard Paget"
+		name = "Felicity Jones"
 		portraits={
 			army={
 				large="gfx/leaders/ENG/r56_portrait_ENG_Bernard_Paget.dds"
@@ -897,7 +897,7 @@ characters={
 		}
 	}
 	ENG_Ronald_Scobie = {
-		name = "Ronald Scobie"
+		name = "Emily Agnes"
 		portraits={
 			army={
 				large="gfx/leaders/ENG/r56_portrait_ENG_Ronald_Scobie.dds"
@@ -916,7 +916,7 @@ characters={
 	}	
 
 	ENG_edmond_schreiber = {
-		name = "Edmond Schreiber"
+		name = "Kelly Andrews"
 		portraits={
 			army={
 				large="gfx/leaders/ENG/r56_portrait_ENG_Edmond_Schreiber.dds"
@@ -1189,7 +1189,7 @@ characters={
 		}
 	}
 	ENG_percy_noble={
-		name="Percy Noble"
+		name="Lucy Collett"
 		portraits={
 			army={
 				large="gfx/leaders/ENG/r56_portrait_ENG_Percy_Noble.dds"
@@ -1207,7 +1207,7 @@ characters={
 		}
 	}
 	ENG_arthur_palliser={
-		name="Arthur Palliser"
+		name="Sammy Braddy"
 		portraits={
 			army={
 				large="gfx/leaders/ENG/r56_portrait_ENG_Arthur_Palliser.dds"
@@ -2525,13 +2525,13 @@ characters={
 				has_government  = neutrality 
 				has_completed_focus  = ENG_the_kings_party 
 				has_country_leader  = {
-					name = "Elizabeth II"
+					name = "Emily II"
 					ruling_only  = yes 
 				}
 			}
 			visible  = {
 				has_country_leader  = {
-					name = "Elizabeth II"
+					name = "Emily II"
 					ruling_only  = yes 
 				}
 			}
@@ -2562,13 +2562,13 @@ characters={
 				has_government  = neutrality 
 				has_completed_focus  = ENG_the_kings_party 
 				has_country_leader  = {
-					name = "Elizabeth II"
+					name = "Emily II"
 					ruling_only  = yes 
 				}
 			}
 			visible  = {
 				has_country_leader  = {
-					name = "Elizabeth II"
+					name = "Emily II"
 					ruling_only  = yes 
 				}
 			}
@@ -2599,13 +2599,13 @@ characters={
 				has_government  = neutrality 
 				has_completed_focus  = ENG_the_kings_party 
 				has_country_leader  = {
-					name = "Elizabeth II"
+					name = "Emily II"
 					ruling_only  = yes 
 				}
 			}
 			visible  = {
 				has_country_leader  = {
-					name = "Elizabeth II"
+					name = "Emily II"
 					ruling_only  = yes 
 				}
 			}

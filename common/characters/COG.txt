@@ -44,7 +44,7 @@ characters={
 		}
 	}
 	COG_pierre_ryckmans = {
-		name= "Pierre Ryckmans"
+		name= "Marisa Papen"
 		portraits = {
 			civilian = {
 				large="gfx/leaders/COG/Pierre_Ryckmans.dds"
@@ -128,7 +128,7 @@ characters={
 					factor = 1.000
 				}
 		}
-		name="Auguste-Édouard Gilliaert"
+		name="Camille Ringoir"
 		portraits={
 			army={
 				large= "gfx/leaders/BEL/r56_portrait_BEL_Auguste_Edouard_Gilliaert.dds"

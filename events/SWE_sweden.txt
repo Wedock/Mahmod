@@ -1228,7 +1228,7 @@ country_event = {
 ##		}
 #		add_political_power = -100
 #		create_country_leader = {
-#			name = "Gustaf V"
+#			name = "Elsa I"
 #			desc = "POLITICS_GUSTAV_V_DESC"
 #			picture = "Portrait_Sweden_Gustaf_V.dds"
 #			expire = "1965.1.1"

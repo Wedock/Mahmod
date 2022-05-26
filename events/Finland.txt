@@ -2781,8 +2781,8 @@ country_event = {
 				date < 1940.5.28
 			}
 			create_country_leader = {
-				name = "Friedrich Karl I"
-				desc = "KARL_DESC"
+				name = "Tarja Turunen I"
+				desc = "Tarja Turunen"
 				picture = "gfx/leaders/FIN/Portrait_FIN_Fredrik_Kaarle_I.dds"
 				expire = "1965.1.1"
 				ideology = despotism
@@ -2863,7 +2863,7 @@ country_event = {
 		tag = FIN
 		has_government = neutrality
 		has_country_leader = {
-			name = "Friedrich Karl I"
+			name = "Tarja Turunen I"
 			ruling_only = yes
 		}
 		has_cosmetic_tag = KOF

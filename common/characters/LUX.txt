@@ -3,7 +3,7 @@
 #jean Jüttel as a 'last resort' officer choice
 characters={
 	LUX_joseph_bech={
-		name="Joseph Bech"
+		name="Christine Majerus"
 		portraits={
 			civilian={
 				large="gfx/leaders/LUX/r56_portrait_LUX_Joseph_Bech.dds"
@@ -11,7 +11,6 @@ characters={
 		}
 		country_leader={
 			ideology=conservatism
-			traits = { lawyer }
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -263,7 +262,7 @@ characters={
 			}
 			available = {
 				NOT = {
-					has_country_leader = { ruling_only = yes name = "Charles Marx"}
+					has_country_leader = { ruling_only = yes name = "Désirée Nosbusch"}
 					has_government = fascism
 				}
 			}			
@@ -271,7 +270,7 @@ characters={
 				resistance_figure 
 			}
 		}	
-		name="Charles Marx"
+		name="Désirée Nosbusch"
 		portraits={
 			civilian={
 				large="gfx/leaders/LUX/r56_portrait_LUX_Charles_Marx.dds"
@@ -296,7 +295,7 @@ characters={
 			}
 			available = {
 				NOT = {
-					has_country_leader = { ruling_only = yes name = "Pierre Dupong"}
+					has_country_leader = { ruling_only = yes name = "Vicky Krieps "}
 				}
 				OR = {
 					has_government = democratic
@@ -304,7 +303,7 @@ characters={
 				}
 			}			
 		}
-		name="Pierre Dupong"
+		name="Vicky Krieps "
 		portraits={
 			civilian={
 				large="gfx/leaders/LUX/r56_portrait_LUX_Pierre_Dupong.dds"
@@ -340,7 +339,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Damien Roeser"
+		name="Mandy Minella"
 		portraits={
 			army={
 				large = "gfx/leaders/LUX/r56_portrait_LUX_Emile_Speller.dds"
@@ -367,12 +366,12 @@ characters={
 					factor = 1.000
 				}
 		}
-		name="LUX_emile_speller"
+		name="Mandy Minella"
 		portraits={
 			army={
 				small="GFX_idea_LUX_emile_speller"
-				large="gfx/leaders/SWI/Portrait_SWI_Generic_land_3.dds"
-				#"gfx/leaders/LUX/r56_portrait_LUX_Emile_Speller.dds"
+				large="gfx/leaders/LUX/r56_portrait_LUX_Emile_Speller.dds"
+				#
 			}
 		}
 		field_marshal = {

@@ -50,13 +50,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_ger_wilhelm_iii"
 		texturefile = "gfx/leaders/GER/r56_portrait_GER_Prince_Wilhelm.dds"
-	}
-
+	}	  
+  
 	#### USA
 
 	spriteType = {
 		name = "GFX_portrait_USA_charles_lindbergh"
-		texturefile = "gfx/leaders/USA/Portrait_USA_Generic_land_2.dds"		
+		texturefile = "gfx/leaders/USA/r56_portrait_USA_charles_lindbergh.dds"		
 	}
 
 	spriteType = {
@@ -519,7 +519,7 @@ spriteTypes = {
 	###CAN
 	spriteType = {
 		name = "GFX_CAN_bert_hoffmeister"
-		texturefile = "gfx//leaders//r56_generic//r56_portrait_commonwealth_generic_general_6.dds"
+		texturefile = "gfx/leaders/CAN/r56_portrait_CAN_Bert_Hoffmeister.dds"
 	}
 
 	spriteType = {
@@ -537,7 +537,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_CAN_harry_dewolf"
-		texturefile = "gfx/leaders/ENG/portrait_Britain_Generic_navy_3.dds"
+		texturefile = "gfx/leaders/CAN/r56_portrait_CAN_harry_dewolf.dds"
 	}
 
 	spriteType = {
@@ -584,7 +584,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_USA_mr_hilt"
-		texturefile = "gfx/leaders/USA/USA_mr_hilt.dds"
+		texturefile = "gfx/leaders/USA/r56_portrait_USA_mr_hilt.dds"
 	}
 
 	###GRE
@@ -969,7 +969,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_Portrait_hungary_friedrich_franz"
-		texturefile = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
+		texturefile = "gfx/leaders/HUN/r56_Portrait_hungary_friedrich_franz.dds"
 	}
 
 	spriteType = {
@@ -979,7 +979,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_Portrait_hungary_bela_kun"
-		texturefile = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
+		texturefile = "gfx/leaders/HUN/r56_Portrait_hungary_bela_kun.dds"
 	}
 
 	spriteType = {
@@ -1432,7 +1432,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_fra_leon_blum"
-		texturefile = "gfx/leaders/FRA/portrait_fra_leon_blum.dds"
+		texturefile = "gfx/leaders/FRA/r56_portrait_FRA_Leon_Blum.dds"
 	}
 
 	spriteType = {
@@ -1471,7 +1471,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_ita_palmiro_togliatti"
-		texturefile = "gfx/leaders/ITA/portrait_ita_palmiro_togliatti.dds"
+		texturefile = "gfx/leaders/ITA/r56_portrait_ita_palmiro_togliatti.dds"
 	}
 
 	spriteType = {
@@ -1567,7 +1567,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_Portrait_por_antonio_de_oliveira_salazar"
-		texturefile = "gfx/leaders/POR/portrait_por_antonio_de_oliveira_salazar.dds"
+		texturefile = "gfx/leaders/POR/r56_portrait_POR_Antonio_de_Oliveira_Salazar.dds"
 	}
 
 	spriteType = {
@@ -1648,7 +1648,7 @@ spriteTypes = {
 		name = "GFX_portrait_lat_fricis_menders_small"
 		texturefile = "gfx/interface/ideas/idea_LAT_fricis_menders.dds"
 	}
-	spriteType = {
+		spriteType = {
 		name = "GFX_portrait_LAT_alberts_kviesis"
 		texturefile = "gfx/leaders/LAT/r56_portrait_LAT_Alberts_Kviesis.dds"
 	}	
@@ -1687,7 +1687,7 @@ spriteTypes = {
 	}		
 	
 	
-	spriteType = {
+	spriteType = {	   
 		name = "GFX_Portrait_estonia_konstantin_pats"
 		texturefile = "gfx/leaders/EST/portrait_est_konstantin_pats.dds"
 	}
@@ -1765,7 +1765,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_italy_ferruccio_parri"
-		texturefile = "gfx/leaders/ITA/portrait_ita_ferruccio_parri.dds"
+		texturefile = "gfx/leaders/ITA/r56_portrait_italy_ferruccio_parri.dds"
 	}
 
 	spriteType = {
@@ -1774,7 +1774,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_italy_victor_emmanuel_iii"
-		texturefile = "gfx/leaders/ITA/portrait_Italy_Victor_Emmanuel_III.dds"
+		texturefile = "gfx/leaders/ITA/r56_portrait_italy_victor_emmanuel_iii.dds"
 	}
 
 	spriteType = {
@@ -1865,7 +1865,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_malaya_shenton_thomas"
-		texturefile = "gfx/leaders/MAL/portrait_mal_shenton_thomas.dds"
+		texturefile = "gfx/leaders/MAL/r56_portrait_malaya_shenton_thomas.dds"
 	}
 
 	spriteType = {
@@ -1993,7 +1993,7 @@ spriteTypes = {
 	##### WTT #####
 	spriteType = {
 		name = "GFX_portrait_alexander_von_falkenhausen"
-		texturefile = "gfx/leaders/GER/Portrait_Germany_Generic_land_3.dds"
+		texturefile = "gfx/leaders/Europe/portrait_Europe_Generic_land_2.dds"
 	}
 
 	spriteType = {
@@ -2003,7 +2003,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_aleksandr_cherepanov"
-		texturefile = "gfx/leaders/SOV/Portrait_Soviet_Generic_land_3.dds"
+		texturefile = "gfx/leaders/Europe/portrait_Europe_Generic_land_3.dds"
 	}
 
 	spriteType = {
@@ -2128,7 +2128,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_MEX_calles_civil"
-		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_2.dds"
+		texturefile = "gfx/leaders/MEX/portrait_mex_calles_civil.dds"
 	}
 
 	spriteType = {
@@ -2138,7 +2138,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_MEX_calles_military"
-		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_land_2.dds"
+		texturefile = "gfx/leaders/MEX/portrait_mex_calles_military.dds"
 	}
 
 	spriteType = {
@@ -2148,7 +2148,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_MEX_luis_farell"
-		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+		texturefile = "gfx/leaders/MEX/portrait_mex_luis_farell.dds"
 	}
 	
 	spriteType = {
@@ -2158,7 +2158,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_MEX_gildardo_magana"
-		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_land_3.dds"
+		texturefile = "gfx/leaders/MEX/portrait_mex_gildardo_magana.dds"
 	}
 
 	spriteType = {
@@ -2178,7 +2178,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_MEX_jose_gonzalo_escobar"
-		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_land_1.dds"
+		texturefile = "gfx/leaders/MEX/portrait_mex_jose_gonzalo_escobar.dds"
 	}
 
 	spriteType = {
@@ -2198,7 +2198,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_MEX_vicente_lombardo"
-		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_land_2.dds"
+		texturefile = "gfx/leaders/MEX/r56_portrait_mex_vicente_lombardo.dds"
 	}
 
 	spriteType = {
@@ -2218,7 +2218,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_MEX_saturnino_cedillo"
-		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_land_3.dds"
+		texturefile = "gfx/leaders/MEX/r56_portrait_mex_saturnino_cedillo.dds"
 	}
 
 	spriteType = {
@@ -2228,7 +2228,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_MEX_avila_civil"
-		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_2.dds"
+		texturefile = "gfx/leaders/MEX/portrait_mex_avila_civil.dds"
 	}
 
 	spriteType = {
@@ -2238,7 +2238,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_MEX_avila_military"
-		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_land_1.dds"
+		texturefile = "gfx/leaders/MEX/portrait_mex_avila_military.dds"
 	}
 
 	spriteType = {
@@ -2248,7 +2248,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_MEX_francisco_mugica"
-		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_land_5.dds"
+		texturefile = "gfx/leaders/MEX/portrait_mex_francisco_mugica.dds" 
 	}
 
 	spriteType = {
@@ -2258,7 +2258,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_MEX_jesus_degollado_guizar"
-		texturefile = "gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+		texturefile = "gfx/leaders/MEX/portrait_MEX_Jesus_Degollado_Guizar.dds"
 	}
 
 	spriteType = {
@@ -2268,7 +2268,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_MEX_Luis_Maria_Martinez"
-		texturefile = "gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
+		texturefile = "gfx/leaders/MEX/portrait_MEX_Luis_Maria_Martinez.dds"
 	}
 
 	spriteType = {
@@ -2278,7 +2278,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_MEX_hernan_laborde"
-		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_4.dds"
+		texturefile = "gfx/leaders/MEX/Portrait_MEX_Hernan_Laborde.dds"
 	}
 
 	spriteType = {
@@ -2288,7 +2288,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_MEX_othon_blanco"
-		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+		texturefile = "gfx/leaders/MEX/portrait_mex_othon_blanco.dds"
 	}
 
 	spriteType = {
@@ -2298,7 +2298,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_MEX_heriberto_corona"
-		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+		texturefile = "gfx/leaders/MEX/portrait_mex_heriberto_corona.dds"
 	}
 
 	spriteType = {
@@ -2318,7 +2318,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_portrait_MEX_Salvador_Abascal"
-		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
+		texturefile = "gfx/leaders/MEX/Portrait_Mexico_Salvador_Abascal.dds"
 	}
 
 	spriteType = {
@@ -2328,7 +2328,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_Portrait_MEX_Dionisio_Encina"
-		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_2.dds"
+		texturefile = "gfx/leaders/MEX/Portrait_MEX_Dionisio_Encina.dds"
 	}
 
 	spriteType = {
@@ -2348,7 +2348,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_Portrait_MEX_Adolfo_de_la_Huerta"
-		texturefile = "gfx/leaders/South America/portrait_South_America_Generic_3.dds"
+		texturefile = "gfx/leaders/MEX/Portrait_MEX_Adolfo_de_la_Huerta.dds"
 	}
 
 	spriteType = {
@@ -2487,7 +2487,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_spain_francisco_franco"
-		texturefile = "gfx/leaders/SPA/Portrait_Spain_Francisco_Franco.dds"
+		texturefile = "gfx/leaders/SPR/Portrait_Spain_Francisco_Franco.dds"
 	}
 
 	spriteType = {
@@ -2497,7 +2497,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_spain_francisco_franco_old"
-		texturefile = "gfx/leaders/SPA/portrait_Spain_Francisco_Franco_old.dds"
+		texturefile = "gfx/leaders/SPR/portrait_Spain_Francisco_Franco_old.dds"
 	}
 
 	spriteType = {
@@ -2507,7 +2507,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_emilio_mola"
-		texturefile = "gfx/leaders/SPA/portrait_spa_emilio_mola.dds"
+		texturefile = "gfx/leaders/SPR/portrait_spa_emilio_mola.dds"
 	}
 
 	spriteType = {
@@ -2517,7 +2517,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_SPA_jose_antonio_primo_de_rivera"
-		texturefile = "gfx/leaders/SPA/portrait_SPA_jose_antonio_primo_de_rivera.dds"
+		texturefile = "gfx/leaders/SPR/r56_portrait_SPA_jose_antonio_primo_de_rivera.dds"
 	}
 
 	spriteType = {
@@ -2907,7 +2907,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_SOV_blyukher"
-		texturefile = "gfx/leaders/SOV/portrait_SOV_blyukher.dds"
+		texturefile = "gfx/leaders/SOV/r56_portrait_SOV_Vasily_Blyukher.dds"
 	}
 
 	spriteType = {
@@ -3567,7 +3567,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_CAN_thomas_victor_anderson
-		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+		texturefile = "gfx/leaders/CAN/r56_portrait_CAN_Thomas_Victor_Anderson.dds"
 	}
 
 	spriteType = {
@@ -3602,7 +3602,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_CAN_ht_bailliegrohman
-		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+		texturefile = "gfx/leaders/CAN/r56_portrait_CAN_ht_bailliegrohman.dds"
 	}
 
 	spriteType = {
@@ -3667,7 +3667,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Hasan_Israilov
-		texturefile = "gfx/leaders/kr_generic/Portrait_Balkan_Generic_land_new_1.dds"
+		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	}
 
 	spriteType = {
@@ -3712,7 +3712,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Lisandro_Barillas
-		texturefile = "gfx/leaders/kr_generic/Portrait_South_America_Generic_new_7.dds"
+		texturefile = "gfx/leaders/South America/portrait_south_america_generic_9.dds"
 	}
 
 	spriteType = {
@@ -3722,7 +3722,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Leon_Cortes_Castro
-		texturefile = "gfx/leaders/kr_generic/Portrait_South_America_Generic_navy_new_1.dds"
+		texturefile = "gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
 	}
 
 	spriteType = {
@@ -3732,12 +3732,12 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Guillermo_Cabral
-		texturefile = "gfx/leaders/kr_generic/Portrait_South_America_Generic_new_2.dds"
+		texturefile = "gfx/leaders/South America/portrait_south_america_generic_9.dds"
 	}
 
 	spriteType = {
 		name = GFX_portrait_Wenceslao_Carmona
-		texturefile = "gfx/leaders/kr_generic/Portrait_South_America_Generic_new_3.dds"
+		texturefile = "gfx/leaders/South America/portrait_south_america_generic_9.dds"
 	}
 
 	spriteType = {
@@ -3812,12 +3812,12 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Frits_Clausen
-		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+		texturefile = "gfx/leaders/DEN/r56_portrait_DEN_Frits_Clausen.dds"
 	}
 
 	spriteType = {
 		name = GFX_portrait_Aksel_Larsen
-		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+		texturefile = "gfx/leaders/DEN/r56_portrait_DEN_Aksel_Larsen.dds"
 	}
 
 	spriteType = {
@@ -4272,7 +4272,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_FIN_kyosti_kallio
-		texturefile = "gfx/leaders/FIN/Portrait_Finland_Kyosti_Kallio.dds"
+		texturefile = "gfx/leaders/FIN/r56_portrait_FIN_kyosti_kallio.dds"
 	}
 
 	spriteType = {
@@ -5877,7 +5877,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_MEX_leon_trotsky
-		texturefile = "gfx/leaders/SOV/Portrait_Leon_Trotsky.dds"
+		texturefile = "gfx/leaders/SOV/r56_portrait_SOV_Leon_Trotsky.dds"
 	}
 
 	spriteType = {
@@ -6019,11 +6019,11 @@ spriteTypes = {
 		name = GFX_portrait_NZL_peter_fraser
 		texturefile = "gfx/leaders/NZL/Portrait_NewZealand_Peter_Fraser.dds"
 	}
+	
 	spriteType = {
 		name = GFX_NZL_michael_joseph_savage
 		texturefile = "gfx/leaders/NZL/r56_portrait_NZL_Michael_Joseph_Savage.dds"
 	}	
-	
 	spriteType = {
 		name = GFX_portrait_NZL_bernard_freyberg_small
 		texturefile = "gfx/interface/ideas/idea_NZL_bernard_freyberg.dds"
@@ -6221,7 +6221,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_POR_antonio_de_oliveira_salazar
-		texturefile = "gfx/leaders/POR/portrait_por_antonio_de_oliveira_salazar.dds"
+		texturefile = "gfx/leaders/POR/r56_portrait_POR_Antonio_de_Oliveira_Salazar.dds"
 	}
 
 	spriteType = {
@@ -6521,7 +6521,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_SOV_georgy_zhukov
-		texturefile = "gfx/leaders/SOV/Portrait_Soviet_Gregory_Zhukov.dds"
+		texturefile = "gfx/leaders/SOV/r56_portrait_SOV_Georgy_Zhukov.dds"
 	}
 
 	spriteType = {
@@ -6746,7 +6746,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_SOV_aleksandr_kerensky
-		texturefile = "gfx/leaders/SOV/Portrait_Soviet_Generic_1.dds"
+		texturefile = "gfx/leaders/SOV/r56_portrait_SOV_Alexander_Kerensky.dds"
 	}
 
 	spriteType = {
@@ -6981,7 +6981,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_TUR_mustafa_kemal_ataturk_military
-		texturefile = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk_Military.dds"
+		texturefile = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
 	}
 
 	spriteType = {
@@ -7486,7 +7486,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Anatoly_Pepelyayev
-		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+		texturefile = "gfx/leaders/SOV/r56_portrait_SOV_Anatoly_Pepelyaev.dds"
 	}
 
 	spriteType = {
@@ -8291,7 +8291,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Nikita_Sergeyevich_Khrushchyov
-		texturefile = gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds
+		texturefile = gfx/leaders/SOV/r56_portrait_SOV_Nikita_Khrushchev.dds
 	}
 
 	spriteType = {
@@ -8445,32 +8445,32 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_portrait_tur_abdulmejid_ii"
-		texturefile = "gfx/leaders/ALG/r56_portrait_ALG_Messali_Hadj.dds"
+		texturefile = "gfx/leaders/TUR/r56_portrait_TUR_abdulmejid_ii.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_portrait_tur_adnan_menderes"
-		texturefile = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
+		texturefile = "gfx/leaders/TUR/r56_portrait_TUR_adnan_menderes.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_portrait_tur_celal_bayar"
-		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+		texturefile = "gfx/leaders/TUR/r56_portrait_TUR_Celal_Bayar.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_portrait_tur_fevzi_cakmak"
-		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+		texturefile = "gfx/leaders/TUR/Maresal_Fevzi_Cakmak.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_portrait_tur_recep_peker"
-		texturefile = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
+		texturefile = "gfx/leaders/TUR/r56_portrait_TUR_recep_peker.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_portrait_tur_sevket_sureyya_aydemir"
-		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+		texturefile = "gfx/leaders/TUR/r56_portrait_TUR_sevket_sureyya_aydemir.dds"
 	}
 
 	#R56 ADDED
@@ -8533,7 +8533,7 @@ spriteTypes = {
 	}	
 	spriteType = {
 		name = "GFX_portrait_SPR_julian_gorkin"
-		textureFile = "gfx/leaders/FRA/Portrait_France_Generic_1.dds"
+		textureFile = "gfx/leaders/SPR/r56_portrait_SPR_julian_gorkin.dds"
 	}	
 	spriteType = {
 		name = "GFX_portrait_SPA_alfonso_xiii"
@@ -8547,7 +8547,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_SPR_julian_gorkin"
-		textureFile = "gfx/leaders/SPR/r56_portrait_SPR_Jaime_I.dds"
+		textureFile = "gfx/leaders/SPR/r56_portrait_SPR_julian_gorkin.dds"
 	}			
 	spriteType = {
 		name = "GFX_portrait_bul_bogdan_filov"
@@ -8580,11 +8580,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_por_jose_mendes_cabecadas"
 		textureFile = "gfx//leaders//r56_generic//r56_portrait_generic_admiral_south_america_1.dds"
-	}
+	}		
 	spriteType = {
 		name = "GFX_idea_tur_halide_edib_adivar"
 		textureFile = "gfx/interface/ideas/idea_generic_political_advisor_female_arab.dds"
-	}			
+	}	
 	###TNG
 
 	spriteType = {

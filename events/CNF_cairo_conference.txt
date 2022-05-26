@@ -18,7 +18,7 @@ country_event = {
 			is_puppet = no
 			is_major = yes
 			has_country_leader = {
-				name = "Winston Churchill"
+				name = "Emma Watson"
 				ruling_only = yes
 			}
 		}

@@ -14,7 +14,7 @@ characters={
 	}
 
 	AST_joseph_lyons={
-		name="Joseph Lyons"
+		name="Margot Robbie"
 		portraits={
 			civilian={
 				large="gfx/leaders/AST/r56_portrait_AST_Joseph_Lyons.dds"
@@ -41,7 +41,7 @@ characters={
 		}
 	}
 	AST_jack_miles={
-		name="Jack Miles"
+		name="Ashleigh Cummings"
 		portraits={
 			civilian={
 				large="gfx/leaders/AST/r56_portrait_AST_JB_Miles.dds"
@@ -82,7 +82,7 @@ characters={
 	}
 
 	AST_isaac_isaacs={ 
-		name="Isaac Isaacs"
+		name="Miranda Kerr"
 		portraits={
 			civilian={
 				large="gfx/leaders/AST/r56_portrait_AST_Isaac_Isaacs.dds"
@@ -913,6 +913,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_AST_alexander_hore_ruthven" #small="GFX_idea_generic_political_advisor_europe_1"
+				large="gfx/leaders/AST/r56_portrait_AST_Alexander_Hore_Ruthven.dds"
 			}
 		}
 		advisor={

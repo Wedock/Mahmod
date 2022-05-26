@@ -705,7 +705,7 @@
 			    name = SPR_neutrality_party_house_of_bourbon_long 
 			}
 			create_country_leader = {
-				name = "Juan III"
+				name = "Alba I Flores"
 				desc = "POLITICS_JUAN_III_DESC"
 				picture = "gfx/leaders/SPR/r56_portrait_SPR_Juan_III.dds"
 				expire = "1965.1.1"
@@ -972,7 +972,7 @@
 				elections_allowed = yes
 			}
 			create_country_leader = {
-				name = "Manuel Portela Valladares"
+				name = "Penelope Cruz"
 				desc = "POLITICS_MANUEL_PORTELA_VALLADARES_DESC"
 				picture = "gfx/leaders/SPR/r56_portrait_SPR_Manuel_Portela_Valladares.dds"
 				expire = "1965.1.1"
@@ -1041,7 +1041,7 @@
 			    name = SPR_neutrality_party_house_of_bourbon_parma_long 
 			}
 			create_country_leader = {
-				name = "Javier I"
+				name = "Beba I"
 				desc = "POLITICS_JAVIER_I_DESC"
 				picture = "gfx/leaders/SPR/r56_portrait_SPR_javier_i.dds"
 				expire = "1965.1.1"
@@ -1542,7 +1542,7 @@
 						has_government = neutrality
 
 						has_country_leader = {
-							name = "Otto von Habsburg"
+							name = "Adrianne Palicki"
 							ruling_only = yes
 						}
 						is_in_faction = no
@@ -1562,7 +1562,7 @@
 						has_government = neutrality
 
 						has_country_leader = {
-							name = "Otto von Habsburg"
+							name = "Adrianne Palicki"
 							ruling_only = yes
 						}
 						is_in_faction = no

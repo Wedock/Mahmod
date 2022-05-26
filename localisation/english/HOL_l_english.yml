@@ -9,7 +9,7 @@
  
  HOL_ask_control_flanders:0 "Request control over Flanders"
 
- doorman:0 "Karel Doorman"
+ doorman:0 "Roos van Montfort"
  hoogland:0 "Wittert van Hoogland"
  krap:0 "Charles Douw van der Krap"
  asjes:0 "Dirk Lucas Asjes"
@@ -24,22 +24,22 @@
  #Bratyn made a typo and I (waffle) had the correct version
  HOL_meinout_rost_van_tonningen:0 "Meinoud Rost van Tonningen"
  
- HOL_willem_schermerhorn:0 "Willem Schermerhorn"
- HOL_godfried_van_voorst_tot_voorst:0 "Godfried van Voorst tot Voorst"
- HOL_godfried_van_voorst_tot_voorst3:0 "Godfried van Voorst tot Voorst"
- HOL_godfried_van_voorst_tot_voorst2:0 "Godfried van Voorst tot Voorst"
- HOL_godfried_van_voorst_tot_voorst1:0 "Godfried van Voorst tot Voorst"
- HOL_henri_winkelman:0 "Henri Winkelman"
- HOL_herman_van_voorst_tot_voorst:0 "Herman van Voorst tot Voorst"
- HOL_izaak_rijnders:0 "Izaak Rijnders"
- HOL_jacob_harberts:0 "Jacob Harberts" 
- HOL_johan_furstner:0 "Johan Furstner"
+ HOL_willem_schermerhorn:0 "Puck Moonen" #
+ HOL_godfried_van_voorst_tot_voorst:0 "Georgina Verbaan"
+ HOL_godfried_van_voorst_tot_voorst3:0 "Georgina Verbaan"
+ HOL_godfried_van_voorst_tot_voorst2:0 "Georgina Verbaan"
+ HOL_godfried_van_voorst_tot_voorst1:0 "Georgina Verbaan"
+ HOL_henri_winkelman:0 "Ancilla van de Leest"
+ HOL_herman_van_voorst_tot_voorst:0 "Rosanne Jongenelen"
+ HOL_izaak_rijnders:0 "Katja Schuurman"
+ HOL_jacob_harberts:0 "Gwen van Poorten" 
+ HOL_johan_furstner:0 "Beau Hesling"
  HOL_meinoud_rost_van_tonningen:0 "Meinoud Rost van Tonningen" 
- HOL_petrus_wilhelmus_best:0 "Petrus Wilhelmus Best"
+ HOL_petrus_wilhelmus_best:0 "Stefanie Joosten"
  HOL_saul_de_groot:0 "Saul de Groot"
  HOL_willem_hackstroh:0 "Willem Hackstroh"
- HOL_floris_valliant:0 "Floris Valliant"
- HOL_petrus_wilhelmus_best:0 "Petrus Wilhelmus Best"
+ HOL_floris_valliant:0 "Irene Schouten"
+ HOL_petrus_wilhelmus_best:0 "Stefanie Joosten"
  HOL_hugo_lawick:0 "Hugo Lawick"
  HOL_maximilien_steenberghe:0 "Maximilien Steenberghe"
  HOL_max_de_marchant_et_d_ansembourg:0 "Max de Marchant et d'Ansembourg"
@@ -63,7 +63,7 @@
  HOL_de_schelde_aircraft_construction_department:0 "De Schelde Aircraft"
 
  
- HOL_wilhelmina:0 "Queen Wilhelmina"
+ HOL_wilhelmina:0 "Queen Carice van Houten"
  HOL_reliance_on_the_gold_standard:0 "Reliance on the Gold Standard"
  HOL_motors_production:0 "Motors Production"
  HOL_dutch_plane_requirements_list:0 "[HOL.GetAdjective] Plane Requirements List"

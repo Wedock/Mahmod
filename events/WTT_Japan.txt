@@ -951,18 +951,18 @@ country_event = {
 		set_politics = { ruling_party = neutrality elections_allowed = no }
 		add_popularity = { ideology = neutrality popularity = 0.9 }
 		add_timed_idea = { idea = JAP_military_purges days = 90 }
-		add_country_leader_role = {
-			character = JAP_emperor_hirohito
-			promote_leader = yes
-			country_leader = {
-				ideology = absolute_monarchism
-				traits = {
-					warrior_code
-					emperor_showa
-					r56_trait_opposed_to_communism
-				}
-				id = 700 #Hirohito
+		create_country_leader = {
+			name = "Erika Sawajiri"
+			desc = "POLITICS_Hirohito_DESC"
+			picture = "Portrait_Japan_Hirohito.dds"
+			expire = "1989.1.1"
+			ideology = absolute_monarchism
+			traits = {
+				warrior_code
+				emperor_showa
+				r56_trait_opposed_to_communism
 			}
+			id = 700 #Hirohito
 		}
 		hidden_effect = { news_event = { id = wtt_news.27 hours = 6 } }
 	}
@@ -1173,59 +1173,6 @@ country_event = {
 		name = wtt_japan.114.a
 		if = {
 			limit = {
-				MAN = { has_idea = MAN_kwantung_veto }
-			}
-			MAN = { remove_ideas = MAN_kwantung_veto }
-		}
-		if = {
-			limit = {
-				MAN = {
-					is_subject_of = ROOT
-				}
-			}
-			MAN = {
-				transfer_state = 609
-				transfer_state = 745
-				add_state_core = 609
-				add_state_core = 745
-				add_stability = 0.05
-			}
-		}
-		else_if = {
-			limit = {
-				CHI = {
-					exists = yes
-				}
-			}
-			CHI = {
-				transfer_state = 609
-				transfer_state = 745
-			}
-		}
-		else_if = {
-			limit = {
-				CHI = {
-					exists = no
-				}
-				PRC = {
-					exists = yes
-				}
-			}
-			PRC = {
-				transfer_state = 609
-				transfer_state = 745
-			}
-		}
-		if = {
-			limit = {
-				MAN = {
-					is_subject_of = ROOT
-				}
-			}
-			set_autonomy = { target = MAN autonomy_state = autonomy_free }
-		}
-		if = {
-			limit = {
 				MAN = { is_subject_of = ROOT }
 			}
 			if = {
@@ -1237,7 +1184,67 @@ country_event = {
 			MAN = {
 				set_cosmetic_tag = MAN_kwantung_army
 			}
-		}	
+		}
+		if = {
+			limit = {
+				MAN = { has_idea = MAN_kwantung_veto }
+			}
+			MAN = { remove_ideas = MAN_kwantung_veto }
+		}
+		add_popularity = { ideology = democratic popularity = 0.1 }
+
+		set_politics = { ruling_party = democratic elections_allowed = yes }
+		set_cosmetic_tag = JAP2
+
+		
+		start_civil_war = {
+			ruling_party = democratic
+			ideology = fascism
+			size = 0.35
+		}
+		add_stability = 0.25
+		if = {
+			limit = {
+				MAN = {
+					is_subject_of = ROOT
+				}
+			}
+			MAN = {
+				transfer_state = 609
+				transfer_state = 745
+				add_state_core = 609
+				add_state_core = 745
+			}
+			set_autonomy = { target = MAN autonomy_state = autonomy_free }
+		}
+		else = {
+			if = {
+				limit = {
+			 		CHI = {
+						exists = yes
+					}
+				}
+			CHI = {
+				transfer_state = 609
+				transfer_state = 745
+			}
+		}
+		else = {
+			if = {
+				limit = {
+			 		CHI = {
+						exists = no
+					}
+					PRC = {
+						exists = yes
+					}
+				}
+			PRC = {
+				transfer_state = 609
+				transfer_state = 745
+			}
+		}
+	}	
 		if = {
 			limit = {
 				any_state = {
@@ -1256,22 +1263,14 @@ country_event = {
 			}			
 			set_autonomy = { target = KOR autonomy_state = autonomy_free }			
 		}
-		add_popularity = { ideology = democratic popularity = 0.1 }
-		set_politics = { ruling_party = democratic elections_allowed = yes }
-		add_stability = 0.25
-		start_civil_war = {
-			ruling_party = democratic
-			ideology = fascism
-			size = 0.35
-		}
 		random_other_country = {
 			limit = {
 				original_tag = JAP
 				has_government = fascism
 			}
 			create_country_leader = {
-				name = "Hideki Tojo"
-				desc = "hideki_tojo_desc"
+				name = "Hidea Tojo"
+				desc = "Hidea Tojo"
 				picture = "gfx/leaders/JAP/Portrait_Japan_Generic_land_2.dds"
 				expire = "1965.1.1"
 				ideology = fascism_ideology
@@ -1284,10 +1283,23 @@ country_event = {
 			add_ideas = war_economy
 			add_ideas = extensive_conscription
 			set_cosmetic_tag = JAP2
+		#	if = {
+		#		limit = {
+		#			NOT = {
+		#				OR = {
+		#					has_idea = JAP_interservice_rivalry_army_strengthened
+		#					has_idea = JAP_interservice_rivalry_army_dominant
+		#				}
+		#			}				
+		#		}
+		#		remove_ideas = JAP_interservice_rivalry_balanced
+		#		
+		#		add_ideas = JAP_interservice_rivalry_army_strengthened
+		#	}		
 		}
 	}
 }
-
+}
 
 ###  ###  ###    ### #   # ###  ### ### #   # ###     #   #  ##  ###  
 #  # #  # #      #   ## ## #  #  #   #  #   # #       #   # #  # #  # 

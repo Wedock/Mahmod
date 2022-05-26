@@ -1187,7 +1187,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = why_we_fight_focus
 			create_corps_commander = {
-				name = "Jean-Baptiste Piron"
+				name = "Daisy Olie"
 				portrait_path = "gfx/leaders/BEL/Portrait_BEL_Jean-Baptiste_Piron.dds"
 				traits = { cavalry_leader combined_arms_expert  }
 				skill = 4
@@ -1230,7 +1230,7 @@ focus_tree = {
 				#news_event = { days = 1 id = tblra.news.70 }				
 			}
 			create_corps_commander = {
-				name = "Jean-Baptiste Piron"
+				name = "Daisy Olie"
 				portrait_path = "gfx/leaders/BEL/Portrait_BEL_Jean-Baptiste_Piron.dds"
 				traits = { cavalry_leader combined_arms_expert  }
 				skill = 4
@@ -1383,7 +1383,7 @@ focus_tree = {
 				limit = {
 					has_completed_focus = tblra_go_right
 					has_country_leader = {
-						name = "Léopold III"
+						name = "Eline Powell"
 						ruling_only = yes
 					}						
 				}
@@ -1444,7 +1444,7 @@ focus_tree = {
         cost = 2
         completion_reward = {
 			create_country_leader = {
-				name = "Hubert Pierlot"
+				name = "Olga Leyers"
 				desc = "POLITICS_HUBERT_PIERLOT_DESC"
 				picture = "Portrait_Belgium_Hubert_Pierlot.dds"
 				expire = "1965.1.1"
@@ -1571,8 +1571,8 @@ focus_tree = {
 				set_cosmetic_tag = BEL2
 				set_party_name = { ideology = fascism long_name = BELverdinaso_party_long name = BELverdinaso_party }
 				create_country_leader = {
-					name = "Joris Van Severen"
-					desc = "Joris Van Severen"
+					name = "Jessica Van Der Steen"
+					desc = "Jessica Van Der Steen"
 					picture = "gfx/leaders/BEL/Portrait_Joris_Van_Severen.dds"
 					expire = "1953.3.1"
 					ideology = fascism_ideology
@@ -1664,7 +1664,7 @@ focus_tree = {
 				days = 60
 			}
 			#create_corps_commander = {
-			#	name = "Lambert Chardome"
+			#	name = "Elise Crombez"
 			#	portrait_path = "gfx/leaders/BEL/r56_portrait_BEL_Lambert_Chardome.dds"
 			#	traits = { walloon infantry_officer }
 			#	skill = 2

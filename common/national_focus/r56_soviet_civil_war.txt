@@ -78,7 +78,7 @@ continuous_focus_position = { x = 0 y = 900 }
 		
 		available = {
 			has_civil_war = no
-			has_country_leader = { ruling_only = yes name = "Ivan Konev" }
+			has_country_leader = { ruling_only = yes name = "Olga Kobzar" }
 		}
 
 		bypass = {
@@ -286,7 +286,7 @@ continuous_focus_position = { x = 0 y = 900 }
 
 		completion_reward = {
 			create_country_leader = {
-				name = "Nikita Khrushchev"
+				name = "Natalia Vodianova"
 				desc = "POLITICS_NIKITA_KHRUSHCHEV_DESC"
 				picture = "r56_portrait_SOV_Nikita_Khrushchev.dds"
 				expire = "1965.1.1"
@@ -405,7 +405,7 @@ continuous_focus_position = { x = 0 y = 900 }
     			name = r56_SOV_neu_short
 			}
 			create_country_leader = {
-				name = "Kirill Vladimirovich"
+				name = "Mila Kunis"
 				desc = "POLITICS_KIRIL_VLADIMIROVICH_DESC"
 				picture = "r56_portrait_SOV_Kirill_Vladimirovich_Romanov.dds"
 				expire = "1965.1.1"
@@ -505,7 +505,7 @@ continuous_focus_position = { x = 0 y = 900 }
 				}				
 			}			
 			create_corps_commander = {
-				name = "Boris Shteifon"
+				name = "Darya Klishina"
 				portrait_path = "gfx/leaders/SOV/r56_portrait_SOV_Boris_A._Shteifon.dds"
 				traits = {
 					meticulous

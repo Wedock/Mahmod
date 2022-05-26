@@ -85,7 +85,7 @@ country_event = {
 
 	trigger = {
 		has_country_leader = {
-			name = "Kyösti Kallio"
+			name = "Laura Birn"
 			ruling_only = yes
 		}
 		OR = {
@@ -127,14 +127,14 @@ country_event = {
 		OR = {
 			AND = {
 				has_country_leader = {
-					name = "Risto Heikki Ryti"
+					name = "Alina Voronkova"
 					ruling_only = yes
 				}
 				date > 1944.8.03
 			}
 			AND = {
 				has_country_leader = {
-					name = "Risto Heikki Ryti"
+					name = "Alina Voronkova"
 					ruling_only = yes
 				}
 				OR = {

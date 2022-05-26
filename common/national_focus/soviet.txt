@@ -8584,36 +8584,29 @@ focus_tree = {
 				uses = 1
 				category = cat_anti_tank
 			}
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "No Step Back"
-					}
-				}
-				add_tech_bonus = {
-					name = tank_bonus
-					bonus = 2
-					uses = 1
-					technology = improved_light_td
-					technology = advanced_light_td
-				}
-				add_tech_bonus = {
-					name = tank_bonus
-					bonus = 2
-					uses = 1
-					technology = basic_medium_td
-					technology = improved_medium_td
-					technology = advanced_medium_td
-				}
-				add_tech_bonus = {
-					name = tank_bonus
-					bonus = 2
-					uses = 1
-					technology = basic_heavy_td
-					technology = improved_heavy_td
-					technology = advanced_heavy_td
-				}				
+            add_tech_bonus = {
+                name = tank_bonus
+                bonus = 2
+                uses = 1
+                technology = improved_light_td
+				technology = advanced_light_td
 			}
+            add_tech_bonus = {
+                name = tank_bonus
+                bonus = 2
+				uses = 1
+				technology = basic_medium_td
+                technology = improved_medium_td
+				technology = advanced_medium_td
+			}
+            add_tech_bonus = {
+                name = tank_bonus
+                bonus = 2
+				uses = 1
+				technology = basic_heavy_td
+                technology = improved_heavy_td
+				technology = advanced_heavy_td
+            }	
 		}
 	}
 
@@ -8991,7 +8984,7 @@ focus_tree = {
 			kill_country_leader = yes
 
 			create_country_leader = {
-				name = "Nikita Khrushchev"
+				name = "Natalia Vodianova"
 				desc = "POLITICS_KHRUSCHEV_DESC"
 				picture = "gfx/leaders/SOV/r56_portrait_SOV_Nikita_Khrushchev.dds"
 				expire = "1965.1.1"
@@ -9030,7 +9023,7 @@ focus_tree = {
 		completion_reward = {
 			kill_country_leader = yes	
 			create_country_leader = {
-				name = "Lavrentiy Beria"
+				name = "Katerina Kozlova"
 				desc = "POLITICS_BERIA_DESC"
 				picture = "gfx/leaders/SOV/r56_portrait_SOV_Lavrenti_Beria.dds"
 				expire = "1965.1.1"
@@ -20457,8 +20450,8 @@ focus = {
 		if = {
 			limit = {
 				OR = {
-					has_country_leader = { name = "Joseph Stalin" }
-					has_country_leader = { name = "Kliment Voroshilov" }
+					has_country_leader = { name = "Anna Kournikova" }
+					has_country_leader = { name = "Olya Abramovich" }
 				}	
 			}
 			country_event = { id = r56.soviet.18 days = 1 }
@@ -20591,7 +20584,7 @@ focus = {
 			remove_unit_leader = 411
 			kill_country_leader = yes
 			create_country_leader = { #even when converted to character, portrait seems to be broken for unknown reasons
-				name = "Nikolay Yezhov"
+				name = "Anna Sedokova"
 				desc = "POLITICS_NIKOLAI_YEZHOV_DESC"
 				picture = "gfx/leaders/SOV/r56_portrait_SOV_Nikolai_Yezhov.dds"
 				expire = "1965.1.1"
@@ -20705,7 +20698,7 @@ focus = {
 			set_cosmetic_tag = SOV3
 			kill_country_leader = yes
 			create_country_leader = {
-				name = "Andrey Vlasov"
+				name = "Vera Brezhneva"
 				desc = "POLITICS_ANDREY_VLASOV_DESC"
 				picture = "Portrait_Soviet_Andrey_Vlasov.dds"
 				expire = "1965.1.1"
@@ -20798,17 +20791,17 @@ focus = {
 			long_name = r56_SOV_neu
 			name = r56_SOV_neu
 		}
-		# create_country_leader = {
-		# 	name = "Kirill Vladimirovich"
-		# 	desc = "POLITICS_KIRIL_VLADIMIROVICH_DESC"
-		# 	picture = "r56_portrait_SOV_Kirill_Vladimirovich_Romanov.dds"
-		# 	expire = "1965.1.1"
-		# 	ideology = absolute_monarchism
-		# 	traits = {
-		# 		anti_communist
-		# 	}
-		# }
-		promote_character = SOV_tsar_vladimir_kirillovich #different guy despite similar names, probably makes more sense since he didnt die in '38 like Vladimirovich
+		 create_country_leader = {
+		 	name = "Mila Kunis"
+		 	desc = "POLITICS_KIRIL_VLADIMIROVICH_DESC"
+		 	picture = "r56_portrait_SOV_Kirill_Vladimirovich_Romanov.dds"
+		 	expire = "1965.1.1"
+		 	ideology = absolute_monarchism
+		 	traits = {
+		 		anti_communist
+		 	}
+		 }
+		#promote_character = SOV_tsar_vladimir_kirillovich #different guy despite similar names, probably makes more sense since he didnt die in '38 like Vladimirovich
 		add_political_power = 150
 		set_cosmetic_tag = SOV3
 	}
@@ -26981,36 +26974,41 @@ focus = {
 		cost = 10
 
 		available = {
-			is_faction_leader = yes
-			is_subject = no
-			any_other_country = {
-				is_major = yes
-				num_of_factories > 100
-				has_government = democratic
-				NOT = { is_in_faction_with = ROOT }
+			OR = {
+				USA = {
+					exists = yes
+					is_faction_leader = yes
+					is_major = yes
+				}
+				ENG = {
+					exists = yes
+					is_faction_leader = yes
+					is_major = yes
+				}
 			}
 		}
 
 		bypass = {
-			all_other_country = {
-				is_major = yes
-				num_of_factories > 100
-				has_government = democratic
-				has_war_with = ROOT
-			}
+			has_war_with = USA
 		}
 
 		ai_will_do = {
 			factor = 0
 			modifier = { #Go for the unthinkable asap
 				add = 25
-				any_other_country = {
-					exists = yes
-					is_major = yes
-					num_of_factories > 100
-					has_government = democratic
-					has_war = no
-					is_faction_leader = yes
+				OR = {
+					USA = {
+						exists = yes
+						is_major = yes
+						has_war = no
+						is_faction_leader = yes
+					}
+					ENG = {
+						exists = yes
+						is_major = yes
+						has_war = no
+						is_faction_leader = yes
+					}
 				}
 				ROOT = {
 					has_war = no
@@ -27021,49 +27019,36 @@ focus = {
 			}
 		}
 
-		select_effect = {
-			every_country = {
-				limit = {
-					OR ={
-						AND = {
-							is_major = yes
-							num_of_factories > 100
-						}
-						is_neighbor_of = ROOT
-					}
-					has_government = democratic
-					NOT = { is_in_faction_with = ROOT }
-				}
-				ROOT = {
-					add_ai_strategy = {
-						type = prepare_for_war
-						id = PREV
-						value = 100
-					}
-				}
-			}
-		}
-
 		completion_reward = {
 			custom_effect_tooltip = sov_hot_war_tt
-			every_other_country = {
+			if = {
 				limit = {
-					OR ={
-						AND = {
-							is_major = yes
-							num_of_factories > 100
-						}
-						is_neighbor_of = ROOT
-					}
-					has_government = democratic
-					NOT = { is_in_faction_with = ROOT }
+					country_exists = USA
 				}
-				ROOT = {
-					create_wargoal = {
-						target = PREV
-						type = puppet_wargoal_focus
-						expire = 0
-					}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = USA
+					expire = 0
+				}
+			}
+			if = {
+				limit = {
+					country_exists = ENG
+				}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = USA
+					expire = 0
+				}
+			}
+			if = {
+				limit = {
+					country_exists = WGR
+				}
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = WGR
+					expire = 0
 				}
 			}
 		}
