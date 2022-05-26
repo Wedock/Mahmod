@@ -203,8 +203,8 @@ ideas = {
 				original_tag = GLC
 			}
 			
-			modifier = {
-				land_doctrine_cost_factor = -0.1
+			research_bonus = {
+				land_doctrine = 0.10
 			}
 			
 			traits = { military_theorist }

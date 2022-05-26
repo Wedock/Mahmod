@@ -20,7 +20,9 @@ ideas = {
 			modifier = {
 				conscription = 0.005
 				planning_speed = 0.10
-				land_doctrine_cost_factor = -0.05
+			}
+			research_bonus = {
+				land_doctrine = 0.05
 			}
 		}
 
@@ -383,7 +385,6 @@ ideas = {
 			modifier = {
 				min_export = 0.1
 				local_resources_factor = -0.05
-				custom_modifier_tooltip = MEX_oil_concessions_tt
 			}
 		}
 
@@ -404,7 +405,6 @@ ideas = {
 				industrial_capacity_factory = -0.05
 				min_export = 0.15
 				local_resources_factor = -0.2
-				custom_modifier_tooltip = MEX_oil_concessions_tt
 			}
 		}
 	}

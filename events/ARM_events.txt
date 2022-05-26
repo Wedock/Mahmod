@@ -56,8 +56,10 @@ country_event = {
 			limit = {
 				has_idea = ARM_khoren_I	
 			}
-			remove_ideas = ARM_khoren_I 
-			add_ideas = ARM_gevorg_VI
+			swap_ideas = { 
+				remove_idea = ARM_khoren_I 
+				add_idea = ARM_gevorg_VI 
+			}
 		}
 		add_political_power = -20
 	}

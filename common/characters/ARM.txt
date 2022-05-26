@@ -199,7 +199,7 @@ characters={
 				}
 			}
 
-			traits = { backroom_backstabber } #or diplo bonus but it would but a bit pointless
+			traits = { backroom_backstabber }
 
 			ai_will_do = {
 				factor = 1
@@ -309,7 +309,7 @@ characters={
 		}		
 	}
 
-	ARM_khoren_I={ #died 38
+	ARM_khoren_I={
 		name=ARM_khoren_I
 		portraits={
 			army={
@@ -343,7 +343,7 @@ characters={
 		}		
 	}
 
-	ARM_gevorg_VI={ #successor
+	ARM_gevorg_VI={
 		name=ARM_gevorg_VI
 		portraits={
 			army={
@@ -435,7 +435,7 @@ characters={
 		}		
 	}
 
-	ARM_grigor_saaruni={ #not super fascist but we have already enough people for other governments
+	ARM_grigor_saaruni={
 		name=ARM_grigor_saaruni
 		portraits={
 			army={
@@ -463,7 +463,7 @@ characters={
 		}		
 	}
 
-	ARM_anastas_mikoyan={ #logistics defense board of the USSR, so a civilian but with military attributes
+	ARM_anastas_mikoyan={
 		name=ARM_anastas_mikoyan
 		portraits={
 			army={
@@ -600,7 +600,41 @@ characters={
 		}		
 	}
 
-	ARM_artashes_vasilyan ={ #colonel 89th infantry division
+	ARM_sergey_aganov2 ={
+		name=ARM_sergey_aganov2
+		portraits={
+			army={
+				small="GFX_idea_ARM_sergey_aganov"
+			}
+		}
+		advisor={	
+			slot = high_command
+			idea_token = ARM_sergey_aganov2
+			ledger = army
+			allowed = {
+				original_tag = ARM
+			}
+
+			available = {
+				NOT = {
+					OR = {
+						has_idea = ARM_sergey_aganov
+						has_government = fascism
+					}
+					
+				}
+			}						
+
+			traits = {
+				army_entrenchment_2
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	ARM_artashes_vasilyan ={
 		name=ARM_artashes_vasilyan
 		portraits={
 			army={
@@ -651,7 +685,7 @@ characters={
 		}	
 	}
 	
-	ARM_nver_safaryan ={#colonel 89th infantry division too
+	ARM_nver_safaryan ={
 		name=ARM_nver_safaryan
 		portraits={
 			army={
@@ -742,7 +776,7 @@ characters={
 		}
 	}
 
-	ARM_wartan_sarkisian ={ #waffen gruppe Armenien
+	ARM_wartan_sarkisian ={
 		name=ARM_wartan_sarkisian
 		portraits={
 			army={
@@ -777,7 +811,7 @@ characters={
 		}
 	}
 
-	ARM_misak_torlakian ={ #more a spy than a soldier but certainly a bit of both
+	ARM_misak_torlakian ={
 		name=ARM_misak_torlakian
 		portraits={
 			army={
@@ -964,31 +998,6 @@ characters={
 				army_chief_defensive_2
 			}
 
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		advisor={	
-			slot = high_command
-			idea_token = ARM_sergey_aganov2
-			ledger = army
-			allowed = {
-				original_tag = ARM
-			}
-
-			available = {
-				NOT = {
-					OR = {
-						has_idea = ARM_sergey_aganov
-						has_government = fascism
-					}
-					
-				}
-			}						
-
-			traits = {
-				army_entrenchment_2
-			}
 			ai_will_do = {
 				factor = 1
 			}
