@@ -175,7 +175,7 @@ country_event = {#Mountbatten takes office
 			}
 			retire_country_leader = yes
 			#create_country_leader = {
-			#	name = "Sophia Knight"
+			#	name = "Louis Mountbatten"
 			#	desc = "POLITICS_WAVELL_DESC"
 			#	picture = "gfx/leaders/RAJ/r56_portrait_RAJ_Luis_Mountbatten.dds"
 			#	expire = "1965.1.1"
@@ -3908,7 +3908,7 @@ country_event = {	#Warning signs of an incoming famine
 			modifier = {
 				factor = 0.3
 				has_country_leader = {
-					name = "Emma Watson"
+					name = "Winston Churchill"
 					ruling_only = yes
 				}
 			}

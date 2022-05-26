@@ -4279,7 +4279,7 @@ focus_tree = {
 				#identify them with tag = RSI for Repubblica Sociale Italiana
 				set_country_flag = ITA_italian_social_republic_flag
 				create_corps_commander = {
-					name = "Valentina Bianco"
+					name = "Mario Soldarelli"
 					picture = "r56_portrait_ITA_generic_land_1.dds"
 					traits = {
 						politically_connected
@@ -4292,7 +4292,7 @@ focus_tree = {
 					logistics_skill = 1
 				}
 				create_navy_leader = {
-					name = "Sara Bella"						#Black Prince 
+					name = "Junio Borghese"						#Black Prince 
 					picture = "Portrait_Italy_Generic_land_4.dds"
 					traits = {
 						navy_career_officer
@@ -4449,7 +4449,7 @@ focus_tree = {
 		completion_reward = {
 			HUN = {
 				if = {
-					limit = { has_country_leader = { name = "Barbara Palvin" ruling_only = yes } }
+					limit = { has_country_leader = { name = "Miklós Horthy" ruling_only = yes } }
 					kill_country_leader = yes
 					set_global_flag = horthy_died
 				}

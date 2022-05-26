@@ -1488,7 +1488,7 @@ country_event = {
 				set_country_flag = r56_USA_democratic_rebel_check
 				hidden_effect = {
 					create_country_leader = {
-						name = "Taylor Alison Swift"
+						name = "Franklin Delano Roosevelt"
 						desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 						picture = "gfx/leaders/USA/r56_portrait_USA_Franklin_Roosevelt.dds"
 						expire = "1947.1.1"
@@ -1500,7 +1500,7 @@ country_event = {
 						}
 					}
 					create_corps_commander = {
-						name = "Olivia Wilde"
+						name = "Benjamin O. Davis"
 						picture = "r56_portrait_USA_Benjamin_O_Davis.dds"
 						traits = { career_officer old_guard cavalry_officer } 
 						skill = 3
@@ -1858,7 +1858,7 @@ country_event = {
 				has_completed_focus = USA_work_with_the_bund
 			}
 			create_corps_commander = {
-				name = "Emma Roberts"
+				name = "Fritz Kuhn"
 				GFX = GFX_portrait_ger_fritz_kuhn
 				skill = 2
 				attack_skill = 3
@@ -2480,7 +2480,7 @@ country_event = {
 		has_government = fascism
 		has_civil_war = no
 		has_global_flag = USA_civil_war_fired_democrats
-		has_country_leader = { ruling_only = yes name = "Willa Holland" }
+		has_country_leader = { ruling_only = yes name = "Douglas MacArthur" }
 	}
 	mean_time_to_happen = { days = 20 }
 	fire_only_once = yes
@@ -2516,9 +2516,9 @@ country_event = {
 		}
 		name = mtg_usa_civil_war_democrats.41.c
 		create_country_leader = {
-			name = "Emma Stone"
+			name = "Adam Hilt"
 			desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
-			picture = "gfx/leaders/USA/r56_portrait_USA_mr_hilt.dds"
+			picture = GFX_portrait_USA_mr_hilt
 			expire = "1965.1.1"
 			ideology = nazism
 			traits = {
@@ -2535,9 +2535,9 @@ country_event = {
 		}
 		name = mtg_usa_civil_war_democrats.41.d
 		create_country_leader = {
-			name = "Melissa Benoist"
+			name = "Charles Lindbergh"
 			desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
-			picture = "gfx\leaders\USA\r56_portrait_USA_charles_lindbergh.dds"
+			picture = GFX_portrait_USA_charles_lindbergh
 			expire = "1965.1.1"
 			ideology = fascism_ideology
 			traits = {

@@ -13,7 +13,7 @@ characters={
 			name=SPR_niceto_alcala_zamora
 			portraits={
 				civilian={
-					large="gfx/leaders/SPR/portrait_spr_niceto_alcala_zamora.dds"
+					large="GFX_portrait_SPR_niceto_alcala_zamora"
 				}
 			}
 			country_leader={
@@ -36,7 +36,7 @@ characters={
 			name=SPR_niceto_alcala_zamora
 			portraits={
 				civilian={
-					large="gfx/leaders/SPR/portrait_spr_niceto_alcala_zamora.dds"
+					large="GFX_portrait_SPR_niceto_alcala_zamora"
 				}
 			}
 			country_leader={
@@ -117,7 +117,7 @@ characters={
 				small="GFX_idea_SPA_jose_antonio_primo_de_rivera"
 			}
 			civilian={
-				large="gfx/leaders/SPR/r56_portrait_SPA_jose_antonio_primo_de_rivera.dds"
+				large="GFX_portrait_SPA_jose_antonio_primo_de_rivera"
 			}
 		}
 		advisor={
@@ -158,7 +158,7 @@ characters={
 		name=SPR_manuel_fal_conde
 		portraits={
 			civilian={
-				large="gfx/leaders/SPR/r56_portrait_SPA_manuel_fal_conde.dds"
+				large="GFX_portrait_SPA_manuel_fal_conde"
 			}
 		}
 		country_leader={
@@ -185,7 +185,7 @@ characters={
 			name=SPR_vicente_rojo_lluch
 			portraits={
 				army={
-					large="gfx/leaders/SPR/Portrait_SPR_vicente_rojo_lluch.dds"
+					large="GFX_portrait_SPR_vicente_rojo_lluch"
 					small="gfx/interface/ideas/idea_SPR_vicente_rojo_lluch.dds"
 				}
 			}
@@ -209,7 +209,7 @@ characters={
 					}
 				}
 			}
-			name="Apolonia Lapiedra"
+			name="Vicente Rojo Lluch"
 			portraits={
 				army={
 					large="gfx/leaders/SPR/r56_portrait_SPR_Vicente_Lluch.dds"
@@ -282,7 +282,7 @@ characters={
 			name=SPR_jose_miaja
 			portraits={
 				army={
-					large="gfx/leaders/SPR/r56_portrait_SPR_Jose_Miaja.dds"
+					large="GFX_portrait_SPR_jose_miaja"
 					small="gfx/interface/ideas/idea_SPR_jose_miaja.dds"
 				}
 			}
@@ -406,7 +406,7 @@ characters={
 			name=SPR_jose_asensio_torrado
 			portraits={
 				army={
-					large="gfx/leaders/SPR/r56_portrait_SPR_jose_asensio_torrado.dds"
+					large="GFX_portrait_SPR_jose_asensio_torrado"
 					small="gfx/interface/ideas/idea_SPR_jose_asensio_torrado.dds"
 				}
 			}
@@ -463,7 +463,7 @@ characters={
 			name=SPR_valentin_gonzalez
 			portraits={
 				army={
-					large="gfx/leaders/SPR/portrait_SPR_valentin_gonzalez.dds"
+					large="GFX_portrait_SPR_valentin_gonzalez"
 					small="gfx/interface/ideas/idea_SPR_valentin_gonzalez.dds"
 				}
 			}
@@ -487,7 +487,7 @@ characters={
 					}
 				}
 			}
-			name="Astrid Berges-Frisbey"
+			name="Valentín González"
 			portraits={
 				army={
 					large="gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
@@ -528,7 +528,7 @@ characters={
 			name = SPR_enrique_lister
 			portraits={
 				army={
-					large="gfx/leaders/SPR/r56_portrait_SPR_Enrique_Lister.dds"
+					large="GFX_portrait_SPR_enrique_lister"
 					small = "gfx/interface/ideas/idea_SPR_enrique_lister.dds"
 				}
 			}
@@ -594,7 +594,7 @@ characters={
 			name=SPR_juan_modesto
 			portraits={
 				army={
-					large="gfx/leaders/SPR/r56_portrait_SPR_Juan_Modesto.dds"
+					large="GFX_portrait_SPR_juan_modesto"
 					small="gfx/interface/ideas/idea_SPR_juan_modesto.dds"
 				}
 			}
@@ -624,7 +624,7 @@ characters={
 					small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
 				}
 			}
-			name="Barbara Amerigo"
+			name="Juan Modesto"
 			corps_commander={
 				traits={ trait_mountaineer trait_SPR_republican_loyalties }
 				skill=2
@@ -658,7 +658,7 @@ characters={
 			name=SPR_antonio_cordon_garcia
 			portraits={
 				army={
-					large="gfx/leaders/SPR/portrait_SPR_antonio_cordon_garcia.dds"
+					large="GFX_portrait_SPR_antonio_cordon_garcia"
 					small="gfx/interface/ideas/idea_SPR_antonio_cordon_garcia.dds"
 				}
 			}
@@ -688,7 +688,7 @@ characters={
 					small="gfx/interface/ideas/idea_south_america_generic_land_1.dds"
 				}
 			}
-			name="Ariadne Artiles"
+			name="Antonio Cordón García"
 			corps_commander={
 				traits={ infantry_leader trait_SPR_republican_loyalties }
 				skill=2
@@ -721,7 +721,7 @@ characters={
 			name=SPR_janos_galicz
 			portraits={
 				army={
-					large="gfx/leaders/SPR/portrait_SPR_janos_galicz.dds"
+					large="GFX_portrait_SPR_janos_galicz"
 					small="gfx/interface/ideas/idea_spr_janos_galicz.dds"
 				}
 			}
@@ -832,7 +832,7 @@ characters={
 					large="gfx/leaders/SPR/r56_portrait_SPR_Francisco_Franco.dds"
 				}
 				army={
-					large="gfx/leaders/SPR/r56_portrait_SPR_Francisco_Franco.dds"
+					large="GFX_portrait_spain_francisco_franco"
 					small="gfx/interface/ideas/idea_SPA_francisco_franco.dds"
 				}
 			}
@@ -878,7 +878,7 @@ characters={
 					large="gfx/leaders/SPR/r56_portrait_SPR_Francisco_Franco.dds"
 				}
 				army={
-					large="gfx/leaders/SPR/r56_portrait_SPR_Francisco_Franco.dds"
+					large="GFX_portrait_spain_francisco_franco"
 					small="GFX_idea_francisco_franco"
 				}
 			}
@@ -966,7 +966,7 @@ characters={
 			name=SPR_mohamed_meziane
 			portraits={
 				army={
-					large="gfx/leaders/SPR/portrait_SPA_mohamed_meziane.dds"
+					large="GFX_portrait_SPA_mohamed_meziane"
 					small="gfx/interface/ideas/idea_SPA_mohamed_meziane.dds"
 				}
 			}
@@ -990,7 +990,7 @@ characters={
 					}
 				}
 			}
-			name="Diana Morales"
+			name="Mohamed Meziane"
 			portraits={
 				army={
 					large="gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
@@ -1034,7 +1034,7 @@ characters={
 			name=SPR_gonzalo_queipo_de_llano
 			portraits={
 				army={
-					large="gfx/leaders/SPR/r56_portrait_SPR_Gonzalo_Queipo_de_Llano.dds"
+					large="GFX_portrait_SPA_gonzalo_queipo_de_llano"
 					small="gfx/interface/ideas/idea_SPA_gonzalo_queipo_de_llano.dds"
 				}
 			}
@@ -1058,7 +1058,7 @@ characters={
 					}
 				}
 			}
-			name="Paola Hard"
+			name="Gonzalo Queipo de Llano"
 			portraits={
 				army={
 					large="gfx/leaders/SPR/r56_portrait_SPR_Gonzalo_Queipo_de_Llano.dds"
@@ -1102,7 +1102,7 @@ characters={
 			name=SPA_emilio_mola
 			portraits={
 				army={
-					large="gfx/leaders/SPR/r56_portrait_emilio_mola.dds"
+					large="GFX_portrait_SPA_emilio_mola"
 					small="gfx/interface/ideas/idea_spa_emilio_mola.dds"
 				}
 			}
@@ -1243,7 +1243,7 @@ characters={
 			name=SPA_juan_yague
 			portraits={
 				army={
-					large="gfx/leaders/SPR/r56_portrait_SPR_Juan_Yague_Blanco.dds"
+					large="GFX_portrait_SPA_juan_yague"
 					small="gfx/interface/ideas/idea_spa_juan_yague.dds"
 				}
 			}
@@ -1422,7 +1422,7 @@ characters={
 			portraits={
 				army={
 					small="GFX_idea_SPA_agustin_munoz_grandes"
-					large="gfx/leaders/SPR/portrait_SPA_augustin_muynoz_grandes.dds"
+					large="GFX_portrait_SPA_augustin_muynoz_grandes"
 				}
 			}
 			advisor={
@@ -1570,7 +1570,7 @@ characters={
 			name=SPA_jose_enrique_varela
 			portraits={
 				army={
-					large="gfx/leaders/SPR/r56_portrait_SPR_Jose_Enrique_Varela.dds"
+					large="GFX_portrait_SPA_jose_enrique_varela"
 					small="gfx/interface/ideas/idea_spa_jose_enrique_varela.dds"
 				}
 			}
@@ -1732,7 +1732,7 @@ characters={
 			name=SPA_miguel_cabanellas
 			portraits={
 				army={
-					large="gfx/leaders/SPR/r56_portrait_SPR_Miguel_Cabanellas.dds"
+					large="GFX_portrait_SPA_miguel_cabanellas"
 					small="gfx/interface/ideas/idea_spa_miguel_cabanellas.dds"
 				}
 			}
@@ -1876,7 +1876,7 @@ characters={
 			name=SPR_jose_millan_astray
 			portraits={
 				army={
-					large="gfx/leaders/SPR/r56_portrait_SPR_Jose_Millan_Astray.dds"
+					large="GFX_portrait_SPA_jose_millan_astray"
 					small="gfx/interface/ideas/idea_SPA_jose_millan_astray.dds"
 				}
 			}
@@ -1933,7 +1933,7 @@ characters={
 			name=SPR_miguel_buiza_fernandez_palacios
 			portraits={
 				army={
-					large="gfx/leaders/SPR/portrait_SPR_miguel_buiza_fernandez_palacios.dds"
+					large="GFX_portrait_SPR_miguel_buiza_fernandez_palacios"
 					small="gfx/interface/ideas/idea_SPR_miguel_buiza_fernandez_palacios.dds"
 				}
 			}
@@ -2013,7 +2013,7 @@ characters={
 			name=SPA_luis_carrero_blanco
 			portraits={
 				army={
-					large="gfx/leaders/SPR/portrait_SPA_luis_carrero_blanco.dds"
+					large="GFX_portrait_SPA_luis_carrero_blanco"
 					small="gfx/interface/ideas/idea_spa_luis_carrero_blanco.dds"
 				}
 			}
@@ -2067,7 +2067,7 @@ characters={
 			name=SPA_luis_carrero_blanco
 			portraits={
 				army={
-					large="gfx/leaders/SPR/portrait_SPA_luis_carrero_blanco.dds"
+					large="GFX_portrait_SPA_luis_carrero_blanco"
 					small="GFX_idea_generic_navy_europe_1"
 				}
 			}
@@ -2130,7 +2130,7 @@ characters={
 					}
 				}
 			}
-			name="Inma Cuesta"
+			name=SPA_rafael_garcia_valino
 			portraits={
 				army={
 					large="gfx/leaders/SPR/r56_portrait_SPR_Rafael_Garcia_Valino.dds"
@@ -2311,7 +2311,7 @@ characters={
 					}
 				}
 			}
-			name="Ginebra Bellucci"
+			name=SPA_miguel_ponte
 			portraits={
 				army={
 					large="gfx/leaders/SPR/r56_portrait_SPR_Miguel_Ponte.dds"
@@ -2681,7 +2681,7 @@ characters={
 					}
 				}
 			}
-			name="Kayla Frisella"
+			name=SPA_ricardo_rada
 			portraits={
 				army={
 					large="gfx/leaders/SPR/r56_portrait_SPR_Ricardo_de_Rada.dds"
@@ -2790,7 +2790,7 @@ characters={
 	}
 	#New Rt56 Nationalist. TODO: Add to LaR
 	SPR_andres_saliquet = {
-		name="Lorena Morena"
+		name="Andres Saliquet"
 			portraits={
 				army={
 					large="gfx/leaders/SPR/r56_portrait_SPR_andres_saliquet.dds"
@@ -2815,7 +2815,7 @@ characters={
 	}
 	#New Rt56 Nationalist. TODO: Add to LaR
 	SPR_luis_orgaz_yoldi = {
-		name="Dalianah Arekion"
+		name="Luis Orgaz Yoldi"
 			portraits={
 				army={
 					large="gfx/leaders/SPR/r56_portrait_SPR_Luis_Orgaz_Yoldi.dds"
@@ -2840,7 +2840,7 @@ characters={
 	}
 	#New Rt56 Nationalist. TODO: Add to LaR
 	SPR_jose_moscardo_ituarte = {
-		name="Beate Muska"
+		name="José Moscardó Ituarte"
 			portraits={
 				army={
 					large="gfx/leaders/SPR/r56_portrait_SPR_Jose_Moscardo_Ituarte.dds"
@@ -2865,7 +2865,7 @@ characters={
 	}
 	#New Rt56 Nationalist. TODO: Add to LaR
 	SPR_fernando_barron_y_ortiz={
-		name="Clara Alonso"
+		name="Fernando Barrón Ortiz"
 			portraits={
 				army={
 					large="gfx/leaders/SPR/r56_portrait_SPR_Fernando_Barron.dds"
@@ -2889,7 +2889,7 @@ characters={
 	}
 	#New Rt56 Nationalist. TODO: Add to LaR
 	SPR_rafael_estrada_arnaiz={
-		name="Patricia Rodríguez"
+		name="Rafael Estrada Arnáiz"
 			portraits={
 				army={
 					large="gfx/leaders/SPR/r56_portrait_SPR_Rafael_Estrada.dds"
@@ -2917,7 +2917,7 @@ characters={
 
 	#New Rt56 Repbulican. TODO: Add to LaR
 	SPR_segismundo_casado={
-		name="Zurine Aspiunza"
+		name="Segismundo Casado"
 			portraits={
 				army={
 					large="gfx/leaders/SPR/r56_portrait_SPR_Segismondo_Casado.dds"
@@ -2942,7 +2942,7 @@ characters={
 	}
 	#New Rt56 Repbulican. TODO: Add to LaR
 	SPR_sebtian_pozas={
-		name="Yolanthe Cabau"
+		name="Sebastián Pozas"
 			portraits={
 				army={
 					large="gfx/leaders/SPR/r56_portrait_SPR_Sebastian_Pozas.dds"

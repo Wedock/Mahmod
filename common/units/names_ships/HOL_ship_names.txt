@@ -101,7 +101,7 @@ HOL_CV_HISTORICAL = {
 	fallback_name = "Vliegdekschip %d"	
 
 	unique = {
-		"Roos van Montfort" "De Zeven Provinciën"  
+		"Karel Doorman" "De Zeven Provinciën"  
 	}
 }
 

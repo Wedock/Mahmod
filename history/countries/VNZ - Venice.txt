@@ -180,7 +180,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = { #motorized div?
-	name = "Alessia Azzi"
+	name = "Arnaldo Azzi"
 	portrait_path = "gfx/leaders/ITA/Portrait_Italy_Generic_land_4.dds"
 	traits = { cavalry_officer }
     skill = 2
@@ -203,7 +203,7 @@ create_corps_commander = {
 
 
 create_corps_commander = { 
-	name = "Giacoma Zanussi"
+	name = "Giacomo Zanussi"
 	portrait_path = "gfx/leaders/r56_generic/r56_portrait_ITA_generic_land_1.dds"
 	traits = { organizer }
     skill = 1

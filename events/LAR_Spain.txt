@@ -21,7 +21,7 @@ country_event = {
 		hidden_effect = {
 			retire_ideology_leader = democratic
 			create_country_leader = {
-				name = "Paz Vega"
+				name = "Manuel Azaña"
 				desc = "POLITICS_MANUEL_AZANA_DESC"
 				picture = "Portrait_Spain_Manuel_Azana.dds"
 				expire = "1965.1.1"
@@ -118,7 +118,7 @@ country_event = {
 		}
 		effect_tooltip = {
 			create_country_leader = {
-				name = "Paz Vega"
+				name = "Manuel Azaña"
 				desc = "POLITICS_MANUEL_AZANA_DESC"
 				picture = "Portrait_Spain_Manuel_Azana.dds"
 				expire = "1965.1.1"
@@ -175,7 +175,7 @@ country_event = {
 		effect_tooltip = {
 			retire_ideology_leader = democratic
 			create_country_leader = {
-				name = "Paz Vega"
+				name = "Manuel Azaña"
 				desc = "POLITICS_MANUEL_AZANA_DESC"
 				picture = "Portrait_Spain_Manuel_Azana.dds"
 				expire = "1965.1.1"
@@ -292,7 +292,7 @@ country_event = {
 					retire_ideology_leader = fascism
 					retire_ideology_leader = neutrality
 					create_country_leader = {
-						name = "Paz Vega"
+						name = "Manuel Azaña"
 						desc = "POLITICS_MANUEL_AZANA_DESC"
 						picture = "Portrait_Spain_Manuel_Azana.dds"
 						expire = "1965.1.1"
@@ -329,7 +329,7 @@ country_event = {
 				}
 				kill_country_leader = yes
 				create_country_leader = {
-					name = "María Valverde"
+					name = "José Sanjurjo"
 					desc = "POLITICS_JOSE_SANJURJO_DESC"
 					picture = "GFX_portrait_SPA_jose_sanjurjo"
 					expire = "1965.1.1"
@@ -806,7 +806,7 @@ country_event = {
 				}
 				#Nationalists we added
 					create_corps_commander = {
-						name = "Lorena Morena"
+						name = "Andres Saliquet"
 						portrait_path = "gfx/leaders/SPR/r56_portrait_SPR_andres_saliquet.dds"
 						traits = { infantry_officer harsh_leader trait_SPA_nationalist_sympathies }
 						skill = 3
@@ -816,7 +816,7 @@ country_event = {
 						logistics_skill = 1
 					}
 					create_corps_commander = {
-						name = "Almudena Fernandez"
+						name = "Alfredo Kindelán"
 						portrait_path = "gfx/leaders/SPR/r56_portrait_SPR_Alfredo_Kindelan.dds"
 						traits = { air_force_ties trait_SPA_nationalist_sympathies }
 						skill = 1
@@ -826,7 +826,7 @@ country_event = {
 						logistics_skill = 1
 					}
 					create_corps_commander = {
-						name = "Dalianah Arekion"
+						name = "Luis Orgaz Yoldi"
 						portrait_path = "gfx/leaders/SPR/r56_portrait_SPR_Luis_Orgaz_Yoldi.dds"
 						traits = { decided_planner trait_SPA_nationalist_sympathies }
 						skill = 2
@@ -836,7 +836,7 @@ country_event = {
 						logistics_skill = 3
 						}
 					create_corps_commander = {
-						name = "Beate Muska"
+						name = "José Moscardó Ituarte"
 						portrait_path = "gfx/leaders/SPR/r56_portrait_SPR_Jose_Moscardo_Ituarte.dds"
 						traits = { commando urban_assault_specialist trait_SPA_nationalist_sympathies }
 						skill = 2
@@ -2571,7 +2571,7 @@ country_event = {
 					retire_ideology_leader = communism
 					kill_country_leader = yes
 					create_country_leader = {
-						name = "María Valverde"
+						name = "José Sanjurjo"
 						desc = "POLITICS_JOSE_SANJURJO_DESC"
 						picture = "GFX_portrait_SPA_jose_sanjurjo"
 						expire = "1965.1.1"
@@ -2603,7 +2603,7 @@ country_event = {
 					retire_ideology_leader = fascism
 					retire_ideology_leader = neutrality
 					create_country_leader = {
-						name = "Paz Vega"
+						name = "Manuel Azaña"
 						desc = "POLITICS_MANUEL_AZANA_DESC"
 						picture = "Portrait_Spain_Manuel_Azana.dds"
 						expire = "1965.1.1"
@@ -2939,7 +2939,7 @@ country_event = {
 					logistics_skill = 2
 				}
 				create_corps_commander = {
-					name = "Zurine Aspiunza"
+					name = "Segismundo Casado"
 					portrait_path = "gfx/leaders/SPR/r56_portrait_SPR_Segismondo_Casado.dds"
 					traits = { infantry_officer }
 					skill = 2
@@ -2949,7 +2949,7 @@ country_event = {
 					logistics_skill = 2
 				}
 				create_corps_commander = {
-					name = "Yolanthe Cabau"
+					name = "Sebastián Pozas"
 					portrait_path = "gfx/leaders/SPR/r56_portrait_SPR_Sebastian_Pozas.dds"
 					traits = { trait_SPR_republican_loyalties }
 					skill = 1
@@ -2960,7 +2960,7 @@ country_event = {
 					logistics_skill = 1
 				}
 				create_navy_leader = {
-					name = "Luisa González de Ubieta"
+					name = "Luis González de Ubieta"
 					portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
 					traits = { spotter }
 					skill = 2
@@ -7266,7 +7266,7 @@ country_event = {
 				set_party_name = { ideology = neutrality long_name = SPR_neutrality_anarchism_party_long name = SPR_neutrality_anarchism_party }
 				set_party_name = { ideology = communism long_name = SPR_communism_independent_party_long name = SPR_communism_independent_party }
 				create_country_leader = {
-					name = "Julia Roca"
+					name = "Julián Gorkin"
 					desc = "POLITICS_JULIAN_GORKIN_DESC"
 					picture = "GFX_portrait_SPR_julian_gorkin"
 					expire = "1965.1.1"
@@ -7475,7 +7475,7 @@ country_event = {
 				}
 				set_party_name = { ideology = communism long_name = SPR_communism_independent_party_long name = SPR_communism_independent_party }
 				create_country_leader = {
-					name = "Julia Roca"
+					name = "Julián Gorkin"
 					desc = "POLITICS_JULIAN_GORKIN_DESC"
 					picture = "GFX_portrait_SPR_julian_gorkin"
 					expire = "1965.1.1"
@@ -7529,7 +7529,7 @@ country_event = {
 				}
 				set_party_name = { ideology = communism long_name = SPR_communism_independent_party_long name = SPR_communism_independent_party }
 				create_country_leader = {
-					name = "Julia Roca"
+					name = "Julián Gorkin"
 					desc = "POLITICS_JULIAN_GORKIN_DESC"
 					picture = "GFX_portrait_SPR_julian_gorkin"
 					expire = "1965.1.1"
@@ -8032,7 +8032,7 @@ country_event = {
 			}
 			SPD = {
 				create_country_leader = {
-					name = "Paz Vega"
+					name = "Manuel Azaña"
 					desc = "POLITICS_MANUEL_AZANA_DESC"
 					picture = "Portrait_Spain_Manuel_Azana.dds"
 					expire = "1965.1.1"
@@ -8283,7 +8283,7 @@ country_event = {
 					ruling_party = communism
 				}
 				create_country_leader = {
-					name = "Julia Roca"
+					name = "Julián Gorkin"
 					desc = "POLITICS_JULIAN_GORKIN_DESC"
 					picture = "GFX_portrait_SPR_julian_gorkin"
 					expire = "1965.1.1"
@@ -9198,7 +9198,7 @@ country_event = {
 				has_country_flag = SPB_xavier_king
 			}
 			create_country_leader = {
-				name = "Beba I"
+				name = "Javier I"
 				desc = "POLITICS_JAVIER_I_DESC"
 				picture = "GFX_portrait_SPA_xavier_of_bourbon_parma"
 				expire = "1965.1.1"
@@ -9216,9 +9216,9 @@ country_event = {
 				NOT = { has_global_flag = SPB_alfonso_xiii_dead }
 			}
 			create_country_leader = {
-				name = "Christina XI Ochoa"
+				name = "Alfonso XIII"
 				desc = "POLITICS_ALFONSO_XIII_DESC"
-				picture = "gfx/leaders/SPR/r56_portrait_SPR_Alphonso_XIII.dds"
+				picture = "GFX_portrait_SPA_alfonso_xiii"
 				expire = "1965.1.1"
 				ideology = despotism
 				traits = {
@@ -9233,9 +9233,9 @@ country_event = {
 				has_global_flag = SPB_alfonso_xiii_dead
 			}
 			create_country_leader = {
-				name = "Léa Seydoux"
+				name = "Jaime IV"
 				desc = "POLITICS_JAIME_IV_DESC"
-				picture = "gfx/leaders/FRA/r56_portrait_fra_infante_jaime.dds"
+				picture = "GFX_portrait_fra_infante_jaime"
 				expire = "1965.1.1"
 				ideology = absolute_monarchism
 				traits = {
@@ -10956,15 +10956,15 @@ country_event = {
 			if = {
 				limit = {
 					has_country_leader = {
-					    name = "Christina XI Ochoa"
+					    name = "Alfonso XIII"
 					    ruling_only = yes
 					}
 				}
 				kill_country_leader = yes
 				create_country_leader = {
-					name = "Léa Seydoux"
+					name = "Jaime IV"
 					desc = "POLITICS_JAIME_IV_DESC"
-					picture = "gfx/leaders/FRA/r56_portrait_fra_infante_jaime.dds"
+					picture = "GFX_portrait_fra_infante_jaime"
 					expire = "1965.1.1"
 					ideology = absolute_monarchism
 					traits = {
@@ -10981,16 +10981,16 @@ country_event = {
 		if = {
 			limit = {
 				has_country_leader = {
-				    name = "Christina XI Ochoa"
+				    name = "Alfonso XIII"
 				    ruling_only = yes
 				}
 			}
 			effect_tooltip = {
 				kill_country_leader = yes
 				create_country_leader = {
-					name = "Léa Seydoux"
+					name = "Jaime IV"
 					desc = "POLITICS_JAIME_IV_DESC"
-					picture = "gfx/leaders/FRA/r56_portrait_fra_infante_jaime.dds"
+					picture = "GFX_portrait_fra_infante_jaime"
 					expire = "1965.1.1"
 					ideology = despotism
 					traits = {
@@ -11104,7 +11104,7 @@ country_event = {
 					NOT = { has_completed_focus = SPA_dictator_for_life }
 				}
 				create_country_leader = {
-					name = "Elsa Pataky"
+					name = "Francisco Franco"
 					desc = "POLITICS_FRANCISCO_FRANCO_DESC"
 					picture = "GFX_portrait_spain_francisco_franco_old"
 					expire = "1965.1.1"
@@ -11114,7 +11114,7 @@ country_event = {
 					}
 				}
 				create_country_leader = {
-					name = "Elsa Pataky"
+					name = "Francisco Franco"
 					desc = "POLITICS_FRANCISCO_FRANCO_DESC"
 					picture = "GFX_portrait_spain_francisco_franco_old"
 					expire = "1965.1.1"
@@ -11129,7 +11129,7 @@ country_event = {
 					has_completed_focus = SPA_dictator_for_life
 				}
 				create_country_leader = {
-					name = "Elsa Pataky"
+					name = "Francisco Franco"
 					desc = "POLITICS_FRANCISCO_FRANCO_DESC"
 					picture = "GFX_portrait_spain_francisco_franco_old"
 					expire = "1965.1.1"
@@ -11139,7 +11139,7 @@ country_event = {
 					}
 				}
 				create_country_leader = {
-					name = "Elsa Pataky"
+					name = "Francisco Franco"
 					desc = "POLITICS_FRANCISCO_FRANCO_DESC"
 					picture = "GFX_portrait_spain_francisco_franco_old"
 					expire = "1965.1.1"
@@ -11575,7 +11575,7 @@ country_event = {
 			}
 			retire_country_leader = yes
 			create_country_leader = {
-				name = "Paz Vega"
+				name = "Manuel Azaña"
 				desc = "POLITICS_MANUEL_AZANA_DESC"
 				picture = "Portrait_Spain_Manuel_Azana.dds"
 				expire = "1965.1.1"
@@ -11588,7 +11588,7 @@ country_event = {
 		else = {
 			retire_country_leader = yes
 			create_country_leader = {
-				name = "Paz Vega"
+				name = "Manuel Azaña"
 				desc = "POLITICS_MANUEL_AZANA_DESC"
 				picture = "Portrait_Spain_Manuel_Azana.dds"
 				expire = "1965.1.1"

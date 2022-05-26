@@ -1,6 +1,6 @@
 characters={
 	IRE_Éamon_de_valera={
-		name="Saoirse Ronan"
+		name="Éamon de Valera"
 		portraits={
 			civilian={
 				large="gfx/leaders/IRE/r56_portrait_IRE_Eamon_De_Varela.dds"
@@ -16,7 +16,7 @@ characters={
 		}
 	}
 	IRE_eoin_oduffy={
-		name="Becky Lynch"
+		name="Eoin O'Duffy"
 		portraits={
 			civilian={
 				large="gfx/leaders/IRE/r56_portrait_IRE_Eoin_O_Duffy.dds"
@@ -32,7 +32,7 @@ characters={
 		}
 	}
 	IRE_james_larkin={
-		name="Aisling Bea"
+		name="James Larkin"
 		portraits={
 			civilian={
 				large="gfx/leaders/IRE/r56_portrait_IRE_James_Larkin.dds"
@@ -48,10 +48,10 @@ characters={
 		}
 	}
 	IRE_william_norton={
-		name="Evanna Lynch"
+		name="William Norton"
 		portraits={
 			civilian={
-				large="gfx/leaders/IRE/r56_portrait_IRE_Evanna_Lynch.dds"
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 			}
 		}
 		country_leader={
@@ -99,10 +99,10 @@ characters={
 			legacy_id=-1
 		}		
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Hannah Rose May"
+		name="Michael Costello"
 		portraits={
 			army={
-				large="gfx/leaders/IRE/r56_portrait_IRE_Hannah_Rose_May.dds"
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
 				small="gfx/interface/ideas/idea_ENG_generic_land_4.dds"
 			}
 		}
@@ -314,11 +314,10 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Dilla Harper"
+		name="Richard James Mulcahy"
 		portraits={
 			army={
 				small="GFX_idea_generic_army_europe_5"
-				large="gfx/leaders/IRE/r56_portrait_IRE_Richard_Mulcahy.dds"
 			}
 		}
 	}
@@ -340,7 +339,7 @@ characters={
 					factor = 1.000
 				}
 		}
-		name="Katie McGrath"
+		name="Daniel McKenna"
 		portraits={
 			army={
 				large="gfx/leaders/IRE/r56_portrait_IRE_Daniel_McKenna.dds"
@@ -383,10 +382,10 @@ characters={
 			planning_skill = 1
 			logistics_skill = 1
 		}		
-		name="Dillion Harper"
+		name="Hugo MacNeill"
 		portraits={
 			army={
-				large="gfx/leaders/IRE/r56_portrait_IRE_Dillion_Harper.dds"
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_2.dds"
 				small="GFX_idea_generic_army_europe_1"
 			}
 		}

@@ -31,4 +31,4 @@ units = {
 	}
 }
 
-#assign_all_forces_to = "Chiara Bransi"
+#assign_all_forces_to = "Erwin Rommel"

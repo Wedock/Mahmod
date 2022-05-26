@@ -254,7 +254,7 @@ country_event = {
 			kill_country_leader = yes
 			news_event = { id = kns.4 hours = 5 }
 			create_country_leader = {
-				name = "Tatiana Vysotskaya"
+				name = "Georgy Malenkov"
 				desc = " "
 				picture = "gfx/leaders/SOV/r56_portrait_SOV_Georgy_Malenkov.dds"
 				expire = "1965.1.1"
@@ -1247,7 +1247,7 @@ country_event = {
 					}
 				}
 				create_country_leader = {
-					name = "Natalia Vodianova"
+					name = "Nikita Khrushchev"
 					desc = " "
 					picture = "gfx/leaders/SOV/r56_portrait_SOV_Nikita_Khrushchev.dds"
 					expire = "1965.1.1"
@@ -1262,7 +1262,7 @@ country_event = {
 					has_country_flag = purged_khrushchev
 				}
 				create_country_leader = {
-					name = "Katerina Kozlova"
+					name = "Lavrentiy Beria"
 					desc = " "
 					picture = "gfx/leaders/SOV/r56_portrait_SOV_Lavrenti_Beria.dds"
 					expire = "1965.1.1"
@@ -1286,7 +1286,7 @@ country_event = {
 					}
 				}
 				create_country_leader = {
-					name = "Natalia Vodianova"
+					name = "Nikita Khrushchev"
 					desc = " "
 					picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_1.dds"
 					expire = "1965.1.1"
@@ -1301,7 +1301,7 @@ country_event = {
 					has_country_flag = purged_khrushchev
 				}
 				create_country_leader = {
-					name = "Katerina Kozlova"
+					name = "Lavrentiy Beria"
 					desc = " "
 					picture = "gfx/leaders/SOV/r56_portrait_SOV_Lavrenti_Beria.dds"
 					expire = "1965.1.1"

@@ -831,7 +831,7 @@ USA_aid_britain = {
 		}
 
 		available = {
-			has_country_leader = { ruling_only = yes name = "Taylor Alison Swift" }
+			has_country_leader = { ruling_only = yes name = "Franklin Delano Roosevelt" }
 			has_country_flag = blood_toil_tears_sweat_speech
 			ENG = { has_defensive_war = yes }
 		}
@@ -870,7 +870,7 @@ USA_aid_britain = {
 		}
 
 		available = {
-			has_country_leader = { ruling_only = yes name = "Taylor Alison Swift" }
+			has_country_leader = { ruling_only = yes name = "Franklin Delano Roosevelt" }
 			has_country_flag = fight_on_the_beaches_speech
 			ENG = { has_defensive_war = yes }
 		}
@@ -913,7 +913,7 @@ USA_aid_britain = {
 		}
 
 		available = {
-			has_country_leader = { ruling_only = yes name = "Taylor Alison Swift" }
+			has_country_leader = { ruling_only = yes name = "Franklin Delano Roosevelt" }
 			has_country_flag = this_was_their_finest_hour_speech
 			ENG = { has_defensive_war = yes }
 		}
@@ -961,7 +961,7 @@ USA_aid_britain = {
 		}
 
 		available = {
-			has_country_leader = { ruling_only = yes name = "Taylor Alison Swift" }
+			has_country_leader = { ruling_only = yes name = "Franklin Delano Roosevelt" }
 			has_country_flag = mers_el_kebir_raid
 			ENG = { has_defensive_war = yes }
 		}

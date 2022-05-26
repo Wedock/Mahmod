@@ -912,7 +912,7 @@ news_event = {
 		TUR_set_appropriate_cosmetic_tag = yes
 		set_capital = { state = 797 }
 		create_country_leader = {
-			name = "Toprak II"
+			name = "Abdulmejid II"
 			desc = " "
 			picture = "GFX_portrait_tur_abdulmejid_ii"
 			expire = "1965.1.1"

@@ -71,7 +71,7 @@ set_popularities = {
 }
 
 #create_country_leader = {
-#	name = "Saoirse Ronan"
+#	name = "Éamon de Valera"
 #	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
 #	picture = "r56_portrait_IRE_Eamon_De_Varela.dds"
 #	expire = "1965.1.1"
@@ -82,7 +82,7 @@ set_popularities = {
 #}
 #
 #create_country_leader = {
-#	name = "Becky Lynch"
+#	name = "Eoin O'Duffy"
 #	desc = "POLITICS_EOIN_ODUFFY_DESC"
 #	picture = "gfx/leaders/IRE/r56_portrait_IRE_Eoin_O_Duffy.dds"
 #	expire = "1965.1.1"
@@ -93,7 +93,7 @@ set_popularities = {
 #}
 #
 #create_country_leader = {
-#	name = "Aisling Bea"
+#	name = "James Larkin"
 #	desc = "POLITICS_JAMES_LARKIN_DESC"
 #	picture = "gfx/leaders/IRE/r56_portrait_IRE_James_Larkin.dds"
 #	expire = "1965.1.1"
@@ -104,7 +104,7 @@ set_popularities = {
 #}
 #
 #create_country_leader = {
-#	name = ""Evanna Lynch""
+#	name = "William Norton"
 #	desc = "POLITICS_JAMES_LARKIN_DESC"
 #	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 #	expire = "1965.1.1"
@@ -120,7 +120,7 @@ add_ideas = {
 }
 
 #create_corps_commander = {
-#	name = "Hannah Rose May"
+#	name = "Michael Costello"
 #	portrait_path = "gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
 #	traits = { old_guard  }
 #	skill = 3
@@ -130,7 +130,7 @@ add_ideas = {
 #	logistics_skill = 2
 #}
 #create_field_marshal = {
-#	name = "Katie McGrath"
+#	name = "Daniel McKenna"
 #	portrait_path = "gfx/leaders/IRE/r56_portrait_IRE_Daniel_McKenna.dds"
 #	traits = { infantry_officer trait_cautious }
 #	skill = 3
@@ -140,7 +140,7 @@ add_ideas = {
 #	logistics_skill = 2
 #}
 #create_corps_commander = {
-#	name = "Dillion Harper"
+#	name = "Hugo MacNeill"
 #	portrait_path = "gfx/leaders/ENG/Portrait_Britain_Generic_land_2.dds"
 #	traits = {  }
 #	skill = 1

@@ -1,6 +1,6 @@
 characters={
 	FRA_pierre_laval={ #Democratic Leader
-		name="Thylane Blondeau"
+		name="Pierre Laval"
 		portraits={
 			civilian={
 				large="gfx/leaders/FRA/r56_portrait_FRA_Pierre_Laval.dds"
@@ -31,7 +31,7 @@ characters={
 	}
 
 	FRA_maurice_thorez={ #Communist Leader
-		name="Audrey Tautou"
+		name="Maurice Thorez"
 		portraits={
 			army={
 				small="GFX_idea_maurice_thorez"
@@ -48,7 +48,7 @@ characters={
 			}
 			available = {
 				has_completed_focus = FRA_radicalize_front
-				not = { has_country_leader = { name = "Alice Fabre" ruling_only = yes } }
+				not = { has_country_leader = { name = "Philippe Pétain" ruling_only = yes } }
 				if = {
 					limit = { has_dlc = "Man the Guns" }	
 					NOT = { has_autonomy_state = autonomy_supervised_state }
@@ -146,7 +146,7 @@ characters={
 	}
 
 	FRA_maurice_gamelin={
-		name="Brigitte Bardot"
+		name="Maurice Gamelin"
 		portraits={
 			army={
 				small=GFX_portrait_FRA_maurice_gamelin_small
@@ -185,7 +185,7 @@ characters={
 		}
 	}
 	FRA_maxime_weygand={
-		name="Clemence Poesy"
+		name="Maxime Weygand"
 		portraits={
 			army={
 				large=GFX_portrait_FRA_maxime_weygand
@@ -271,7 +271,7 @@ characters={
 	}
 
 	FRA_alphonse_georges={
-		name="Jade Weber"
+		name="Alphonse Georges"
 		portraits={
 			army={
 				small=GFX_idea_FRA_alphonse_joseph_georges
@@ -330,7 +330,7 @@ characters={
 	}
 
 	FRA_charles_de_gaulle={
-		name="Eva Green"
+		name="Charles de Gaulle"
 		portraits={
 			civilian={
 				large=gfx/leaders/FRA/r56_portrait_FRA_Charles_De_Gaulle.dds
@@ -374,7 +374,7 @@ characters={
 		}
 	}
 	FRA_henri_giraud={
-		name="Morgane Polanski"
+		name="Henri Giraud"
 		portraits={
 			army={
 				small=GFX_portrait_FRA_henri_giraud_small
@@ -416,7 +416,7 @@ characters={
 	}
 
 	FRA_charles_huntziger={
-		name="Garance Marillier"
+		name="Charles Huntziger"
 		portraits={
 			army={
 				small=GFX_portrait_FRA_charles_huntziger_small
@@ -497,7 +497,7 @@ characters={
 	}
 
 	FRA_henry_freydenberg={
-		name="Sonia Ben Ammar"
+		name="Henry Freydenberg"
 		portraits={
 			army={
 				small="gfx/interface/ideas/idea_FRA_generic_land_3.dds"
@@ -517,7 +517,7 @@ characters={
 		}
 	}
 	FRA_jeanmarie_charles_abrial={
-		name="Christy Lacour Gianini"
+		name="Jean-Marie Charles Abrial"
 		portraits={
 			army={
 				small=GFX_portrait_FRA_jeanmarie_charles_abrial_small
@@ -630,7 +630,7 @@ characters={
 
 
 	FRA_jeanpierre_esteva={
-		name="Alizee"
+		name="Jean-Pierre Esteva"
 		portraits={
 			army={
 				large="gfx/leaders/FRA/Portrait_France_Jean-Pierre_Esteva.dds"
@@ -682,7 +682,7 @@ characters={
 		}
 	}
 	FRA_jean_decoux={
-		name="Agathe Teyssier"
+		name="Jean Decoux"
 		portraits={
 			army={
 				small="gfx/interface/ideas/idea_FRA_Jean_Decoux.dds"
@@ -758,13 +758,10 @@ characters={
 		}
 	}
 	FRA_marcel_bucard={
-		name="Camille Neviere"
+		name="Marcel Bucard"
 		portraits={
 			army={
 				small=GFX_idea_marcel_bucard
-			}
-			civilian={
-				large="gfx/leaders/FRA/Portrait_France_Marcel_Bucard.dds"
 			}
 		}		
 		
@@ -846,7 +843,7 @@ characters={
 	}
 
 	FRA_charles_maurras={
-		name="Sophie Marceau"
+		name="Charles Maurras"
 		portraits={
 			civilian={
 				large=GFX_portrait_FRA_charles_maurras
@@ -1002,7 +999,7 @@ characters={
 	}
 
 	FRA_benoit_frachon={
-		name = "Audrey Bouette"
+		name = "Benoît Frachon"
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/fra/advisors/r56_idea_advisor_FRA_benoit_frachon.dds"
@@ -1033,7 +1030,7 @@ characters={
 	}
 
 	FRA_Édouard_daladier={
-		name="Marion Cotillard"
+		name="Édouard Daladier"
 		portraits={
 			civilian={
 				large="gfx/leaders/FRA/r56_portrait_FRA_Edouard_Daladier.dds"
@@ -1393,7 +1390,7 @@ characters={
 	}
 
 	FRA_léon_blum={
-		name="Adèle Exarchopoulos"
+		name="Léon Blum"
 		portraits={
 			army={
 				small="GFX_idea_leon_blum"
@@ -2193,7 +2190,7 @@ characters={
 		}
 	}
 	FRA_marcel_déat={
-		name="Élodie Fontan"
+		name="Marcel Déat"
 		portraits={
 			civilian={
 				large="gfx/leaders/FRA/r56_portrait_FRA_Marcel_Deat.dds"
@@ -2208,7 +2205,7 @@ characters={
 		}
 	}
 	FRA_jacques_doriot={
-		name="Angelique Boyer"
+		name="Jacques Doriot"
 		portraits={
 			civilian={
 				large="gfx/leaders/FRA/r56_portrait_FRA_Jacques_Doriot.dds"
@@ -2223,7 +2220,7 @@ characters={
 		}
 	}
 	FRA_victorhenri_schweisguth={
-		name="Jeanne Cadieu"
+		name="Victor-Henri Schweisguth"
 		portraits={
 			army={
 				small=""
@@ -2243,7 +2240,7 @@ characters={
 		}
 	}
 	FRA_françois_darlan={
-		name="Gaia Weiss"
+		name="François Darlan"
 		portraits={
 			army={
 				small="gfx/interface/ideas/idea_FRA_francois_darlan.dds"
@@ -2310,7 +2307,7 @@ characters={
 	}
 
 	FRA_renéÉmile_godfroy={
-		name="Nora Arnezeder"
+		name="René-Émile Godfroy"
 		portraits={
 			army={
 				large="gfx/leaders/FRA/Portrait_France_Rene-Emile_Godfroy.dds"
@@ -2346,7 +2343,7 @@ characters={
 		}
 	}
 	FRA_georges_blanchard={
-		name="Laura Giraudi"
+		name="Georges Blanchard"
 		portraits={
 			army={
 				small=GFX_idea_FRA_generic_land_4
@@ -2366,7 +2363,7 @@ characters={
 		}
 	}
 	FRA_gaston_billotte={
-		name="Marine Lecourt"
+		name="Gaston Billotte"
 		portraits={
 			army={
 				small=""
@@ -2386,7 +2383,7 @@ characters={
 		}
 	}
 	FRA_rené_olry={
-		name="Stacy Martin"
+		name="René Olry"
 		portraits={
 			army={
 				small="gfx/interface/ideas/idea_FRA_generic_land_5.dds"
@@ -2406,7 +2403,7 @@ characters={
 		}
 	}
 	FRA_aimé_doumenc={
-		name="Marilyn Lima"
+		name="Aimé Doumenc"
 		portraits={
 			army={
 				small=GFX_idea_FRA_generic_land_1
@@ -2426,7 +2423,7 @@ characters={
 		}
 	}
 	FRA_adolphe_guillaumat={
-		name="Laetitia Tribaldos"
+		name="Adolphe Guillaumat"
 		portraits={
 			army={
 				small=GFX_idea_FRA_generic_land_2
@@ -2446,7 +2443,7 @@ characters={
 		}
 	}
 	FRA_charles_noguès={
-		name="Tao Wickrath"
+		name="Charles Noguès"
 		portraits={
 			army={
 				small=GFX_idea_FRA_generic_land_3

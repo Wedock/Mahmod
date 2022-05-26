@@ -3,7 +3,7 @@ characters={
 		name=HOL_hendrikus_colijn
 		portraits={
 			civilian={
-				large="gfx/leaders/HOL/r56_portrait_holland_hendrikus_colijn.dds"
+				large="GFX_portrait_holland_hendrikus_colijn"
 			}
 		}
 		country_leader={
@@ -52,7 +52,7 @@ characters={
 		}
 		portraits={
 			civilian={
-				large="gfx/leaders/HOL/Portrait_Netherlands_Dirk_Jan_de_Geer.dds"
+				large="GFX_Portrait_Netherlands_Dirk_Jan_de_Geer"
 			}
 		}
 	}
@@ -123,7 +123,7 @@ characters={
 				small="GFX_idea_HOL_willem_schermerhorn"
 			}
 			civilian={
-				large="gfx\leaders\HOL\portrait_HOL_wim_schermerhorn.dds"
+				large="GFX_portrait_hol_wim_schermerhorn"
 			}
 		}
 		country_leader={
@@ -136,7 +136,7 @@ characters={
 		name=HOL_izaak_reijnders
 		portraits={
 			army={
-				large="gfx/leaders/HOL/r56_portrait_hol_izaak_reijnders.dds"
+				large="GFX_portrait_hol_izaak_reijnders"
 				small="GFX_idea_HOL_izaak_reijnders"
 			}
 		}
@@ -178,7 +178,7 @@ characters={
 		name=HOL_petrus_wilhelmus_best
 		portraits={
 			army={
-				large="gfx/leaders/HOL/r56_portrait_HOL_Petrus_Wilhelmus_Best.dds"
+				large="GFX_portrait_hol_petrus_wilhelmus_best"
 				small="GFX_idea_HOL_petrus_wilhelmus_best"
 			}
 		}
@@ -213,7 +213,7 @@ characters={
 		name=HOL_godfried_van_voorst_tot_voorst
 		portraits={
 			army={
-				large="gfx/leaders/HOL/r56_portrait_hol_godfried_van_voorst_tot_voorst.dds"
+				large="GFX_portrait_hol_godfried_van_voorst_tot_voorst"
 				small="GFX_idea_HOL_godfried_van_voorst_tot_voorst"
 			}
 		}
@@ -264,7 +264,7 @@ characters={
 		name=HOL_johannes_theodorus_furstner
 		portraits={
 			army={
-				large="gfx/leaders/HOL/r56_portrait_hol_johannes_theodorus_furstner.dds"
+				large="GFX_portrait_HOL_johannes_theodorus_furstner"
 				small="GFX_portrait_HOL_johannes_theodorus_furstner_small"
 			}
 			civilian={
@@ -297,7 +297,7 @@ characters={
 		name=HOL_conrad_helfrich
 		portraits={
 			army={
-				large="gfx/leaders/HOL/r56_portrait_HOL_Conrad_Helfrich.dds"
+				large="GFX_portrait_hol_conrad_helfrich"
 				small="GFX_portrait_HOL_conrad_helfrich_small"
 			}
 		}
@@ -349,7 +349,7 @@ characters={
 		name=HOL_karel_doorman
 		portraits={
 			army={
-				large="gfx/leaders/HOL/r56_portrait_hol_karel_doorman.dds"
+				large="GFX_portrait_hol_karel_doorman"
 				small="GFX_idea_HOL_karel_doorman"
 			}
 		}
@@ -606,7 +606,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_HOL_henri_winkelman"
-				large="gfx/leaders/HOL/r56_portrait_HOL_Henri_Winkelman.dds"
+				large="GFX_portrait_hol_henri_winkelman"
 			}
 		}
 	}
@@ -966,10 +966,10 @@ characters={
 		}
 	}
 	HOL_otto_de_booy={
-		name="Claire De Jong"
+		name="Otto de Booy"
 		portraits={
 			army={
-				large="gfx/leaders/HOL/Portrait_HOL_Claire_De_Jong.dds"
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
 			}
 		}
 		navy_leader={
@@ -983,10 +983,10 @@ characters={
 		}		
 	}
 	HOL_johannes_van_dulm = {
-		name="Babette Strijbos"
+		name="Johannes van Dulm"
 		portraits={
 			army={
-				large="gfx/leaders/HOL/Portrait_HOL_Babette_Strijbos.dds"
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
 			}
 		}
 		navy_leader={
@@ -999,7 +999,7 @@ characters={
 		}	
 	}
 	HOL_jacob_harberts = {
-		name="Gwen van Poorten"
+		name="Jacob Harberts"
 		portraits={
 			army={
 				large="gfx/leaders/HOL/r56_portrait_HOL_Jakob_Harberts.dds"
@@ -1031,7 +1031,7 @@ characters={
 		}
 	}
 	HOL_jan_van_andel = {
-		name="Jutta Leerdam"
+		name="Jan van Andel"
 		portraits={
 			army={
 				large="gfx/leaders/HOL/r56_portrait_HOL_Jan_Van_Andel.dds"
@@ -1048,7 +1048,7 @@ characters={
 		}
 	}
 	HOL_hubert_von_frijtag = {
-		name="Jamie Sanna"
+		name="Hubert von Frijtag Drabbe"
 		portraits={
 			army={
 				large="gfx/leaders/HOL/r56_portrait_HOL_Hubert_von_Frijtag_Drabbe.dds"
@@ -1065,10 +1065,10 @@ characters={
 		}		
 	}
 	HOL_willem_harmsen = {
-		name="Astrid Baarsma"
+		name="Willem Harmsen"
 		portraits={
 			army={
-				large="gfx/leaders/HOL/Portrait_HOL_Astrid_Baarsma.dds"
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
 			}
 		}
 		navy_leader={
@@ -1081,10 +1081,10 @@ characters={
 		}	
 	}
 	HOL_hendrik_van_adrichem = {
-		name="Emma Wortelboer"
+		name="Hendrik van Adrichem Boogaert"
 		portraits={
 			army={
-				large="gfx/leaders/HOL/Portrait_HOL_Emma_Wortelboer.dds"
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
 			}
 		}
 		navy_leader={
@@ -1097,10 +1097,10 @@ characters={
 		}	
 	}
 	HOL_johannes_bax = {
-		name="Lieke Martens"
+		name="Johannes Bax"
 		portraits={
 			army={
-				large="gfx/leaders/HOL/Portrait_HOL_Lieke_Martens.dds"
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
 			}
 		}
 		navy_leader={
@@ -1113,7 +1113,7 @@ characters={
 		}	
 	}
 	HOL_willem_kruys = {
-		name="Willa Kruys"
+		name="Willem Kruys"
 		portraits={
 			army={
 				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
@@ -1132,7 +1132,7 @@ characters={
 		name=HOL_floris_valliant
 		portraits={
 			army={
-				large="gfx/leaders/HOL/r56_portrait_hol_floris_valliant.dds"
+				large="GFX_idea_generic_army_europe_3"
 			}
 		}
 		advisor={

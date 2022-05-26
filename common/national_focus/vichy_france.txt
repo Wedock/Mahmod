@@ -28,7 +28,7 @@
 			factor = 1
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Alice Fabre" }
+			has_country_leader = { ruling_only = yes name = "Philippe Pétain" }
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL }

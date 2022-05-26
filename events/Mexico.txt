@@ -1498,14 +1498,14 @@ country_event = {
 	#	trigger = {
 	#		NOT = {
 	#			has_country_leader = {
-	#				name = "Gabriele Ramirez"
+	#				name = "Juan Andreu"
 	#			}
 	#		}
 	#		has_government = neutrality
 	#	}
 
 	#	create_country_leader = {
-	#		name = "Gabriele Ramirez"
+	#		name = "Juan Andreu"
 	#		desc = "POLITICS_JUAN_ANDREU_DESC"
 	#		picture = "GFX_portrait_mex_juan_andreu"
 	#		expire = "1965.1.1"
@@ -1670,14 +1670,14 @@ country_event = {
 	#	trigger = {
 	#		NOT = {
 	#			has_country_leader = {
-	#				name = "Gabriele Ramirez"
+	#				name = "Juan Andreu"
 	#			}
 	#		}
 	#		has_government = democratic
 	#	}
 
 	#	create_country_leader = {
-	#		name = "Gabriele Ramirez"
+	#		name = "Juan Andreu"
 	#		desc = "POLITICS_JUAN_ANDREU_DESC"
 	#		picture = "GFX_portrait_mex_juan_andreu"
 	#		expire = "1965.1.1"
@@ -1863,14 +1863,14 @@ country_event = {
 	#	trigger = {
 	#		NOT = {
 	#			has_country_leader = {
-	#				name = "Gabriele Ramirez"
+	#				name = "Juan Andreu"
 	#			}
 	#		}
 	#		has_government = fascism
 	#	}
 
 	#	create_country_leader = {
-	#		name = "Gabriele Ramirez"
+	#		name = "Juan Andreu"
 	#		desc = "POLITICS_JUAN_ANDREU_DESC"
 	#		picture = "GFX_portrait_mex_juan_andreu"
 	#		expire = "1965.1.1"

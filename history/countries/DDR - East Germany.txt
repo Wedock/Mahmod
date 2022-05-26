@@ -144,7 +144,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Diane Kruger"
+	name = "Wilhelm Pieck"
 	desc = "POLITICS_WILHELM_PIECK_DESC"	 
 	picture = gfx/leaders/GER/Portrait_Germany_Wilhelm_Pieck.dds
 	expire = "1965.1.1"

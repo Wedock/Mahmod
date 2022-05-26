@@ -5206,7 +5206,7 @@ country_event = { #civil war
 			if = {
 				limit = { not = { has_dlc = "Death or Dishonor" } }
 				create_country_leader = {
-					name = "Adrianne Palicki"
+					name = "Otto von Habsburg"
 					desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
 					picture = "gfx/leaders/AUS/r56_portrait_AUS_Otto_von_Habsburg.dds"
 					expire = "2011.1.1"
@@ -5219,7 +5219,7 @@ country_event = { #civil war
 			if = {
 				limit = { has_dlc = "Death or Dishonor" }
 				create_country_leader = {
-					name = "Adrianne Palicki"
+					name = "Otto von Habsburg"
 					desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
 					picture = GFX_Portrait_hungary_otto_von_hapsburg
 					expire = "2011.1.1"

@@ -829,7 +829,7 @@ USA_naval_mutinies_effect = {
 USA_set_president_effect = {
 	if = {
 		limit = {
-			has_country_leader = { ruling_only = yes name = "Kaley Cuoco" }
+			has_country_leader = { ruling_only = yes name = "Alf Landon" }
 		}
 		add_country_leader_role = {
 			character = "USA_alf_landon"
@@ -842,7 +842,7 @@ USA_set_president_effect = {
 	}
 	if = {
 		limit = {
-			has_country_leader = { ruling_only = yes name = "Brie Larson" }
+			has_country_leader = { ruling_only = yes name = "Wendell Willkie" }
 		}
 		add_country_leader_role = {
 			character = "USA_wendell_willkie"
@@ -858,10 +858,10 @@ USA_set_president_effect = {
 	}
 	if = {
 		limit = {
-			has_country_leader = { ruling_only = yes name = "Aubrey Plaza" }
+			has_country_leader = { ruling_only = yes name = "Thomas E. Dewey" }
 		}		
 		create_country_leader = {
-			name = "Aubrey Plaza"
+			name = "Thomas E. Dewey"
 			desc = "POLITICS_THOMAS_DEWEY_DESC"
 			picture = "portrait_USA_thomas_dewey.dds"
 			expire = "1965.1.1"

@@ -17,7 +17,7 @@ country_event = {
 		name = r56_australia.1.a # The Earl of Gowrie will make a good Governor-General.
 		add_political_power = 5
 		create_country_leader = {
-			name = "Katherine Langford"
+			name = "Alexander Hore-Ruthven"
 			desc = "POLITICS_ALEXANDER_HORE_RUTHVEN_DESC"
 			picture = "r56_portrait_AST_Alexander_Hore_Ruthven.dds"
 			expire = "1965.1.1"
@@ -55,7 +55,7 @@ country_event = {
 		name = r56_australia.2.a # HRH The Duke of Gloucester will make a good Governor-General.
 		add_political_power = 5
 		create_country_leader = {
-			name = "Princess Emily, Duchess of Browning"
+			name = "Prince Henry, Duke of Gloucester"
 			desc = "POLITICS_DUKE_OF_GLOUCESTER_DESC"
 			picture = "r56_portrait_AST_Prince_Henry.dds"
 			expire = "1965.1.1"
@@ -100,13 +100,13 @@ country_event = {
 	desc = {
 		text = r56_australia.4.uap
 		trigger = {
-			has_country_leader = { ruling_only = yes name = "Margot Robbie" }
+			has_country_leader = { ruling_only = yes name = "Joseph Lyons" }
 		}
 	}
 	desc = {
 		text = r56_australia.4.labor
 		trigger = {
-			NOT = { has_country_leader = { ruling_only = yes name = "Margot Robbie" } }
+			NOT = { has_country_leader = { ruling_only = yes name = "Joseph Lyons" } }
 		}
 	}
 	picture = GFX_report_event_AST_funeral
@@ -117,7 +117,7 @@ country_event = {
 		name = r56_australia.4.a
 		if = {
 			limit = {
-				has_country_leader = { ruling_only = yes name = "Margot Robbie" }
+				has_country_leader = { ruling_only = yes name = "Joseph Lyons" }
 			}
 			kill_country_leader = yes
 			AST_set_earle_page = yes
@@ -177,13 +177,13 @@ country_event = {
 	desc = {
 		text = r56_australia.7.labor
 		trigger = {
-			has_country_leader = { ruling_only = yes name = "Yvonne Strahovski" }
+			has_country_leader = { ruling_only = yes name = "John Curtin" }
 		}
 	}
 	desc = {
 		text = r56_australia.7.uap
 		trigger = {
-			NOT = { has_country_leader = { ruling_only = yes name = "Yvonne Strahovski" } }
+			NOT = { has_country_leader = { ruling_only = yes name = "John Curtin" } }
 		}
 	}
 	picture = GFX_report_event_AST_funeral_2
@@ -194,7 +194,7 @@ country_event = {
 		name = r56_australia.7.a
 		if = {
 			limit = {
-				has_country_leader = { ruling_only = yes name = "Yvonne Strahovski" }
+				has_country_leader = { ruling_only = yes name = "John Curtin" }
 			}
 			kill_country_leader = yes
 			AST_set_ben_chifley = yes
@@ -533,7 +533,7 @@ country_event = { #1943 Election
 			limit = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Teresa Palmer"
+					name = "Archie Cameron"
 				}
 			}
 			AST_set_archie_cameron = yes
@@ -685,7 +685,7 @@ country_event = { #1946 Election
 			limit = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Teresa Palmer"
+					name = "Archie Cameron"
 				}
 			}
 			AST_set_archie_cameron = yes
@@ -893,7 +893,7 @@ country_event = {
 		date > 1941.8.20
 		date < 1945.6.1
 		has_war = yes
-		has_country_leader = { ruling_only = yes name = "Eliza Taylor" }
+		has_country_leader = { ruling_only = yes name = "Robert Menzies" }
 	}
 	mean_time_to_happen = {
 		days = 10

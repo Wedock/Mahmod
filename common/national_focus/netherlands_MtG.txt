@@ -82,14 +82,14 @@ focus_tree = {
 			695 = {
 				add_building_construction = {
 					type = infrastructure
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
 			309 = {
 				add_building_construction = {
 					type = infrastructure
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -2426,7 +2426,7 @@ focus_tree = {
 			custom_effect_tooltip = HOL_appoint_new_supreme_commander_tt
 #			hidden_effect = {
 #				create_field_marshal = {
-#					name = "Ancilla van de Leest"
+#					name = "Henri Winkelman"
 #					gfx = "GFX_portrait_hol_henri_winkelman"
 #					traits = { defensive_doctrine trait_cautious unyielding_defender }
 #					skill = 4
@@ -3382,7 +3382,7 @@ focus_tree = {
 			effect_tooltip = {
 				set_party_name = { ideology = democratic long_name = HOL_CHU_party_long name = HOL_CHU_party }
 				create_country_leader = {
-					name = "Chantal Janzen"
+					name = "Dirk Jan de Geer"
 					desc = " "
 					picture = "Portrait_Netherlands_Dirk_Jan_de_Geer.dds"
 					expire = "1965.1.1"
@@ -5658,7 +5658,7 @@ focus_tree = {
 				}
 				retire_country_leader = yes
 				create_country_leader = {
-					name = "Floor Janssen"
+					name = "Pieter Sjoerds Gerbrandy"
 					desc = " "
 					picture = "portrait_hol_pieter_sjoerds_gerbrandy.dds"
 					expire = "1965.1.1"

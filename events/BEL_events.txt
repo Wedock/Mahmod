@@ -639,7 +639,7 @@ country_event = {
 	trigger = {
 		tag = BEL
 		has_government = democratic
-		has_country_leader = { ruling_only = yes name = "Eliza Sys" }
+		has_country_leader = { ruling_only = yes name = "Paul Van Zeeland" }
 		#NOT = { has_country_flag = Belgian_unity_government }
 		NOT = { has_country_flag = Spaak_PM }
 		AND = {
@@ -657,8 +657,8 @@ country_event = {
 			popularity = 0.01
 		}	
 		create_country_leader = {
-			name = "Frances Lefebure"
-			desc = "Frances Lefebure"
+			name = "Paul-Emile Janson"
+			desc = "Paul-Emile Janson"
 			picture = "Portrait_Belgium_Paul-Emile_Janson.dds"
 			expire = "1939.1.1"
 			ideology = liberalism
@@ -679,7 +679,7 @@ country_event = {
 	trigger = {
 		has_start_date < 1936.1.2
 		NOT = {has_country_flag = tblra_neutrality_debate_over}
-		has_country_leader = { ruling_only = yes name = "Frances Lefebure" }
+		has_country_leader = { ruling_only = yes name = "Paul-Emile Janson" }
 		tag = BEL
 		has_government = democratic
 		#NOT = { has_country_flag = Belgian_unity_government }
@@ -697,8 +697,8 @@ country_event = {
 	add_political_power = -20	
 	remove_ideas = tblra_peacetime_national_union
 	create_country_leader = {
-		name = "Kjell Bracke"
-		desc = "Kjell Bracke"
+		name = "Paul-Henri Spaak"
+		desc = "Paul-Henri Spaak"
 		picture = "gfx/leaders/BEL/r56_portrait_BEL_Paul_Henri_Spaak.dds"
 		expire = "1939.1.1"
 		ideology = socialism
@@ -732,7 +732,7 @@ country_event = {
 		name = tblra.25.a
 		add_political_power = -40	
 		create_country_leader = {
-			name = "Olga Leyers"
+			name = "Hubert Pierlot"
 			desc = "POLITICS_HUBERT_PIERLOT_DESC"
 			picture = "Portrait_Belgium_Hubert_Pierlot.dds"
 			expire = "1965.1.1"
@@ -768,7 +768,7 @@ country_event = {
 		add_stability = 0.05
 		swap_ideas = { remove_idea = tblra_peacetime_national_union add_idea = tblra_national_union } 
 		create_country_leader = {
-			name = "Olga Leyers"
+			name = "Hubert Pierlot"
 			desc = "POLITICS_HUBERT_PIERLOT_DESC"
 			picture = "Portrait_Belgium_Hubert_Pierlot.dds"
 			expire = "1965.1.1"
@@ -806,7 +806,7 @@ country_event = {
 		}	
 		
 		create_country_leader = {
-			name = "Olga Leyers"
+			name = "Hubert Pierlot"
 			desc = "POLITICS_HUBERT_PIERLOT_DESC"
 			picture = "Portrait_Belgium_Hubert_Pierlot.dds"
 			expire = "1965.1.1"
@@ -1370,8 +1370,8 @@ country_event = {
 		name = tblra.40.a
 		ai_chance = { factor = 100 }
 		create_country_leader = {
-			name = "Ella Leyers"
-			desc = "Ella Leyers"
+			name = "Xavier Relecom"
+			desc = "Xavier Relecom"
 			picture = "portrait_xavier_relecom.dds"
 			expire = "1965.1.1"
 			ideology = stalinism
@@ -1385,8 +1385,8 @@ country_event = {
 	option = {
 		name = tblra.40.b
 		create_country_leader = {
-			name = "Sherelle de Jong"
-			desc = "Sherelle de Jong"
+			name = "Julien Lahaut"
+			desc = "Julien Lahaut"
 			picture = "r56_portrait_BEL_Julien_Lahaut.dds"
 			expire = "1965.1.1"
 			ideology = stalinism
@@ -1890,8 +1890,8 @@ country_event = {
 		name = tblra.55.a
 		add_political_power = 10	
 		create_country_leader = {
-			name = "Lea Haesaert"
-			desc = "Lea Haesaert"
+			name = "Achille van Acker"
+			desc = "Achille van Acker"
 			picture = "r56_portrait_BEL_Achille_Van_Acker.dds"
 			expire = "1956.1.1"
 			ideology = socialism
@@ -2027,8 +2027,8 @@ country_event = {
 		name = tblra.58.a
 		BEL = {
 		create_country_leader = {
-			name = "Sherelle de Jong"
-			desc = "Sherelle de Jong"
+			name = "Julien Lahaut"
+			desc = "Julien Lahaut"
 			picture = "LAHAUT_Julien.dds"
 			expire = "1965.1.1"
 			ideology = stalinism
@@ -2065,8 +2065,8 @@ country_event = {
 		name = tblra.59.a
 		BEL = {
 		create_country_leader = {
-			name = "Ella Leyers"
-			desc = "Ella Leyers"
+			name = "Xavier Relecom"
+			desc = "Xavier Relecom"
 			picture = "portrait_xavier_relecom.dds"
 			expire = "1965.1.1"
 			ideology = stalinism
@@ -2164,8 +2164,8 @@ country_event = { #Belgian capitulation ---> Leopold III in captivity
 		remove_ideas = tblra_leopold3
 		add_ideas = tblra_leopold3_captive
 		create_country_leader = {
-			name = "Aurore Delplace"
-			desc = "Aurore Delplace"
+			name = "Albert Devèze"
+			desc = "Albert Devèze"
 			picture = "Portrait_Belgium_Albert_Deveze.dds"
 			expire = "1965.1.1"
 			ideology = centrism
@@ -2286,7 +2286,7 @@ country_event = {
 						BEL = { exists = no } 
 				}		
 				create_country_leader = {
-				name = "Olga Leyers"
+				name = "Hubert Pierlot"
 				desc = "POLITICS_HUBERT_PIERLOT_DESC"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
 				expire = "1965.1.1"
@@ -2326,7 +2326,7 @@ country_event = {
 #			} 
 #		}
 #		create_corps_commander = {
-#		name = "Camille Ringoir"
+#		name = "Auguste-Édouard Gilliaert"
 #		portrait_path = "gfx/leaders/BEL/gilliaert.dds"
 #		traits = { jungle_rat }
 #		skill = 2
@@ -2791,7 +2791,7 @@ country_event = {
 	trigger = {
 		tag = BEL	
 		SOV = {
-			 has_country_leader = { ruling_only = yes name = "Lena Katina" }
+			 has_country_leader = { ruling_only = yes name = "Leon Trotsky" }
 			 has_government = communism 
 			}
 		OR ={
@@ -2857,8 +2857,8 @@ country_event = {
 			WLL = { exists = no }
 		}
 		create_country_leader = {
-			name = "Daniela Degraux"
-			desc = "Daniela Degraux"
+			name = "Walter Dauge"
+			desc = "Walter Dauge"
 			picture = "gfx/leaders/BEL/Portrait_Belgium_Walter_Dauge.dds"
 			expire = "1965.1.1"
 			ideology = leninism
@@ -2900,7 +2900,7 @@ country_event = {
 	trigger = {
 		tag = WLL	
 		SOV = {
-			 has_country_leader = { ruling_only = yes name = "Lena Katina" }
+			 has_country_leader = { ruling_only = yes name = "Leon Trotsky" }
 			 has_government = communism 
 			}
 		OR ={
@@ -2926,8 +2926,8 @@ country_event = {
 		}	
 		name = tblra.79.a
 		create_country_leader = {
-			name = "Daniela Degraux"
-			desc = "Daniela Degraux"
+			name = "Walter Dauge"
+			desc = "Walter Dauge"
 			picture = "gfx/leaders/BEL/Portrait_Belgium_Walter_Dauge.dds"
 			expire = "1965.1.1"
 			ideology = leninism
@@ -2945,8 +2945,8 @@ country_event = {
 			has_government = communism
 		}
 		create_country_leader = {
-			name = "Daniela Degraux"
-			desc = "Daniela Degraux"
+			name = "Walter Dauge"
+			desc = "Walter Dauge"
 			picture = "gfx/leaders/BEL/Portrait_Belgium_Walter_Dauge.dds"
 			expire = "1965.1.1"
 			ideology = leninism
@@ -3219,8 +3219,8 @@ country_event = { #Belgian communism ---> Fate of Leopold III
 		BEL = {
 			set_country_flag = BEL_leopold3_executed
 			create_country_leader = {
-				name = "Aurore Delplace"
-				desc = "Aurore Delplace"
+				name = "Albert Devèze"
+				desc = "Albert Devèze"
 				picture = "Portrait_Belgium_Albert_Deveze.dds"
 				expire = "1965.1.1"
 				ideology = centrism
@@ -3245,7 +3245,7 @@ country_event = {
 	trigger = {
 		tag = FLA	
 		SOV = {
-			 has_country_leader = { ruling_only = yes name = "Lena Katina" }
+			 has_country_leader = { ruling_only = yes name = "Leon Trotsky" }
 			 has_government = communism 
 			}
 		OR ={
@@ -3454,8 +3454,8 @@ country_event = { # Leopold III is freed after communist captivity
 		}		
 		clr_country_flag = BEL_leopold3_communist_revolution_jailed		
 		create_country_leader = {
-			name = "Eline Powell"
-			desc = "Eline Powell"
+			name = "Léopold III"
+			desc = "Léopold III"
 			picture = "Portrait_leopold_III_commander.dds"
 			expire = "1965.1.1"
 			ideology = moderatism
@@ -3534,8 +3534,8 @@ country_event = { # Leopold III returns after communists sent him in exile
 		add_ideas = tblra_leopold3
 		clr_country_flag = BEL_leopold3_communist_revolution_exiled
 		create_country_leader = {
-			name = "Eline Powell"
-			desc = "Eline Powell"
+			name = "Léopold III"
+			desc = "Léopold III"
 			picture = "Portrait_leopold_III_commander.dds"
 			expire = "1965.1.1"
 			ideology = moderatism
@@ -3553,8 +3553,8 @@ country_event = { # Leopold III returns after communists sent him in exile
 		add_ideas = tblra_leopold3
 		clr_country_flag = BEL_leopold3_communist_revolution_exiled	
 		create_country_leader = {
-			name = "Eline Powell"
-			desc = "Eline Powell"
+			name = "Léopold III"
+			desc = "Léopold III"
 		picture = "Portrait_leopold_III_commander.dds"
 		expire = "1965.1.1"
 		ideology = moderatism
@@ -3704,8 +3704,8 @@ news_event = {
 #		
 #		COG= {	
 #			create_country_leader = {
-#				name = "Marisa Papen"
-#				desc = "Marisa Papen, Governor General of the Belgian Congo"
+#				name = "Pierre Ryckmans"
+#				desc = "Pierre Ryckmans, Governor General of the Belgian Congo"
 #				picture = "gfx/leaders/COG/Pierre_Ryckmans.dds"
 #				expire = "1965.1.1"
 #				ideology = despotism

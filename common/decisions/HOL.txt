@@ -2160,8 +2160,8 @@ HOL_bernhard = {
 
 		complete_effect = {
 			create_corps_commander = {
-				name = "Princess Kim"
-				gfx = "gfx\leaders\HOL\portrait_hol_prins_bernhard.dds"
+				name = "Prins Bernhard"
+				gfx = "GFX_portrait_hol_prins_bernhard"
 				traits = { trickster skirmisher infantry_officer politically_connected trait_reckless media_personality }
 				id = 982
 				skill = 2

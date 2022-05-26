@@ -38,98 +38,98 @@ frloc_ruler_name_female_cons = {
 frloc_ruler_name_female_vow = {
 	OR = {
 		has_country_leader = { name = "Elsie Farrelly" }
-		has_country_leader = { name = "Emily II" }
+		has_country_leader = { name = "Elizabeth II" }
 	}
 }
 
-# Ex.: "Marion Cotillard"
+# Ex.: "Édouard Daladier"
 frloc_ruler_name_male_vow = {
 	OR = {
 		has_country_leader = { name = "Agustín Pedro Justo" }
-		has_country_leader = { name = "Simone Holtznagel" }
-		has_country_leader = { name = "Cate Blanchett" }
+		has_country_leader = { name = "Eric Campbell" }
+		has_country_leader = { name = "Earle Page" }
 		has_country_leader = { name = "Alfred Klahr" }
-		has_country_leader = { name = "Olga Leyers" }
+		has_country_leader = { name = "Hubert Pierlot" }
 		has_country_leader = { name = "Adam Stankievic" }
 		has_country_leader = { name = "Óscar Únzaga de la Vega" }
 		has_country_leader = { name = "Armando Sales" }
-		has_country_leader = { name = "Cobie Smulders" }
+		has_country_leader = { name = "Adrien Arcand" }
 		has_country_leader = { name = "Arturo Alessandri" }
 		has_country_leader = { name = "Alfonso López Pumarejo" }
 		has_country_leader = { name = "Eduardo Santos" }
 		has_country_leader = { name = "Ante Pavelic" }
 		has_country_leader = { name = "Edvard Beneš" }
-		has_country_leader = { name = "Julie Zangenberg" }
+		has_country_leader = { name = "Aksel Larsen" }
 		has_country_leader = { name = "Aurelio Mosquera" }
 		has_country_leader = { name = "Ahmed Husayn" }
 		has_country_leader = { name = "Hosni al-Arabi" }
-		has_country_leader = { name = "Sophie Turner" }
-		has_country_leader = { name = "Natalie VIII" }
-		has_country_leader = { name = "Minttu Virtanen" }
-		has_country_leader = { name = "Marion Cotillard" }
-		has_country_leader = { name = "Heidi Klum" }
-		has_country_leader = { name = "Emma Stone" }
-		has_country_leader = { name = "Franziska Brandmeier" }
+		has_country_leader = { name = "Oswald Mosley" }
+		has_country_leader = { name = "Edward VIII" }
+		has_country_leader = { name = "Aimo Aaltonen" }
+		has_country_leader = { name = "Édouard Daladier" }
+		has_country_leader = { name = "Adolf Hitler" }
+		has_country_leader = { name = "Adam Hilt" }
+		has_country_leader = { name = "August von Mackensen" }
 		has_country_leader = { name = "Ioannis Metaxas" }
-		has_country_leader = { name = "Doutzen Kroes" }
-		has_country_leader = { name = "Sylvana IJsselmuiden" }
-		has_country_leader = { name = "Jessica Szohr" }
+		has_country_leader = { name = "Hendrikus Colijn" }
+		has_country_leader = { name = "Anton Mussert" }
+		has_country_leader = { name = "Árpád Szakasits" }
 		has_country_leader = { name = "Einar Olgeirsson" }
 		has_country_leader = { name = "A. T. van Starkenborgh Stachouwer" }
 		has_country_leader = { name = "Amir Sjarifuddin Harahap" }
-		has_country_leader = { name = "Saoirse Ronan" }
-		has_country_leader = { name = "Becky Lynch" }
+		has_country_leader = { name = "Éamon de Valera" }
+		has_country_leader = { name = "Eoin O'Duffy" }
 		has_country_leader = { name = "Itzhak Gaster" }
 		has_country_leader = { name = "Abdullah bin al-Hussein" }
 		has_country_leader = { name = "Ilyas Zhansugurov" }
-		has_country_leader = { name = "Melita Toniolo" }
+		has_country_leader = { name = "Ettore Bastico" }
 		has_country_leader = { name = "Idris Senussi" }
 		has_country_leader = { name = "Hassan as-Senussi" }
 		has_country_leader = { name = "Edwin Barclay" }
 		has_country_leader = { name = "Antanas Smetona" }
 		has_country_leader = { name = "Antanas Snieckus" }
 		has_country_leader = { name = "Augustinas Voldemaras" }
-		has_country_leader = { name = "Erika Tham" }
+		has_country_leader = { name = "Onn Jaafar" }
 		has_country_leader = { name = "Ibrahim Hj Yaacob" }
 		has_country_leader = { name = "Aisin Gioro Puyi" }
 		has_country_leader = { name = "Anandyn Amar" }
 		has_country_leader = { name = "Eduardo Tsonga" }
 		has_country_leader = { name = "Anastasio Somoza García" }
-		has_country_leader = { name = "Heidi Johnsen" }
+		has_country_leader = { name = "Adam Egede-Nissen" }
 		has_country_leader = { name = "Haji Mohammad Danesh" }
 		has_country_leader = { name = "Ahmed Hilmi Pasha" }
 		has_country_leader = { name = "Amin al-Husseini" }
 		has_country_leader = { name = "Harmodio Arias Madrid" }
 		has_country_leader = { name = "Higinio Morinigo" }
 		has_country_leader = { name = "Ignacy Moscicki" }
-		has_country_leader = { name = "Sara Sampaio" }
+		has_country_leader = { name = "António de Oliveira Salazar" }
 		has_country_leader = { name = "Óscar Benavides" }
 		has_country_leader = { name = "Armand Calinescu" }
 		has_country_leader = { name = "Octavian Goga" }
 		has_country_leader = { name = "Ion Antonescu" }
 		has_country_leader = { name = "Abdulaziz Ibn Saud" }
 		has_country_leader = { name = "Alexander Fyodorovich Kerensky" }
-		has_country_leader = { name = "Vera Brezhneva" }
-		has_country_leader = { name = "Olga Kobzar" }
-		has_country_leader = { name = "Beatriz Fernández" }
-		has_country_leader = { name = "Amanda Strand" }
+		has_country_leader = { name = "Andrey Vlasov" }
+		has_country_leader = { name = "Ivan Konev" }
+		has_country_leader = { name = "Alejandro Lerroux" }
+		has_country_leader = { name = "Axel Pehrsson-Bramstorp" }
 		has_country_leader = { name = "Ernest Béuin" }
 		has_country_leader = { name = "Antun Saadeh" }
 		has_country_leader = { name = "Ismet Inönü" }
 		has_country_leader = { name = "Alfredo Baldomir Ferrari" }
-		has_country_leader = { name = "Jennifer Lawrence" }
-		has_country_leader = { name = "Kaley Cuoco" }
+		has_country_leader = { name = "Earl Browder" }
+		has_country_leader = { name = "Alf Landon" }
 		has_country_leader = { name = "Eleazar López Contreras" }
-		has_country_leader = { name = "Adrianne Palicki" }
+		has_country_leader = { name = "Otto von Habsburg" }
 		has_country_leader = { name = "Augustus Mussolini" }
 		has_country_leader = { name = "Arthur Seyss-Inquart" }
-		has_country_leader = { name = "Caroline Einhoff" }
-		has_country_leader = { name = "Ivonne Armant" }
-		has_country_leader = { name = "Mónica Vanessa Arias Núñez" }
-		has_country_leader = { name = "Christina XI Ochoa" }
-		has_country_leader = { name = "Cristina Pedroche" }
-		has_country_leader = { name = "Christina XI Ochoa" }
-		has_country_leader = { name = "Léa II Seydoux" }
+		has_country_leader = { name = "Erich Koch" }
+		has_country_leader = { name = "Adolfo de la Huerta" }
+		has_country_leader = { name = "Hernán Laborde" }
+		has_country_leader = { name = "Alfonso XIII" }
+		has_country_leader = { name = "Emilio Mola" }
+		has_country_leader = { name = "Alphonse I" }
+		has_country_leader = { name = "Henri VI" }
 	}
 }
 

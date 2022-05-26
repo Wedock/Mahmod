@@ -393,7 +393,7 @@ recruit_character = GER_Wilhelm_von_Gayl
 recruit_character = GER_Paul_Lejeune_Jung
 
 #create_corps_commander = {
-#	name = "Mia Julia Brückner"
+#	name = "Erich Brandenberger"
 #	picture = "r56_portrait_GER_Erich_Brandenberger.dds"
 #	traits = { old_guard artillerist }
 #	skill = 1
@@ -405,7 +405,7 @@ recruit_character = GER_Paul_Lejeune_Jung
 #
 #
 #create_corps_commander = { 
-#	name = "Michaela Grauke"
+#	name = "Heinrich von Vietinghoff"
 #	picture = "r56_portrait_Heinrich_von_Vietinghoff.dds"
 #	traits = { armor_officer trait_reckless }
 #	skill = 1
@@ -416,7 +416,7 @@ recruit_character = GER_Paul_Lejeune_Jung
 #}
 #
 #create_corps_commander = {
-#	name = "Nadine Chanz"
+#	name = "Curt Haase"
 #	picture = "r56_portrait_GER_Curt_Haase.dds"
 #	traits = { old_guard career_officer }
 #	skill = 1
@@ -427,7 +427,7 @@ recruit_character = GER_Paul_Lejeune_Jung
 #}
 #
 #create_corps_commander = {
-#	name = "Olga Zjuba"
+#	name = "Hans von Salmuth"
 #	picture = "r56_portrait_Hans_von_Salmuth.dds"
 #	traits = { career_officer infantry_officer trait_cautious inflexible_strategist }
 #	skill = 1
@@ -438,7 +438,7 @@ recruit_character = GER_Paul_Lejeune_Jung
 #}
 #
 #create_corps_commander = {
-#	name = "Regina Deutinger"
+#	name = "Georg Lindemann"
 #	picture = "r56_portrait_George_Lindemann.dds"
 #	traits = { cavalry_officer trait_cautious unpopular }
 #	skill = 1
@@ -463,7 +463,7 @@ recruit_character = GER_Paul_Lejeune_Jung
 
 
 #create_navy_leader = {
-#	name = "Xenia Seeberg"
+#	name = "Otto Ciliax"
 #	picture = "r56_portrait_GER_Otto_Ciliax.dds"
 #	traits = { naval_lineage old_guard_navy battleship_adherent }
 #	skill = 2
@@ -473,7 +473,7 @@ recruit_character = GER_Paul_Lejeune_Jung
 #	coordination_skill = 3
 #}
 #create_navy_leader = {
-#	name = "Sara Carstens"
+#	name = "Rolf Carls"
 #	portrait_path = "gfx/leaders/r56_generic/r56_portrait_generic_admiral_GER_3.dds"
 #	traits = { old_guard_navy fleet_protector }
 #	skill = 2
@@ -493,7 +493,7 @@ recruit_character = GER_Paul_Lejeune_Jung
 #	coordination_skill = 1
 #}
 #create_navy_leader = {
-#	name = "Helena Moeller"
+#	name = "Wilhelm Meisel"
 #	portrait_path = "gfx/leaders/r56_generic/r56_portrait_generic_admiral_GER_1.dds"
 #	traits = { cruiser_captain caustic_personality}
 #	skill = 2

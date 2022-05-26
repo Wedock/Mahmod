@@ -209,8 +209,8 @@ focus_tree = {
 		available = {
 			OR = {
 				communism > 0.1
-				has_country_leader = { ruling_only = yes name = "Chloë Grace Moretz" }
-				has_country_leader = { ruling_only = yes name = "Brie Larson" }
+				has_country_leader = { ruling_only = yes name = "Harry S. Truman" }
+				has_country_leader = { ruling_only = yes name = "Wendell Willkie" }
 			}
 		}
 		
@@ -264,7 +264,7 @@ focus_tree = {
 				}
 				show_unit_leaders_tooltip = USA_benjamin_o_davis
 				#create_corps_commander = {
-				#	name = "Olivia Wilde"
+				#	name = "Benjamin O. Davis"
 				#	gfx = GFX_r56_portrait_usa_benjamin_o_davis
 				#	traits = { career_officer old_guard cavalry_officer } 
 				#	id = 6298
@@ -5319,7 +5319,7 @@ focus_tree = {
 		available = {
 			has_government = democratic
 			NOT = {
-				has_country_leader = { ruling_only = yes name = "Taylor Alison Swift" }
+				has_country_leader = { ruling_only = yes name = "Franklin Delano Roosevelt" }
 			}
 		}
 		
@@ -6020,7 +6020,7 @@ focus_tree = {
 				has_government = neutrality
 			}
 			NOT = {
-				has_country_leader = { ruling_only = yes name = "Willa Holland" }
+				has_country_leader = { ruling_only = yes name = "Douglas MacArthur" }
 			}
 			NOT = {
 				country_exists = CSA
@@ -7933,7 +7933,7 @@ focus_tree = {
 			show_ideas_tooltip = USA_holland_smith_idea_token
 			#show_unit_leaders_tooltip = USA_holland_smith
 			#create_corps_commander = {
-			#	name = "Taylor Momsen"
+			#	name = "Alexander Vandegrift"
 			#	gfx = GFX_portrait_usa_alexander_vandegrift
 			#	skill = 3
 			#	attack_skill = 3

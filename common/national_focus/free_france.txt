@@ -29,7 +29,7 @@
 		}
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Eva Green"}
+				has_country_leader = { ruling_only = yes name = "Charles de Gaulle"}
 				has_country_leader = { ruling_only = yes name = "Paul Reynaud"}
 			}
 			
@@ -724,7 +724,7 @@
 					}
 				}
 				create_corps_commander = {
-					name = "Mathilde Tantot"
+					name = "Marie-Pierre Koenig"
 					GFX = GFX_portrait_fra_marie_pierre_koenig
 					skill = 3
 					traits = {  }

@@ -7,7 +7,7 @@ characters={
 			name=HUN_miklos_horthy
 			portraits={
 				navy = { #Can become Navy leader and therefore navy advisor
-					large = "gfx/leaders/HUN/Portrait_Hungary_Miklos_Horthy.dds"
+					large = "GFX_Portrait_hungary_miklos_horthy_admiral"
 					small = "gfx/interface/ideas/idea_HUN_miklos_horthy_admiral.dds"
 
 				}
@@ -22,6 +22,7 @@ characters={
 					anti_communist
 					retired_admiral
 					regent_without_a_king
+					polyglot
 				}
 				expire="1965.1.1.1"
 				id=500
@@ -32,6 +33,7 @@ characters={
 					anti_communist
 					retired_admiral
 					regent_without_a_king
+					polyglot
 				}
 				expire="1965.1.1.1"
 				id=503
@@ -47,7 +49,7 @@ characters={
 					large="gfx/leaders/HUN/Portrait_Hungary_Miklos_Horthy.dds"
 				}
 				navy = { #Can become Navy leader and therefore navy advisor
-					large = "gfx/leaders/HUN/Portrait_Hungary_Miklos_Horthy.dds"
+					large = "GFX_Portrait_hungary_miklos_horthy_admiral"
 					small = "gfx/interface/ideas/idea_HUN_miklos_horthy_admiral.dds"
 
 				}				
@@ -59,6 +61,7 @@ characters={
 					anti_communist
 					retired_admiral
 					regent_without_a_king
+					polyglot
 				}				
 				expire="1965.1.1.1"
 				id=500
@@ -69,6 +72,7 @@ characters={
 					anti_communist
 					retired_admiral
 					regent_without_a_king
+					polyglot
 				}				
 				expire="1965.1.1.1"
 				id=500
@@ -134,7 +138,7 @@ characters={
 	}
 
 	HUN_janos_zichy={
-		name="Jánja Zichy"
+		name="János Zichy"
 		portraits={
 			civilian={
 				large="gfx/leaders/Europe/portrait_europe_generic_5.dds"
@@ -154,7 +158,7 @@ characters={
 		name=HUN_otto_von_habsburg
 		portraits={
 			civilian={
-				large="gfx/leaders/HUN/r56_Portrait_hungary_otto_von_hapsburg.dds"
+				large="GFX_Portrait_hungary_otto_von_hapsburg"
 			}
 		}
 		country_leader={
@@ -208,10 +212,10 @@ characters={
 		name = HUN_franz_friedrich
 		portraits = {
 			army = {
-				large = "gfx/leaders/HUN/r56_Portrait_hungary_friedrich_franz.dds"
+				large = "GFX_Portrait_hungary_friedrich_franz"
 			}
 			civilian = {
-				large = "gfx/leaders/HUN/r56_Portrait_hungary_friedrich_franz.dds"
+				large = "GFX_Portrait_hungary_friedrich_franz"
 			}
 		}
 	}
@@ -220,7 +224,7 @@ characters={
 		name=HUN_geza_lakatos
 		portraits={
 			army={
-				large="gfx/leaders/HUN/r56_portrait_HUN_Lakatos_Geza.dds"
+				large="GFX_Portrait_hungary_geza_lakatos"
 				small="gfx/interface/ideas/idea_HUN_geza_lakatos.dds"
 			}
 		}
@@ -241,7 +245,7 @@ characters={
 		name=HUN_ivan_hindy
 		portraits={
 			army={
-				large="gfx/leaders/HUN/r56_portrait_HUN_ivan_hindy.dds"
+				large="GFX_Portrait_hungary_ivan_hindy"
 				small="gfx/interface/ideas/idea_HUN_ivan_hindy.dds"
 			}
 		}
@@ -260,7 +264,7 @@ characters={
 		name=HUN_karoly_beregfy
 		portraits={
 			army={
-				large="gfx/leaders/HUN/r56_portrait_HUN_karoly_beregfy.dds"
+				large="GFX_Portrait_hungary_karoly_beregfy"
 				small="gfx/interface/ideas/idea_HUN_karoly_beregfy.dds"
 			}
 		}
@@ -278,7 +282,7 @@ characters={
 		name=HUN_lajos_veress
 		portraits={
 			army={
-				large="gfx/leaders/HUN/r56_portrait_HUN_lajos_veress.dds"
+				large="GFX_Portrait_hungary_lajos_veress"
 				small="gfx/interface/ideas/idea_HUN_lajos_veress.dds"
 			}
 		}
@@ -297,7 +301,7 @@ characters={
 		name=HUN_ferenc_feketehalmyczeydner
 		portraits={
 			army={
-				large="gfx/leaders/HUN/r56_portrait_HUN_Ferenc_Szalasi.dds"
+				large="GFX_Portrait_hungary_ferenc_feketehalmy_czeydner"
 				small="gfx/interface/ideas/idea_HUN_ferenc_feketehalmy_czeydner.dds"
 			}
 		}
@@ -311,7 +315,7 @@ characters={
 		}
 	}
 	HUN_elemer_gorondy_novak={
-		name="Natalie Costello"
+		name="Elemér Gorondy-Novák"
 		portraits={
 			army={
 				large="gfx/leaders/HUN/r56_portrait_HUN_Gorondy_Novak_Elemer.dds"
@@ -344,10 +348,10 @@ characters={
 		}		
 	}	
 	HUN_ferenc_farkas_kisbarnaki={
-		name="Anita Tóth"
+		name="Ferenc Farkas Kisbarnaki"
 		portraits={
 			army={
-				large="gfx/leaders/HUN/r56_portrait_HUN_ferenc_farkas_kisbarnaki.dds"
+				large="GFX_Portrait_hungary_ferenc_feketehalmy_czeydner"
 				small="gfx/interface/ideas/hun/advisors/r56_idea_advisor_HUN_farkas_ferenc.dds"
 			}
 		}
@@ -377,7 +381,7 @@ characters={
 		}		
 	}	
 	HUN_kornel_oszlanyi={
-		name="Noemi Kappel"
+		name="Kornél Oszlányi"
 		portraits={
 			army={
 				large="gfx/leaders/HUN/r56_portrait_HUN_Oszlanyi_Kornel.dds"
@@ -429,7 +433,7 @@ characters={
 		}		
 	}	
 	HUN_erno_billnitzer={
-		name="Ernőva Billnitzer"
+		name="Ernő Billnitzer"
 		portraits={
 			army={
 				small="GFX_idea_europe_generic_land_5"
@@ -448,10 +452,10 @@ characters={
 		}		
 	}	
 	HUN_guido_tasnady={
-		name="Amina Malakona"
+		name="Guidó Tasnády"
 		portraits={
 			army={
-				large="gfx/leaders/HUN/r56_portrait_HUN_guido_tasnady.dds"
+				large="gfx/leaders/r56_generic/r56_portrait_generic_navy_europe_2.dds"
 				small="gfx/interface/ideas/generic/advisors/r56_generic_SWE_3.dds"
 			}
 		}
@@ -878,6 +882,7 @@ characters={
 		name=HUN_vilmos_roder
 		portraits={
 			army={
+				large = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
 				small="GFX_idea_HUN_vilmos_roder"
 			}
 		}
@@ -1053,7 +1058,7 @@ characters={
 		}
 	}
 	HUN_istvan_ujszaszy={
-		name="Istváne Ujszászy"
+		name="István Ujszászy"
 		portraits={
 			army={
 				small="GFX_idea_generic_head_of_intelligence_europe" #No Portrait

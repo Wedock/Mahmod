@@ -839,6 +839,28 @@ ideas = {
 			removal_cost = -1
 		}
 
+		ENG_home_army_idea = {
+
+			name = ENG_the_home_army
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				conscription = 0.02
+				army_core_defence_factor = 0.1
+			}
+
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+		}
+
 		ENG_a_change_in_course_idea = {
 
 			name = ENG_a_change_in_course
@@ -2761,14 +2783,14 @@ ideas = {
 				has_government = neutrality
 				has_completed_focus = ENG_the_kings_party
 				has_country_leader = {
-				    name = "Emily II"
+				    name = "Elizabeth II"
 				    ruling_only = yes
 				}
 			}
 
 			visible = {
 				has_country_leader = {
-				    name = "Emily II"
+				    name = "Elizabeth II"
 				    ruling_only = yes
 				}
 			}
@@ -2792,14 +2814,14 @@ ideas = {
 				has_government = neutrality
 				has_completed_focus = ENG_the_kings_party
 				has_country_leader = {
-				    name = "Emily II"
+				    name = "Elizabeth II"
 				    ruling_only = yes
 				}
 			}
 
 			visible = {
 				has_country_leader = {
-				    name = "Emily II"
+				    name = "Elizabeth II"
 				    ruling_only = yes
 				}
 			}
@@ -2823,14 +2845,14 @@ ideas = {
 				has_government = neutrality
 				has_completed_focus = ENG_the_kings_party
 				has_country_leader = {
-				    name = "Emily II"
+				    name = "Elizabeth II"
 				    ruling_only = yes
 				}
 			}
 
 			visible = {
 				has_country_leader = {
-				    name = "Emily II"
+				    name = "Elizabeth II"
 				    ruling_only = yes
 				}
 			}

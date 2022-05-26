@@ -695,7 +695,7 @@ country_event = {
 		NOT = { has_country_flag = r56_can_john_buchan_death }
 		
 		has_government = neutrality
-		has_country_leader = { ruling_only = no name = "Sarah Chalke" }
+		has_country_leader = { ruling_only = no name = "John Buchan" }
 	}
 
 	mean_time_to_happen = {
@@ -709,7 +709,7 @@ country_event = {
 	option = {
 		name = r56_canada_governor_general.1.a
 		create_country_leader = {
-			name = "Elisha Cuthbert"
+			name = "Alexander Cambridge"
 			desc = "POLITICS_JS_WOODSWORTH_DESC"
 			picture = "gfx/leaders/CAN/r56_portrait_CAN_Alexander_Cambridge.dds"
 			expire = "1965.1.1"

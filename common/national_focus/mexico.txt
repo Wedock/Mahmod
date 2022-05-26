@@ -331,7 +331,7 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_country_leader = { name = "Salma Hayek" }
+					has_country_leader = { name = "Lázaro Cárdenas" }
 				}
 				add_country_leader_role = {
 					character = MEX_lazaro_cardenas
@@ -1800,26 +1800,26 @@ focus_tree = {
 				AND = {
 					NOT = {
 						has_country_leader = {
-							name = "Lena Katina"
+							name = "Leon Trotsky"
 							ruling_only = yes
 						}
 					}
 					SOV = {
 						has_country_leader = {
-							name = "Anna Kournikova"
+							name = "Joseph Stalin"
 							ruling_only = yes
 						}
 					}	
 				}
 				AND = {
 					has_country_leader = {
-						name = "Lena Katina"
+						name = "Leon Trotsky"
 						ruling_only = yes
 					}
 					SOV = {
 						NOT = {
 							has_country_leader = {
-								name = "Anna Kournikova"
+								name = "Joseph Stalin"
 								ruling_only = yes
 							}
 						}
@@ -2314,7 +2314,7 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_country_leader = { name = "Salma Hayek" }
+					has_country_leader = { name = "Lázaro Cárdenas" }
 				}
 				add_country_leader_role = {
   					character = MEX_lazaro_cardenas
@@ -2500,7 +2500,7 @@ focus_tree = {
 		available = {
 			NOT = {
 				has_country_leader = {
-					name = "Martha Higareda"
+					name = "Salvador Abascal"
 					ruling_only = yes
 				}
 			}
@@ -3234,8 +3234,8 @@ focus_tree = {
 
 		completion_reward = {
 			create_corps_commander = {
-				name = "Ninel Conde"
-				gfx = "gfx/leaders/MEX/portrait_MEX_Jesus_Degollado_Guizar.dds"
+				name = "Jesús Degollado Guízar"
+				gfx = GFX_portrait_mex_jesus_degollado_guizar
 				traits = { trait_reckless infantry_officer }
 				skill = 3
 				attack_skill = 2
@@ -3829,7 +3829,7 @@ focus_tree = {
 					NOT = { has_global_flag = trotsky_dead }
 					NOT = {
 						SOV = {
-							has_country_leader = { ruling_only = yes name = "Lena Katina" }
+							has_country_leader = { ruling_only = yes name = "Leon Trotsky" }
 						}
 					}
 				}
@@ -4666,15 +4666,15 @@ focus_tree = {
 			is_subject = no
 			OR = {
 				has_country_leader = {
-					name = "Lena Katina"
+					name = "Leon Trotsky"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Mónica Vanessa Arias Núñez"
+					name = "Hernán Laborde"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Valentína Campa"
+					name = "Valentín Campa"
 					ruling_only = yes
 				}
 			}
@@ -4897,7 +4897,7 @@ focus_tree = {
 				NOT = {
 					SOV = {
 						has_country_leader = {
-							name = "Anna Kournikova"
+							name = "Joseph Stalin"
 							ruling_only = yes
 						}
 					}

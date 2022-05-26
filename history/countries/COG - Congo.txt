@@ -86,8 +86,8 @@ set_popularities = {
 #	}
 #}
 #create_country_leader = {
-#	name = "Marisa Papen"
-#	desc = "Marisa Papen, Governor General of the Belgian Congo"
+#	name = "Pierre Ryckmans"
+#	desc = "Pierre Ryckmans, Governor General of the Belgian Congo"
 #	picture = "gfx/leaders/COG/Pierre_Ryckmans.dds"
 #	expire = "1965.1.1"
 #	ideology = despotism
@@ -136,7 +136,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Camille Ringoir"
+#	name = "Auguste-Édouard Gilliaert"
 #	portrait_path = "gfx/leaders/BEL/r56_portrait_BEL_Auguste_Edouard_Gilliaert.dds"
 #	traits = { jungle_rat career_officer infantry_officer}
 #	skill = 2
