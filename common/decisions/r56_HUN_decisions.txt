@@ -35,8 +35,8 @@ war_measures = {
 		
 		remove_effect = {
 			create_corps_commander = {
-				name = "Jessica Albanka"	
-				portrait_path = "gfx/leaders/HUN/r56_portrait_HUN_Bertalan_Arpad.dds"	
+				name = "Árpád Bertalan"	
+				portrait_path = "gfx/leaders/HUN/r56_portrait_HUN_Bertalan_Arpad.tga"	
 				traits = { air_force_ties jumping_general commando paratrooper }	
 				skill = 2	
 				attack_skill = 1	

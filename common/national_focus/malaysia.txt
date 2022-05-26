@@ -1155,7 +1155,7 @@ focus = {
 		}
 
 		create_country_leader = {
-			name = "Thien Thanh Thi Nguyen"
+			name = "Abdul Rahman"
 			desc = " "
 			picture = "Portrait_Abdul_Rahman.dds"
 			expire = "1965.1.1"
@@ -1210,7 +1210,7 @@ focus = {
 	completion_reward = {
 
 		create_country_leader = {
-			name = "Felixia Yeap"
+			name = "Ibrahim of Johor"
 			desc = ""
 			picture = "Portrait_Ibrahim_of_Johor.dds"
 			expire = "1965.1.1"
@@ -1304,7 +1304,7 @@ focus = {
 	completion_reward = {
 		set_party_name = { ideology = democratic  long_name = MAL_democratic_imp_long name = MAL_democratic_imp }
 		create_country_leader = {
-			name = "Erika Tham"
+			name = "Onn Jaafar"
 			desc = ""
 			picture = "Portrait_Onn_Jaafar.dds"
 			expire = "1965.1.1"

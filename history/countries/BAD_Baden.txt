@@ -192,7 +192,7 @@ set_popularities = {
 #}
 #
 #create_country_leader = {
-#	name = "Kirsten Dunst"
+#	name = "Ernst Thälmann"
 #	desc = "POLITICS_ERNST_THALMANN_DESC"
 #	picture = "Portrait_Germany_Adolf_Hitler.dds"
 #	expire = "1956.1.1"

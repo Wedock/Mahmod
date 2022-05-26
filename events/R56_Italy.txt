@@ -17,7 +17,7 @@ country_event = {
 	name = r56_italy.1.a
 	set_country_flag = r56_ita_badoglio_is_leader
 		create_country_leader = {
-			name = "Chiara Bianchino"
+			name = "Pietro Badoglio"
 			desc = "POLITICS_JULES_BREVIE_DESC"
 			picture = "gfx/leaders/ITA/Portrait_Italy_Pietro_Badoglio.dds"
 			expire = "1965.1.1"
@@ -1120,7 +1120,7 @@ country_event = { #Emmanuel abdicates in favor of Umberto II
 			popularity = 0.1
 		}
 		create_country_leader = {
-			name = "Elisabetta III Gregoraci"
+			name = "Umberto II"
 			#desc = ""
 			picture = "r56_portrait_ITA_umberto_ii.dds"
 			expire = "1983.3.18"

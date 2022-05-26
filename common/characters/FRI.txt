@@ -132,7 +132,7 @@ characters={
 		}
 	}
 	FRI_jean_decoux={
-		name="Agathe Teyssier"
+		name="Jean Decoux"
 		portraits={
 			army={
 				small="gfx/interface/ideas/FRI/idea_minister_indochina_jean_decoux.dds"

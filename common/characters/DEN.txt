@@ -5,7 +5,7 @@ characters={
 	#advisors
 
 	DEN_Erik_Scavenius = {
-		name="Mathilde Goehler"
+		name="Erik Scavenius"
 		portraits={
 			civilian={
 				large="gfx/leaders/DEN/Portrait_Denmark_Erik_Scavenius.dds"
@@ -14,7 +14,7 @@ characters={
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = DEN_Peter_Munch
+			idea_token = DEN_Erik_Scavenius
 			available  = {
 				
 			}
@@ -31,7 +31,7 @@ characters={
 		
 	}
 	DEN_Peter_Munch = {
-		name="Josephine Skriver"
+		name="Peter Munch"
 		portraits={
 			civilian={
 				large="gfx/leaders/DEN/r56_portrait_DEN_Peter_Rochegune_Munch.dds"
@@ -61,7 +61,7 @@ characters={
 	}
 
 	DEN_Wilhelm_Buhl = {
-		name="Denise Kiarskov"
+		name="Vilhelm Buhl"
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/den/advisors/r56_idea_DEN_Wilhelm_Buhl.dds"
@@ -189,7 +189,7 @@ characters={
 	
 
 	DEN_John_Christmas_Moller = {
-		name="Nikita Klæstrup"
+		name="John Christmas Møller"
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/den/advisors/r56_idea_DEN_John_Christmas_Moller.dds"
@@ -205,7 +205,7 @@ characters={
 						NOT = {
 							has_country_flag = socialdemokratiet_dominating					
 							has_country_leader = {
-								name = "Nikita Klæstrup"
+								name = "Christmas Møller"
 								ruling_only = yes
 							}
 						}
@@ -236,7 +236,7 @@ characters={
 	
 
 	DEN_Alfred_Jensen = {
-		name="Mathilde Gøhler Jensen"
+		name="Alfred Jensen"
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/den/advisors/r56_idea_DEN_Alfred_Jensen.dds"
@@ -256,7 +256,7 @@ characters={
 				}
 				NOT = {
 					has_country_leader = {
-						name = "Mathilde Gøhler Jensen"
+						name = "Alfred Jensen"
 						ruling_only = yes
 					}
 				}
@@ -330,7 +330,7 @@ characters={
 	}
 	
 	DEN_Aksel_Larsen = {
-		name="Julie Zangenberg"
+		name="Aksel Larsen"
 		portraits={
 			civilian={
 				large="gfx/leaders/DEN/r56_portrait_DEN_Aksel_Larsen.dds"
@@ -351,7 +351,7 @@ characters={
 			available = {
 				NOT = {
 					has_country_leader = {
-						name = "Julie Zangenberg"
+						name = "Aksel Larsen"
 						ruling_only = yes
 					}
 				}
@@ -432,7 +432,7 @@ characters={
 
 
 	DEN_Christian_Frederik_Schalburg = {
-		name="Jessica Buch"
+		name="Christian Frederik von Schalburg"
 		portraits={
 			civilian={
 				small="gfx/interface/ideas/den/advisors/r56_idea_DEN_Christian_Frederik_von_Schalburg.dds"
@@ -477,7 +477,7 @@ characters={
 
 	
 	DEN_Frits_Clausen = {
-		name="Stephanie Corneliussen"
+		name="Frits Clausen"
 		portraits={
 			civilian={
 				large="gfx/leaders/DEN/r56_portrait_DEN_Frits_Clausen.dds"
@@ -498,7 +498,7 @@ characters={
 			available = {
 				NOT = {
 					has_country_leader = {
-						name = "Stephanie Corneliussen"
+						name = "Frits Clausen"
 						ruling_only = yes
 					}
 				}
@@ -567,7 +567,7 @@ characters={
 	# generals
 	
 	DEN_wilhelm_wain_prior={
-		name="Solveig Mork Hansen"
+		name="Wilhelm Wain Prior"
 		portraits={
 			army={
 				large="gfx/leaders/DEN/kr_portrait_Denmark_William_Prior.dds"
@@ -600,7 +600,7 @@ characters={
 	}
 	
 	DEN_Field_Marshall_Christian_X={
-		name="Helena Christensen"
+		name="Christian X"
 		portraits={
 			civilian={
 				large="gfx/leaders/DEN/r56_portrait_DEN_Christian_X.dds"
@@ -628,7 +628,7 @@ characters={
 	}
 	
 	DEN_Hans_Rolsted = {
-		name = "Terese Pagh Teglgaard"
+		name = "Hans Rolsted"
 		portraits={
 			army={
 				large = "gfx/leaders/DEN/kr_portrait_Denmark_Hans_Rolsted.dds"
@@ -663,7 +663,7 @@ characters={
 
 	}
 	DEN_Erik_Leschly = {
-		name = "Anna Opsal"
+		name = "Erik Leschly"
 		portraits={
 			army={
 				large = "gfx/leaders/DEN/r56_portrait_Denmark_Erik_Leschly.dds"
@@ -696,7 +696,7 @@ characters={
 		}
 	}
 	DEN_Erik_With = {#needs portrait
-		name = "Rie Rasmussen"
+		name = "Erik With"
 		portraits={
 			army={
 				large = "gfx/leaders/DEN/r56_portrait_Denmark_Erik_With.dds"
@@ -715,7 +715,7 @@ characters={
 		}
 	}
 	DEN_Ebbe_Gortz = {
-		name = "Clara Wasehuus"
+		name = "Ebbe Gørtz"
 		portraits={
 			army={
 				large = "gfx/leaders/DEN/r56_portrait_Denmark_Ebbe_Gortz.dds"
@@ -749,7 +749,7 @@ characters={
 		}
 	}
 	DEN_Frederik_Christian_Essemann = {
-		name = "Ann Marie Michelle"
+		name = "Frederik Christian Essemann"
 		portraits={
 			army={
 				large = "gfx/leaders/DEN/r56_portrait_Denmark_Frederik_Christian_Essemann.dds"
@@ -782,7 +782,7 @@ characters={
 		}
 	}
 	DEN_Carl_Jacobsen = {
-		name = "Caroline Wozniacki"
+		name = "Carl Jacobsen"
 		portraits={
 			army={
 				large = "gfx/leaders/DEN/r56_portrait_Denmark_Carl_Jacobsen.dds"
@@ -816,7 +816,7 @@ characters={
 		}
 	}
 	DEN_Aage_Falking = {
-		name = "Nadja Bender"
+		name = "Aage Falking"
 		portraits={
 			army={
 				large = "gfx/leaders/DEN/r56_portrait_Denmark_Aage_Falking.dds"
@@ -850,7 +850,7 @@ characters={
 		}
 	}
 	DEN_Hans_Oluf_Hansen = {
-		name = "Zienna Eve"
+		name = "Hans Oluf Hansen"
 		portraits={
 			army={
 				large = "gfx/leaders/DEN/r56_portrait_Denmark_Hans_Oluf_Hansen.dds"
@@ -884,7 +884,7 @@ characters={
 		}
 	}
 	DEN_Kristian_Knudtzon = {
-		name = "Maja Krag"
+		name = "Kristian Knudtzon"
 		portraits={
 			army={
 				large = "gfx/leaders/DEN/r56_portrait_Denmark_Kristian_Knudtzon.dds"
@@ -920,7 +920,7 @@ characters={
 
 	#admirals
 	DEN_Hjalmar_Rechnitzer = {
-		name = "Alberte Valentine"
+		name = "Hjalmar Rechnitzer"
 		portraits={
 			army={
 				large = "gfx/leaders/DEN/kr_portrait_Denmark_Hjalmar_Rechnitzer.dds"
@@ -952,7 +952,7 @@ characters={
 		}
 	}
 	DEN_Aage_Helgesen_Vedel = {
-		name = "Johanne Landbo"
+		name = "Aage Helgesen Vedel"
 		portraits={
 			army={
 				large = "gfx/leaders/DEN/r56_portrait_DEN_Vedel.dds"

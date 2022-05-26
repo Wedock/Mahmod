@@ -230,8 +230,8 @@
  ICE_disloyal_fascism2:0 "Disloyal Subject"
  ICE_disloyal_fascism2_desc:0 "This country wishes to free itself from its overlord. Nationalism and ideas of supremacy have become staples in the national debate, with some protests even turning violent."
  
- ICE_christian_x:0 "Helena Christensen"
- ICE_christian_x_desc:0 "Despite her controversial status in Denmark and Iceland's growing desire for freedom, Helena Christensen remains one of the most popular Danish monarchs in modern Icelandic history."
+ ICE_christian_x:0 "Christian X"
+ ICE_christian_x_desc:0 "Despite his controversial status in Denmark and Iceland's growing desire for freedom, Christian X remains one of the most popular Danish monarchs in modern Icelandic history."
  
  ICE_internal_conflicts:0 "Intra-Party Conflicts"
  ICE_internal_conflicts_desc:0 "Although the ruling party displays a strong front to its enemies, it is weakened by internal in-fighting and disagreements."
@@ -360,7 +360,7 @@
     SCA_iceland.6:0 "[SOV.GetNameDefCap] Sends Some Volunteers"
     SCA_iceland.6.t:0 "[SOV.GetNameDefCap] Sends Some Volunteers"
     SCA_iceland.6.desc:0 "[SOV.GetNameDefCap] has responded positively to our request for volunteers. They have sent a strong force of 100,000 men to our shores along with provisions to feed them. They wish us the best of luck in our endeavors."
-    SCA_iceland.6.a:0 "We thank [SOV.GetNamDef]."
+    SCA_iceland.6.a:0 "We thank [SOV.GetNameDef]."
     SCA_iceland.7:0 "[SOV.GetNameDefCap] Sends Few Volunteers"
     SCA_iceland.7.t:0 "[SOV.GetNameDefCap] Sends Few Volunteers"
     SCA_iceland.7.desc:0 "[SOV.GetNameDefCap] has responded to our request for volunteers. [SOV.GetLeader] has sent a letter apologizing for not being to send us any men officially. However, [SOV.GetLeader] says that they were able to provide transportation and some provisions for those who wished to make the journey to our shores."

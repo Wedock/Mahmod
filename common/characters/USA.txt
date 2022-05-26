@@ -30,7 +30,7 @@ characters={
 	}
 
 	USA_j_edgar_hoover={
-		name="Alison Brie"
+		name="J. Edgar Hoover"
 		portraits={
 			civilian={
 				large="gfx/leaders/USA/r56_portrait_John_Edgar_Hoovercivilian.dds"
@@ -889,7 +889,7 @@ characters={
 		}
 	}
 	USA_holland_smith={
-		name ="Torrie Wilson"
+		name ="Holland Smith"
 		portraits={
 			army={
 				large="gfx/leaders/USA/r56_portrait_USA_Holland_Smith.dds"
@@ -929,10 +929,10 @@ characters={
 
 	}
 	USA_benjamin_o_davis={
-		name = "Lana Rhoades"
+		name = "Benjamin O. Davis"
 		portraits={
 			army={
-				large="gfx/leaders/USA/Portrait_USA_Lana_Rhoades.dds"
+				large="GFX_r56_portrait_usa_benjamin_o_davis"
 				small="GFX_idea_USA_Benjamin_O_Davis_small"
 			}
 		}
@@ -953,10 +953,10 @@ characters={
 		}
 	}
 	USA_james_gavin={
-		name = "Eliza Dushku"
+		name = "James Gavin"
 		portraits={
 			army={
-				large="gfx/leaders/USA/Portrait_USA_Eliza_Dushku.dds"
+				large="GFX_r56_portrait_USA_james_gavin"
 				small="GFX_idea_USA_james_gavin_small"
 			}
 		}
@@ -1227,10 +1227,10 @@ characters={
 		}
 	}
 	USA_charles_lockwood={
-		name="Elsa Jean"
+		name="Charles Lockwood"
 		portraits={
 			army={
-				large="gfx/leaders/USA/Portrait_USA_Elsa_Jean.dds"
+				large="gfx/leaders/USA/r56_portrait_USA_Charles_Lockwood.dds"
 				small="gfx/interface/ideas/idea_USA_generic_navy_1.dds"
 			}
 		}
@@ -1245,10 +1245,10 @@ characters={
 		}
 	}
 	USA_jerauld_wright={
-		name="Blake Bartelli"
+		name="Jerauld Wright"
 		portraits={
 			army={
-				large="gfx/leaders/USA/Portrait_USA_Blake_Bartelli.dds"
+				large="gfx/leaders/USA/Portrait_USA_Generic_navy_2.dds"
 				small="gfx/interface/ideas/idea_USA_generic_navy_2.dds"
 			}
 		}
@@ -1263,10 +1263,10 @@ characters={
 		}
 	}
 	USA_willis_augustus_lee={
-		name="Madison Beer"
+		name="Willis Augustus Lee"
 		portraits={
 			army={
-				large="gfx/leaders/USA/Portrait_USA_Madison_Beer.dds"
+				large="gfx/leaders/USA/Portrait_USA_Generic_navy_1.dds"
 				small="gfx/interface/ideas/idea_USA_generic_navy_1.dds"
 			}
 		}
@@ -1282,7 +1282,7 @@ characters={
 	}
 
 	USA_thomas_c_kinkaid={
-		name="Katie Bell"
+		name="Thomas C. Kinkaid"
 		portraits={
 			army={
 				large="gfx/leaders/USA/r56_portrait_USA_Thomas_C_Kinkaid.dds"
@@ -1300,7 +1300,7 @@ characters={
 		}
 	}
 	USA_marc_a_mitscher={
-		name="Elizabeth Olsen"
+		name="Marc A. Mitscher"
 		portraits={
 			army={
 				large="gfx/leaders/USA/r56_portrait_USA_Marc_A_Mitscher.dds"
@@ -1318,7 +1318,7 @@ characters={
 		}
 	}
 	USA_jesse_b_oldendorf={
-		name="Ronda Rousey"
+		name="Jesse B. Oldendorf"
 		portraits={
 			army={
 				large="gfx/leaders/USA/r56_portrait_USA_Jesse_B_Oldendorf.dds"
@@ -1568,6 +1568,7 @@ characters={
 		name=USA_charles_lindbergh
 		portraits={
 			army={
+				large = GFX_portrait_USA_charles_lindbergh
 				small="gfx/interface/ideas/idea_USA_charles_lindbergh.dds"
 			}
 		}

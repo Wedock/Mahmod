@@ -223,7 +223,7 @@
 				elections_allowed = yes
 			}
 			create_country_leader = {
-				name = "Belinda Peregrín"
+				name = "Francisco Largo Caballero"
 				desc = "POLITICS_FRANCISCO_LARGO_CABALLERO_DESC"
 				picture = "gfx/leaders/SPR/r56_portrait_SPR_Francisco_Largo_Caballero.dds"
 				expire = "1965.1.1"

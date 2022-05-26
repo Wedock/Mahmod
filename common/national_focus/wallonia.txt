@@ -1738,7 +1738,7 @@ focus_tree = {
 					BEL = { exists = no } 
 				}
 				create_country_leader = {
-				name = "Olga Leyers"
+				name = "Hubert Pierlot"
 				desc = "POLITICS_HUBERT_PIERLOT_DESC"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
 				expire = "1965.1.1"

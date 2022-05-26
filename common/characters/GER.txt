@@ -33,7 +33,7 @@ characters={
 	}
 	
 	GER_ernst_thalmann={
-		name="Kirsten Dunst"
+		name="Ernst Thälmann"
 		portraits={
 			civilian={
 				large="gfx/leaders/GER/r56_portrait_GER_ernst_thalmann.dds"
@@ -95,7 +95,7 @@ characters={
 		name=GER_wilhelm_ii
 		portraits={
 			civilian={
-				large="gfx/leaders/GER/portrait_ger_wilhelm_ii.dds"
+				large="GFX_portrait_ger_wilhelm_ii"
 			}	
 		}
 	}
@@ -104,7 +104,7 @@ characters={
 		name=GER_wilhelm_iii
 		portraits={
 			civilian={
-				large="gfx/leaders/GER/r56_portrait_GER_Prince_Wilhelm.dds"
+				large="GFX_portrait_ger_wilhelm_iii"
 			}	
 		}
 	}
@@ -113,7 +113,7 @@ characters={
 		gender = female 
 		portraits={
 			civilian={
-				large="gfx/leaders/GER/r56_portrait_ger_victoria_louise.dds"
+				large="GFX_portrait_ger_victoria_louise"
 			}
 		}
 	}
@@ -122,7 +122,7 @@ characters={
 		name=GER_august_von_mackensen
 		portraits={
 			civilian={
-				large="gfx/leaders/GER/r56_portrait_ger_august_von_mackensen.dds"
+				large="GFX_portrait_ger_august_von_mackensen"
 			}
 		}
 	}
@@ -794,7 +794,7 @@ characters={
 	}
 
 	GER_gustav_zangen={
-		name="Marie Rauscher"
+		name="Gustav-Adolf Von Zangen"
 		portraits={
 			army={
 				small="gfx/interface/ideas/idea_GER_generic_land_2.dds"
@@ -811,7 +811,7 @@ characters={
 		}		
 	}
 	GER_erich_brandenberger={
-		name="Mia Julia Brückner"
+		name="Erich Brandenberger"
 		portraits={
 			army={
 				small="gfx/interface/ideas/idea_GER_generic_land_5.dds"
@@ -828,7 +828,7 @@ characters={
 		}		
 	}
 	GER_heinrich_von_vietinghoff={
-		name="Michaela Grauke"
+		name="Heinrich von Vietinghoff"
 		portraits={
 			army={
 				small="gfx/interface/ideas/idea_GER_generic_land_3.dds"
@@ -845,7 +845,7 @@ characters={
 		}		
 	}	
 	GER_curt_haase={
-		name= "Nadine Chanz"
+		name= "Curt Haase"
 		portraits={
 			army={
 				small="gfx/interface/ideas/idea_GER_generic_land_1.dds"
@@ -862,7 +862,7 @@ characters={
 		}		
 	}	
 	GER_hans_von_salmuth={
-		name= "Olga Zjuba"
+		name= "Hans von Salmuth"
 		portraits={
 			army={
 				small="gfx/interface/ideas/idea_GER_generic_land_1.dds"
@@ -879,7 +879,7 @@ characters={
 		}		
 	}	
 	GER_georg_lindemann={
-		name= "Regina Deutinger"
+		name= "Georg Lindemann"
 		portraits={
 			army={
 				small="gfx/interface/ideas/idea_GER_generic_land_3.dds"
@@ -899,7 +899,7 @@ characters={
 
 
 	GER_rolf_carls={
-		name="Sara Carstens"
+		name="Rolf Carls"
 		portraits={
 			army={
 				large="gfx/leaders/GER/r56_portrait_GER_Rolf_Carls.dds"
@@ -917,11 +917,11 @@ characters={
 		}
 	}
 	GER_theodor_burchardi={
-		name="Theodora Burchardi"
+		name="Theodor Burchardi"
 		portraits={
 			army={
-				large="gfx/leaders/r56_generic/r56_portrait_GER_generic_navy_2.dds"
-				small="gfx/interface/ideas/idea_GER_generic_navy_2.dds"
+				large="gfx/leaders/GER/r56_portrait_GER_Theodor_Burchardi.dds"
+				small=GFX_idea_minister_GER_Theodor_Burchardi
 			}
 		}
 		
@@ -935,7 +935,7 @@ characters={
 		}
 	}	
 	GER_wilhelm_meisel={
-		name="Helena Moeller"
+		name="Wilhelm Meisel"
 		portraits={
 			army={
 				large="gfx/leaders/GER/r56_portrait_GER_Wilhelm_Meisel.dds"
@@ -1510,6 +1510,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_werner_von_fritsch"
+				large ="gfx/leaders/GER/r56_portrait_GER_Werner_von_Fritsch" 
 			}
 		}
 		advisor={
@@ -1814,7 +1815,7 @@ characters={
 	}
 
 	GER_wilhelm_pieck={
-		name="Diane Kruger"
+		name="Wilhelm Pieck"
 		portraits={
 			army = {
 				small="GFX_idea_wilhelm_pieck"

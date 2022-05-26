@@ -116,7 +116,7 @@ war_measures = {
 		
 		remove_effect = {
 			create_corps_commander = {
-				name = "Lisa Heyse"
+				name = "Richard Heidrich"
 				portrait_path = "gfx/leaders/GER/r56_portrait_GER_Richard_Heidrich.dds"
 				traits = { air_force_ties jumping_general commando paratrooper }
 				skill = 2
@@ -168,7 +168,7 @@ war_measures = {
 		
 		remove_effect = {
 			create_corps_commander = {
-				name = "Anna Scharl"
+				name = "Eugen Meindl"
 				portrait_path = "gfx/leaders/GER/r56_portrait_GER_eugen_meindl.dds"
 				traits = { air_force_ties jumping_general commando paratrooper }
 				skill = 2

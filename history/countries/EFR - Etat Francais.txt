@@ -109,7 +109,7 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "Audrey Tautou"
+	name = "Maurice Thorez"
 	desc = "POLITICS_MAURICE_THOREZ_DESC"
 	picture = "gfx/leaders/FRA/Portrait_France_Generic_3.dds"
 	expire = "1965.1.1"
@@ -120,7 +120,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alice Fabre"
+	name = "Philippe Pétain"
 	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
 	picture = "gfx/leaders/FRA/Portrait_France_Philippe_Petain.dds"
 	expire = "1965.1.1"

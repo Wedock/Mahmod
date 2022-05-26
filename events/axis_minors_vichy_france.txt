@@ -21,7 +21,7 @@ add_namespace = axis_minors_vichy_france
 #		FRA = { has_civil_war = yes }
 #		has_war_with = FRA
 #		has_global_flag = fall_of_france
-#		has_country_leader = { ruling_only = no name = "Alice Fabre" } 
+#		has_country_leader = { ruling_only = no name = "Philippe Pétain" } 
 #	}
 #	mean_time_to_happen = {
 #			days = 2
@@ -47,7 +47,7 @@ add_namespace = axis_minors_vichy_france
 #		tag = FRA
 #		has_global_flag = fall_of_france
 #		has_capitulated = yes
-#		has_country_leader = { ruling_only = no name = "Eva Green" } 
+#		has_country_leader = { ruling_only = no name = "Charles de Gaulle" } 
 #	}
 #	mean_time_to_happen = {
 #			days = 1
@@ -606,7 +606,7 @@ country_event = { #war continues: france gets talented new officers, 4th Koenig
 			factor = 100
 		}
 		add_corps_commander_role = {
-			name = "Mathilde Tantot"
+			name = "Marie-Pierre Koenig"
 			traits = { trickster meticulous}
 			skill = 3
 			attack_skill = 2
@@ -648,7 +648,7 @@ country_event = { #war continues: france gets talented new officers, 5th De Gaul
 			factor = 100
 		}
 			add_corps_commander_role = {
-				name = "Eva Green"
+				name = "Charles De Gaulle"
 				traits = {  panzer_leader armor_officer harsh_leader media_personality }
 				skill = 4
 				attack_skill = 4

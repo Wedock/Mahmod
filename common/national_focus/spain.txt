@@ -1367,7 +1367,7 @@ focus_tree = {
 				}
 				effect_tooltip = {
 					create_country_leader = {
-						name = "Cristina Pedroche"
+						name = "Emilio Mola"
 						desc = "POLITICS_EMILIO_MOLA_DESC"
 						picture = "GFX_portrait_emilio_mola"
 						expire = "1965.1.1"
@@ -1387,7 +1387,7 @@ focus_tree = {
 					kill_ideology_leader = fascism
 				}
 				create_country_leader = {
-					name = "Cristina Pedroche"
+					name = "Emilio Mola"
 					desc = "POLITICS_EMILIO_MOLA_DESC"
 					picture = "GFX_portrait_emilio_mola"
 					expire = "1965.1.1"
@@ -1398,7 +1398,7 @@ focus_tree = {
 				}
 				hidden_effect = {
 					create_country_leader = {
-						name = "Cristina Pedroche"
+						name = "Emilio Mola"
 						desc = "POLITICS_EMILIO_MOLA_DESC"
 						picture = "GFX_portrait_emilio_mola"
 						expire = "1965.1.1"
@@ -1418,7 +1418,7 @@ focus_tree = {
 					kill_ideology_leader = neutrality
 				}
 				create_country_leader = {
-					name = "Cristina Pedroche"
+					name = "Emilio Mola"
 					desc = "POLITICS_EMILIO_MOLA_DESC"
 					picture = "GFX_portrait_emilio_mola"
 					expire = "1965.1.1"
@@ -1429,7 +1429,7 @@ focus_tree = {
 				}
 				hidden_effect = {
 					create_country_leader = {
-						name = "Cristina Pedroche"
+						name = "Emilio Mola"
 						desc = "POLITICS_EMILIO_MOLA_DESC"
 						picture = "GFX_portrait_emilio_mola"
 						expire = "1965.1.1"
@@ -3810,7 +3810,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = SPA_expand_the_axis_gold_trade }
 		
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_goal_generic_agriculture2
 		x = 0
 		y = 2
 		relative_position_id = SPA_expand_the_axis_gold_trade
@@ -4002,7 +4002,7 @@ focus_tree = {
 				kill_ideology_leader = fascism
 			}
 			create_country_leader = {
-				name = "Elsa Pataky"
+				name = "Francisco Franco"
 				desc = "POLITICS_FRANCISCO_FRANCO_DESC"
 				picture = "gfx/leaders/SPR/r56_portrait_SPR_Francisco_Franco.dds"
 				expire = "1965.1.1"
@@ -4012,7 +4012,7 @@ focus_tree = {
 				}
 			}
 			create_country_leader = {
-				name = "Elsa Pataky"
+				name = "Francisco Franco"
 				desc = "POLITICS_FRANCISCO_FRANCO_DESC"
 				picture = "gfx/leaders/SPR/r56_portrait_SPR_Francisco_Franco.dds"
 				expire = "1965.1.1"
@@ -5332,7 +5332,7 @@ focus_tree = {
 		id = SPA_dictator_for_life
 		available = {
 			has_country_leader = {
-				name = "Elsa Pataky"
+				name = "Francisco Franco"
 				ruling_only = yes
 			}
 		}
@@ -5360,7 +5360,7 @@ focus_tree = {
 					}
 					retire_ideology_leader = fascism
 					create_country_leader = {
-						name = "Elsa Pataky"
+						name = "Francisco Franco"
 						desc = "POLITICS_FRANCISCO_FRANCO_DESC"
 						picture = "GFX_portrait_spain_francisco_franco_old"
 						expire = "1965.1.1"
@@ -5376,7 +5376,7 @@ focus_tree = {
 					}
 					retire_ideology_leader = neutrality
 					create_country_leader = {
-						name = "Elsa Pataky"
+						name = "Francisco Franco"
 						desc = "POLITICS_FRANCISCO_FRANCO_DESC"
 						picture = "GFX_portrait_spain_francisco_franco_old"
 						expire = "1965.1.1"
@@ -6065,8 +6065,8 @@ focus_tree = {
 			custom_effect_tooltip = remove_theorist
 			show_ideas_tooltip = SPA_agustin_munoz_grandes
 			create_field_marshal = {
-				name = "Nekane"
-				gfx = "gfx/leaders/SPR/r56_portrait_SPA_manuel_fal_conde.dds"
+				name = "Manuel Fal Conde"
+				gfx = "GFX_portrait_SPA_manuel_fal_conde"
 				traits = { trait_SPA_carlist_loyalties }
 				skill = 3
 			    attack_skill = 2
@@ -6176,9 +6176,9 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			create_country_leader = {
-				name = "Nekane"
+				name = "Manuel Fal Conde"
 				desc = "POLITICS_MANUEL_FAL_CONDE_DESC"
-				picture = "gfx/leaders/SPA/r56_portrait_SPA_manuel_fal_conde.dds"
+				picture = "GFX_portrait_SPA_manuel_fal_conde"
 				expire = "1965.1.1"
 				ideology = despotism
 				traits = {
@@ -6218,7 +6218,7 @@ focus_tree = {
 			    logistics_skill = 1
 			}			
 			create_corps_commander = {
-				name = "Kayla Frisella"
+				name = "Ricardo de Rada"
 				portrait_path = "gfx/leaders/SPR/r56_portrait_SPR_Ricardo_de_Rada.dds"
 				traits = { infantry_leader trait_SPA_carlist_loyalties }
 				skill = 3
@@ -6229,7 +6229,7 @@ focus_tree = {
 				
 			}
 			create_corps_commander = {
-				name = "Lola Lolita"
+				name = "Salvador Nonell i Bru"
 				portrait_path = "gfx/leaders/SPR/r56_portrait_SPR_Salvador_Nonell_i_Bru.dds"
 				traits = { ambusher trait_SPA_carlist_loyalties }
 				skill = 2
@@ -7525,7 +7525,7 @@ focus_tree = {
 						has_government = neutrality
 
 						has_country_leader = {
-							name = "Adrianne Palicki"
+							name = "Otto von Habsburg"
 							ruling_only = yes
 						}
 						is_in_faction = no
@@ -7545,7 +7545,7 @@ focus_tree = {
 						has_government = neutrality
 
 						has_country_leader = {
-							name = "Adrianne Palicki"
+							name = "Otto von Habsburg"
 							ruling_only = yes
 						}
 						is_in_faction = no
@@ -8162,8 +8162,8 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_POLITICAL}
 		completion_reward = {
 			create_field_marshal = {
-				name = "Natalia Streignard"
-				gfx = "gfx/leaders/SPR/r56_portrait_SPR_Buenaventura_Durruti.dds"
+				name = "Buenaventura Durruti"
+				gfx = "GFX_portrait_SPR_buenaventura_durruti"
 				traits = { infantry_officer offensive_doctrine aggressive_assaulter }
 				skill = 3
 			    attack_skill = 3
@@ -8172,7 +8172,7 @@ focus_tree = {
 			    logistics_skill = 2
 			}
 			create_corps_commander = {
-				name = "Eduarda Medrano Rivas"
+				name = "Eduardo Medrano Rivas"
 				gfx = "GFX_portrait_SPR_eduardo_medrano_rivas"
 				traits = { infantry_leader }
 				skill = 3
@@ -8193,8 +8193,8 @@ focus_tree = {
 			    logistics_skill = 1
 			}
 			create_corps_commander = {
-				name = "Nathalia Ramos"
-				gfx = "gfx/leaders/SPR/r56_portrait_SPR_Cipriano_Mera.dds"
+				name = "Cipriano Mera"
+				gfx = "GFX_portrait_SPR_cipriano_mera"
 				traits = { trait_cautious }
 				skill = 2
 			    attack_skill = 1
@@ -8883,7 +8883,7 @@ focus_tree = {
 					}
 					set_party_name = { ideology = communism long_name = SPR_communism_independent_party_long name = SPR_communism_independent_party }
 					create_country_leader = {
-						name = "Julia Roca"
+						name = "Julián Gorkin"
 						desc = "POLITICS_JULIAN_GORKIN_DESC"
 						picture = "GFX_portrait_SPR_julian_gorkin"
 						expire = "1965.1.1"
@@ -8929,7 +8929,7 @@ focus_tree = {
 					}
 					set_party_name = { ideology = communism long_name = SPR_communism_independent_party_long name = SPR_communism_independent_party }
 					create_country_leader = {
-						name = "Julia Roca"
+						name = "Julián Gorkin"
 						desc = "POLITICS_JULIAN_GORKIN_DESC"
 						picture = "GFX_portrait_SPR_julian_gorkin"
 						expire = "1965.1.1"
@@ -9195,6 +9195,10 @@ focus_tree = {
 				any_neighbor_state = {
 					is_owned_by = POR
 				}
+			}
+			strength_ratio = {
+				tag = POR
+				ratio > 0.6
 			}
 		}
 		bypass = {
@@ -10340,7 +10344,7 @@ focus_tree = {
 					}					
 				}
 				create_country_leader = {
-					name = "Úrsula Corberó"
+					name = "José Díaz"
 					desc = "POLITICS_JOSE_DIAZ_DESC"
 					picture = "portrait_spr_jose_diaz.dds"
 					expire = "1965.1.1"
@@ -12009,7 +12013,7 @@ focus_tree = {
 				limit = {
 					MEX = {
 						has_country_leader = {
-						    name = "Lena Katina"
+						    name = "Leon Trotsky"
 						    ruling_only = yes
 						}
 					}
@@ -12024,7 +12028,7 @@ focus_tree = {
 				limit = {
 					SOV = {
 						has_country_leader = {
-						    name = "Anna Kournikova"
+						    name = "Joseph Stalin"
 						    ruling_only = yes
 						}
 					}
@@ -12959,7 +12963,7 @@ focus_tree = {
 					}					
 				}
 				create_country_leader = {
-					name = "Úrsula Corberó"
+					name = "José Díaz"
 					desc = "POLITICS_JOSE_DIAZ_DESC"
 					picture = "portrait_spr_jose_diaz.dds"
 					expire = "1965.1.1"
@@ -13351,7 +13355,7 @@ focus_tree = {
 		id = SPR_oppose_the_communists
 		available = {
 			has_country_leader = {
-				name = "Paz Vega"
+				name = "Manuel Azaña"
 				ruling_only = yes
 			}
 		}

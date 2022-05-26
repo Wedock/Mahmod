@@ -65,7 +65,7 @@ create_country_leader = {
 }
 
 #create_country_leader = {
-#	name = "Melita Toniolo"
+#	name = "Ettore Bastico"
 #	desc = ""
 #	picture = "Portrait_Italy_Giuseppe_Fioravanzo.dds"
 #	ideology = fascism_ideology

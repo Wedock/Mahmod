@@ -1232,13 +1232,13 @@ country_event = {
 		always = no
 		date > 1938.10.12
 		original_tag = SOV
-		has_country_leader = { ruling_only = yes name = "Mila Kunis" }
+		has_country_leader = { ruling_only = yes name = "Kirill Vladimirovich" }
 	}
 
 	option = {
 		name = r56.soviet.43.a
 		create_country_leader = {
-			name = "Katya Kliger"
+			name = "Vladimir Kirillovich"
 			desc = "POLITICS_VLADIMIR_KRILLOVICH_DESC"
 			picture = "r56_portrait_SOV_Vladimir_Kirillovich.dds"
 			expire = "1965.1.1"
@@ -1263,7 +1263,7 @@ country_event = {
 		always = no
 		date > 1951.04.06
 		original_tag = SOV
-		has_country_leader = { ruling_only = yes name = "Lena Katina" }
+		has_country_leader = { ruling_only = yes name = "Leon Trotsky" }
 	}
 
 	mean_time_to_happen = {
@@ -1273,7 +1273,7 @@ country_event = {
 	option = {
 		name = r56.soviet.44.a
 		create_country_leader = {
-			name = "Svetlana Novikova"
+			name = "Leonid Serebryakov"
 			desc = "POLITICS_VLADIMIR_KRILLOVICH_DESC"
 			picture = "r56_portrait_SOV_Leonid_Serebryakov.dds"
 			expire = "1965.1.1"

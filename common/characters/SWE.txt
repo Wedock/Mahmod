@@ -8,6 +8,7 @@ characters={
 		}
 		country_leader={
 			ideology=socialism
+			traits = { naw_welfare_proponent }
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -51,7 +52,7 @@ characters={
 		name=SWE_axel_pehrssonbramstorp
 		portraits={
 			civilian={
-				large="gfx/leaders/SWE/r56_portrait_SWE_Amanda_Strand.dds"
+				large="gfx/leaders/SWE/r56_portrait_SWE_Per_Albin_Hansson.dds"
 			}
 		}
 		country_leader={
@@ -64,7 +65,7 @@ characters={
 		}
 	}
 	SWE_thord_bonde={
-		name="Susanna Andersen"
+		name="Thord Bonde"
 		portraits={
 			army={
 				large="gfx/leaders/SWE/r56_portrait_SWE_Thord_Bonde.dds"
@@ -82,7 +83,7 @@ characters={
 		}
 	}	
 	SWE_viking_tamm={
-		name="Lenna Sjooblom"
+		name="Viking Tamm"
 		portraits={
 			army={
 				large="gfx/leaders/SWE/r56_portrait_SWE_Viking_Tamm.dds"
@@ -177,7 +178,7 @@ characters={
 		name=SWE_claes_lindstrom
 		portraits={
 			army={
-				large="gfx/leaders/SWE/Portrait_Sweden_Claes_Lindsstrom.dds"
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
 				small="gfx/interface/ideas/idea_europe_generic_navy_2.dds"
 			}
 		}

@@ -3,7 +3,7 @@ characters={
 		name=NZL_michael_joseph_savage
 		portraits={
 			civilian={
-				large="gfx/leaders/NZL/r56_portrait_NZL_Michael_Joseph_Savage.dds"
+				large="GFX_NZL_michael_joseph_savage"
 			}
 		}
 		country_leader={
@@ -16,7 +16,7 @@ characters={
 		}
 	}
 	#create_country_leader = {
-	#	name = "Lucy Lawless"
+	#	name = "Cyril Louis Newall"
 	#	desc = "POLITICS_Cyril_Louis_Newall"
 	#	picture = "gfx/leaders/NZL/r56_portrait_NZL_Cyril_Louis_Newall.dds"
 	#	expire = "1965.1.1"
@@ -26,7 +26,7 @@ characters={
 	#	}
 	#}	
 	NZL_cyril_louis_newall={
-		name="Lucy Lawless"
+		name="Cyril Louis Newall"
 		portraits={
 			civilian={
 				large="gfx/leaders/NZL/r56_portrait_NZL_Cyril_Louis_Newall.dds"
@@ -56,7 +56,7 @@ characters={
 		name=NZL_john_ormond
 		portraits={
 			civilian={
-				large="gfx/leaders/NZL/r56_portrait_NZL_John_Ormond.dds"
+				large="GFX_NZL_john_ormond"
 				small="GFX_idea_NZL_john_ormond"
 			}
 		}
@@ -114,7 +114,7 @@ characters={
 		}		
 	}
 	NZL_clemet_gordon_watson={
-		name="Thomasin McKenzie"
+		name="Clemet Gordon Watson"
 		portraits={
 			civilian={
 				large="gfx/leaders/NZL/r56_portrait_NZL_Gordon_Watson.dds"
@@ -201,7 +201,7 @@ characters={
 		}
 	}
 	NZL_harold_barrowclough={
-		name="Frankie Adams"
+		name="Harold Barrowclough"
 		portraits={
 			army={
 				large= "gfx/leaders/NZL/r56_portrait_NZL_Harold_Barrowclough.dds"

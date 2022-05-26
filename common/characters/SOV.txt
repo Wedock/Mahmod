@@ -36,7 +36,7 @@ characters = {
 		name = "Tsar Joseph I"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SOV/r56_portrait_SOV_Tsar_Joseph_Stalin.dds"
+				large = "GFX_portrait_SOV_tsar_stalin"
 			}
 		}
 		country_leader = {
@@ -64,7 +64,7 @@ characters = {
 			}
 		}
 	}
-	SOV_tsar_vsevolod_ivanovich = { # Not implemented
+	SOV_tsar_vsevolod_ivanovich = {
 		name = SOV_tsar_vsevolod_ivanovich
 		portraits = {
 			civilian = {
@@ -262,7 +262,7 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_SOV_aleksandr_vasilevsky"
-				large = "gfx/leaders/SOV/Portrait_Soviet_Aleksandr_Vasilevsky.dds"
+				large = "GFX_portrait_SOV_aleksandr_vasilevsky"
 			}
 		}
 		corps_commander = {
@@ -368,7 +368,7 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_SOV_ivan_konev"
-				large = "gfx/leaders/SOV/Portrait_Soviet_Ivan_Konev.dds"
+				large = "GFX_portrait_SOV_ivan_konev"
 			}
 		}
 		advisor = {
@@ -422,7 +422,7 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_semyon_timoshenko"
-				large = "gfx/leaders/SOV/Portrait_Soviet_Semyon_Timoshenko.dds"
+				large = "GFX_portrait_SOV_semyon_timoshenko"
 			}
 		}
 		advisor = {
@@ -570,12 +570,12 @@ characters = {
 		name = SOV_semyon_budyonny
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Semyon_Budyonny.dds"
+				large = "GFX_portrait_SOV_semyon_budyonny"
 				small="gfx/interface/ideas/idea_SOV_semyon_budyonny.dds"
 			}
 		}
 		field_marshal = {
-			traits = { old_guard inflexible_strategist politically_connected }
+			traits = { old_guard inflexible_strategist politically_connected cavalry_leader }
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
@@ -590,7 +590,7 @@ characters = {
 		name = SOV_ivan_chernyakhovsky
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Ivan_Chernyakhovsky.dds"
+				large = "GFX_portrait_SOV_ivan_chernyakhovsky"
 				small= "GFX_idea_SOV_ivan_chernyakhovsky"
 			}
 		}
@@ -610,7 +610,7 @@ characters = {
 		name = SOV_issa_pliyev
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Issa_Pliyev.dds"
+				large = "GFX_portrait_SOV_issa_pliyev"
 				small= "GFX_idea_SOV_issa_pliyev"
 			}
 		}
@@ -630,7 +630,7 @@ characters = {
 		name = SOV_leonid_govorov
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Leonid_Govorov.dds"
+				large = "GFX_portrait_SOV_leonid_govorov"
 				small= "GFX_idea_SOV_leonid_govorov"
 			}
 		}
@@ -690,7 +690,7 @@ characters = {
 		name = SOV_filipp_golikov
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Filipp_Golikov.dds"
+				large = "GFX_portrait_SOV_filipp_golikov"
 				small= "GFX_idea_SOV_filipp_golikov"
 			}
 		}
@@ -710,7 +710,7 @@ characters = {
 		name = SOV_andrey_yeryomenko
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Andrey_Yeryomenko.dds"
+				large = "GFX_portrait_SOV_andrey_yeryomenko"
 				small= "gfx/interface/ideas/idea_SOV_andrey_yeryomenko.dds"
 			}
 		}
@@ -750,7 +750,7 @@ characters = {
 		name = SOV_yakov_cherevichenko
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Yakov_Cherevichenko.dds"
+				large = "GFX_portrait_SOV_yakov_cherevichenko"
 				small= "GFX_idea_SOV_yakov_cherevichenko"
 			}
 		}
@@ -770,7 +770,7 @@ characters = {
 		name = SOV_maks_reyter
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/portrait_SOV_maks_reyter.dds"
+				large = "GFX_portrait_SOV_maks_reyter"
 				small="gfx/interface/ideas/idea_SOV_maks_reyter.dds"
 			}
 		}
@@ -810,7 +810,7 @@ characters = {
 		name = SOV_vasily_kuznetsov
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Vasily_Kuznetsov.dds"
+				large = "GFX_portrait_SOV_vasily_kuznetsov"
 				small= "GFX_idea_SOV_vasily_kuznetsov"
 			}
 		}
@@ -959,7 +959,7 @@ characters = {
 		name = SOV_nikolay_berzarin
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Nikolai_Berzarin.dds"
+				large = "gfx/leaders/SOV/Portrait_Soviet_Nikolay_Berzarin.dds"
 				small="gfx/interface/ideas/idea_SOV_nikolai_berzarin.dds"
 			}
 		}
@@ -979,7 +979,7 @@ characters = {
 		name = SOV_aleksandr_gorbatov
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Alexander_Gorbatov.dds"
+				large = "gfx/leaders/SOV/Portrait_Soviet_Aleksandr_Gorbatov.dds"
 				small="gfx/interface/ideas/idea_SOV_alexander_gorbatov.dds"
 			}
 		}
@@ -1039,7 +1039,7 @@ characters = {
 		name = SOV_andrey_grechko
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Andrei_Antonovich_Grechko.dds"
+				large = "GFX_portrait_SOV_andrey_grechko"
 				small= "GFX_idea_SOV_andrey_grechko"
 			}
 		}
@@ -1079,7 +1079,7 @@ characters = {
 		name = SOV_vasily_chuykov
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Vasily_Chuikov.dds"
+				large = "gfx/leaders/SOV/Portrait_Soviet_Vasily_Chuykov.dds"
 				small="gfx/interface/ideas/idea_SOV_vasily_chuikov.dds"
 			}
 		}
@@ -1714,7 +1714,7 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_aleksandr_yegorov"
-				large = "gfx/leaders/SOV/portrait_SOV_aleksandr_yegorov.dds"
+				large = "GFX_portrait_SOV_aleksandr_yegorov"
 			}
 		}
 		advisor = {
@@ -1821,7 +1821,7 @@ characters = {
 
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/portrait_SOV_vasily_primakov.dds"
+				large = "GFX_portrait_SOV_vasily_primakov"
 				small = "GFX_portrait_SOV_vasily_primakov_small"
 			}
 		}
@@ -1842,7 +1842,7 @@ characters = {
 		name = SOV_vasily_korzh
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/portrait_SOV_vasily_korzh.dds"
+				large = "GFX_portrait_SOV_vasily_korzh"
 				small = "gfx/interface/ideas/idea_SOV_vasily_korzh.dds"
 			}
 		}
@@ -1866,7 +1866,7 @@ characters = {
 		name = SOV_sidor_kovpak
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/portrait_SOV_sidor_kovpak.dds"
+				large = "GFX_portrait_SOV_sidor_kovpak"
 				small = "gfx/interface/ideas/idea_SOV_sidor_kovpak.dds"
 			}
 		}
@@ -1890,7 +1890,7 @@ characters = {
 		name = SOV_lev_dovator
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/portrait_SOV_lev_dovator.dds"
+				large = "GFX_portrait_SOV_lev_dovator"
 				small = "gfx/interface/ideas/idea_SOV_lev_dovator.dds"
 			}
 		}
@@ -1914,7 +1914,7 @@ characters = {
 		name = SOV_pavel_rybalko
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/portrait_SOV_pavel_rybalko.dds"
+				large = "GFX_portrait_SOV_pavel_rybalko"
 				small = "gfx/interface/ideas/idea_SOV_pavel_rybalko.dds"
 			}
 		}
@@ -1944,7 +1944,7 @@ characters = {
 		name = SOV_anton_denikin
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/r56_portrait_SOV_Anton_Denikin.dds"
+				large = "GFX_portrait_SOV_anton_denikin"
 				small = "GFX_idea_SOV_anton_denikin"
 			}
 		}
@@ -2019,7 +2019,7 @@ characters = {
 		name = SOV_pyotr_krasnov
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/r56_portrait_SOV_Piotr_Krasnow.dds"
+				large = "GFX_portrait_SOV_pyotr_krasnov"
 				small = "GFX_idea_SOV_pyotr_krasnov"
 			}
 		}
@@ -2189,7 +2189,7 @@ characters = {
 		name = SOV_andrey_shkuro
 		portraits = {
 			army = {
-				large = "gfx/leaders/SOV/r56_portrait_SOV_Andrey_Shkuro.dds"
+				large = "GFX_portrait_SOV_andrey_shkuro"
 				small = "GFX_idea_SOV_andrey_shkuro"
 			}
 		}
@@ -3145,7 +3145,7 @@ characters = {
 				}
 				UKR = {
 					NOT = {
-						has_country_leader = { name = "Natalia Vodianova" ruling_only = yes }
+						has_country_leader = { name = "Nikita Khrushchev" ruling_only = yes }
 					}
 				}
 			}
@@ -3468,7 +3468,7 @@ characters = {
 			name = SOV_lavrenty_beriya
 			portraits = {
 				civilian = {
-					large = "gfx/leaders/SOV/r56_portrait_SOV_Lavrenti_Beria.dds"
+					large = "GFX_portrait_SOV_lavrenty_beriya"
 				}
 				army = {
 					small = "GFX_idea_SOV_lavrenty_beriya"
@@ -3492,7 +3492,7 @@ characters = {
 					NOT = { has_idea = SOV_nikolay_yezhov }
 					NOT = { has_idea = SOV_genrikh_yagoda }
 					NOT = { is_country_leader = yes }
-					has_country_leader = { name = "Natalia Vodianova" ruling_only = yes } #for Grieving Stalin
+					has_country_leader = { name = "Nikita Khrushchev" ruling_only = yes } #for Grieving Stalin
 				}
 
 				traits = {
@@ -3521,7 +3521,7 @@ characters = {
 			name = SOV_lavrenty_beriya
 			portraits = {
 				civilian = {
-					large = "gfx/leaders/SOV/r56_portrait_SOV_Lavrenti_Beria.dds"
+					large = "GFX_portrait_SOV_lavrenty_beriya"
 				}
 				army = {
 					small = "GFX_idea_SOV_lavrenty_beriya"
@@ -4070,7 +4070,7 @@ characters = {
 		name = SOV_nikolay_bukharin
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SOV/r56_potrait_SOV_Nikolay_Bukharin.dds"
+				large = "GFX_portrait_SOV_nikolay_bukharin"
 			}
 			army = {
 				small = "GFX_idea_SOV_nikolay_bukharin"
@@ -4735,7 +4735,7 @@ characters = {
 			}
 			visible = {
 				NOT = {
-					has_country_leader = { name = "Svetlana Khodchenkova" ruling_only = yes }
+					has_country_leader = { name = "Aleksandr Kerensky" ruling_only = yes }
 					has_character_flag = SOV_character_purged_flag 
 				}
 			}

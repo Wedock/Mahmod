@@ -169,7 +169,7 @@ focus_tree = {
 
 		completion_reward = {
 			create_navy_leader = {
-				name = "Barbara Palvin"
+				name = "Miklós Horthy"
 				gfx = GFX_Portrait_hungary_miklos_horthy_admiral
 				traits = { gunnery_expert navy_media_personality superior_tactician }
 				skill = 3
@@ -180,7 +180,7 @@ focus_tree = {
 				coordination_skill = 4				
 			}
 			create_country_leader = {
-				name = "Adrianne Palicki"
+				name = "Otto von Habsburg"
 				desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
 				picture = GFX_Portrait_hungary_otto_von_hapsburg
 				expire = "1965.1.1"
@@ -383,7 +383,7 @@ focus_tree = {
 			controls_state = 153
 			controls_state = 4
 			is_subject = no
-			has_country_leader = { ruling_only = yes name = "Adrianne Palicki" }
+			has_country_leader = { ruling_only = yes name = "Otto von Habsburg" }
 		}
 
 		
@@ -584,7 +584,7 @@ focus_tree = {
 		
 		available = {
 			is_subject = no
-			has_country_leader = { ruling_only = yes name = "Adrianne Palicki" }			
+			has_country_leader = { ruling_only = yes name = "Otto von Habsburg" }			
 			2 = {
 				CONTROLLER = {
 					NOT = {
@@ -1156,7 +1156,7 @@ focus_tree = {
 				remove_idea = HUN_hungarian_monarchy_2
 			}
 			create_country_leader = {
-				name = "Drew Barrymore"
+				name = "Carl V Wilhelm"
 				desc = ""
 				picture = "gfx/leaders/HUN/Portrait_Hungary_Carl_V_Wilhelm.dds"
 				expire = "1965.1.1"
@@ -1709,7 +1709,7 @@ focus_tree = {
 							original_tag = SLV
 							original_tag = SER
 							original_tag = BOS
-							original_tag = MCD
+							original_tag = MAC
 							original_tag = TRA
 						}
 					}
@@ -1906,7 +1906,7 @@ focus_tree = {
 			is_in_faction = yes
 			OR = {
 				has_government = democratic
-				has_country_leader = { ruling_only = yes name = "Adrianne Palicki" }
+				has_country_leader = { ruling_only = yes name = "Otto von Habsburg" }
 			}
 			
 			OR = {
@@ -2025,7 +2025,7 @@ focus_tree = {
 				add_popularity = { ideology = fascism popularity = 0.05 }
 				
 				create_country_leader = {
-					name = "Zita Görög"
+					name = "Friedrich Franz of Mecklenburg-Schwerin"
 					desc = "POLITICS_FRIEDRICH_FRANZ_OF_MECKLENBURG-SCHWERIN_DESC"
 					picture = GFX_Portrait_hungary_friedrich_franz
 					expire = "1965.1.1"
@@ -2038,7 +2038,7 @@ focus_tree = {
 				}
 				hidden_effect = {
 					create_country_leader = {
-						name = "Zita Görög"
+						name = "Friedrich Franz of Mecklenburg-Schwerin"
 						desc = "POLITICS_FRIEDRICH_FRANZ_OF_MECKLENBURG-SCHWERIN_DESC"
 						picture = GFX_Portrait_hungary_friedrich_franz
 						expire = "1965.1.1"
@@ -2052,7 +2052,7 @@ focus_tree = {
 				}
 				else = {
 					create_country_leader = {
-						name = "Zita Görög"
+						name = "Friedrich Franz of Mecklenburg-Schwerin"
 						desc = "POLITICS_FRIEDRICH_FRANZ_OF_MECKLENBURG-SCHWERIN_DESC"
 						picture = GFX_Portrait_hungary_friedrich_franz
 						expire = "1965.1.1"
@@ -2159,7 +2159,7 @@ focus_tree = {
 			add_popularity = { ideology = fascism popularity = 0.05 }
 			hidden_effect = {
 				create_country_leader = {
-					name = "Barbara Palvin"
+					name = "Miklós Horthy"
 					desc = "POLITICS_MIKLOS_HORTHY_DESC"
 					picture = "Portrait_Hungary_Miklos_Horthy.dds"
 					expire = "1965.1.1"
@@ -2230,7 +2230,7 @@ focus_tree = {
 		available = {
 			fascism > 0.39
 			has_civil_war = no
-			has_country_leader = { ruling_only = yes name = "Barbara Palvin" }
+			has_country_leader = { ruling_only = yes name = "Miklós Horthy" }
 			is_in_faction = no
 			NOT = {
 				has_government = fascism
@@ -2321,7 +2321,7 @@ focus_tree = {
 		available = {
 
 			has_civil_war = no
-			has_country_leader = { ruling_only = yes name = "Rachel Weisz" }
+			has_country_leader = { ruling_only = yes name = "Ferenc Szalasi" }
 			has_government = fascism
 			OR = {
 				has_completed_focus = HUN_war_games
@@ -2414,7 +2414,7 @@ focus_tree = {
 				if = {
 					#Retire Horthy if neutral leader
 					limit = {
-						has_country_leader = { name = "Barbara Palvin" }
+						has_country_leader = { name = "Miklós Horthy" }
 					}
 					hidden_effect = { 
 						retire_country_leader = yes 
@@ -2429,7 +2429,7 @@ focus_tree = {
 				if = {
 					#Retire Franz if he neutral leader
 					limit = {
-						has_country_leader = { name = "Zita Görög" }
+						has_country_leader = { name = "Friedrich Franz of Mecklenburg-Schwerin" }
 					}
 					hidden_effect = { retire_country_leader = yes }
 				}
@@ -2986,7 +2986,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = neutrality
-				has_country_leader = { ruling_only = yes name = "Zita Görög" }
+				has_country_leader = { ruling_only = yes name = "Friedrich Franz of Mecklenburg-Schwerin" }
 			}
 			
 			is_puppet = no
@@ -3487,7 +3487,7 @@ focus_tree = {
 					owns_state = 70
 					owns_state = 71
 					#owns_state = 72
-					owns_state = 73
+					#owns_state = 73
 					NOT = {
 						has_war_with = HUN
 					}
@@ -3510,7 +3510,7 @@ focus_tree = {
 					owns_state = 70
 					owns_state = 71
 					#owns_state = 72
-					owns_state = 73
+					#owns_state = 73
 				}
 			}
 		}
@@ -3531,7 +3531,7 @@ focus_tree = {
 						owns_state = 70
 						owns_state = 71
 						#owns_state = 72
-						owns_state = 73
+						#owns_state = 73
 					}
 				}
 				70 = {
@@ -3832,7 +3832,7 @@ focus_tree = {
 
 		completion_reward = {
 			if = {
-				limit = { has_country_leader = { name = "Barbara Palvin" } }
+				limit = { has_country_leader = { name = "Miklós Horthy" } }
 				kill_country_leader = yes
 			}
 			set_politics = {
@@ -4069,7 +4069,7 @@ focus_tree = {
 				}
 				retire_country_leader = yes
 				create_country_leader = {
-					name = "Kata Dobó"
+					name = "Bela Kun"
 					desc = "POLITICS_BELA_KUN_DESC"
 					picture = GFX_Portrait_hungary_bela_kun
 					expire = "1965.1.1"
@@ -6063,6 +6063,10 @@ focus_tree = {
 					NOT = {
 						has_tech = improved_light_tank
 					}
+					NOT = {
+						has_dlc = "No Step Back"
+					}
+					
 				}
 				add_tech_bonus = {
 					name = armor_bonus
@@ -6070,7 +6074,21 @@ focus_tree = {
 					uses = 1
 					technology = improved_light_tank
 				}				
-			}						
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_tech = improved_light_tank_chassis
+					}
+					has_dlc = "No Step Back"
+				}
+				add_tech_bonus = {
+					name = armor_bonus
+					bonus = 2
+					uses = 1
+					technology = improved_light_tank_chassis
+				}				
+			}									
 		}
 	}
 
