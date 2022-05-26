@@ -81,7 +81,7 @@ every_possible_country = {
 		name=SPA_francisco_franco
 		portraits={
 			army={
-				large="GFX_portrait_spain_francisco_franco"
+				large="gfx/leaders/SPR/r56_portrait_SPR_Francisco_Franco.dds"
 				small="gfx/interface/ideas/idea_SPA_francisco_franco.dds"
 			}
 		}

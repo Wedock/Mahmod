@@ -78,13 +78,8 @@ political_actions = {
 			}
 		}
 
-		visible = { #invisible for anarchists stuck at 0% stability anyway
-			NOT = {
-				has_country_leader = {
-					name = "Anarchist Commune" 
-					ruling_only = yes
-				}	
-			}
+		visible = {
+			always = yes
 		}
 
 		fire_only_once = no
@@ -159,13 +154,8 @@ political_actions = {
 			}
 		}
 
-		visible = { #invisible for anarchists stuck at 0% stability anyway, peace was never an option *honk*
-			NOT = {
-				has_country_leader = {
-					name = "Anarchist Commune" 
-					ruling_only = yes
-				}	
-			}
+		visible = {
+			always = yes
 		}
 
 		remove_trigger = {

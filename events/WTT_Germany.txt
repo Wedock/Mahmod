@@ -69,17 +69,35 @@ country_event = {
 			set_cosmetic_tag = GER_civil_war
 			hidden_effect = { activate_mission = GER_mefo_bills_mission }
 		}
-		GER_august_von_mackensen = {
-			add_country_leader_role = {
-				country_leader = {
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {
-						great_war_hero
-					}
-				}
-				promote_leader = yes
+		create_country_leader = {
+			name = "Franziska Brandmeier"
+			desc = "POLITICS_AUGUST_VON_MACKENSEN_DESC"
+			picture = "r56_portrait_ger_august_von_mackensen.dds"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				great_war_hero
 			}
+		}
+		create_field_marshal = {
+			name = "Laura Offermann"
+			picture = "r56_portrait_GER_Werner_von_Blomberg.dds"
+			traits = {  infantry_leader  }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		create_field_marshal = {
+			name = "Nicola Cavanis"
+			picture = "r56_portrait_GER_Werner_von_Fritsch.dds"
+			traits = { infantry_leader skilled_staffer expert_delegator }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
 		}			
 		hidden_effect = {
 			random_other_country = {
@@ -239,17 +257,14 @@ country_event = {
 	option = {
 		name = wtt_germany.4.a
 		set_country_flag = kaiser_wilhelm_ii
-				GER_wilhelm_ii = {
-			add_country_leader_role = {
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					anti_democrat
-					imperial_connections
-				}
-			}
-			promote_leader = yes
+		create_country_leader = {
+			name = "Laura Müller"
+			desc = "POLITICS_WILHELM_II_DESC"
+			picture = "r56_portrait_GER_King_Wilhelm.dds"
+			expire = "1965.1.1"
+			ideology = absolute_monarchism
+			traits = {
+				anti_democrat imperial_connections
 			}
 		}
 		hidden_effect = { news_event = { id = wtt_news.3 hours = 6 } }
@@ -285,16 +300,14 @@ country_event = {
 		hidden_effect = {
 			set_country_flag = backed_down_netherlands_kaiser
 		}
-		GER_wilhelm_iii = {
-			add_country_leader_role = {
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					popular_figurehead2
-				}
-			}
-			promote_leader = yes
+		create_country_leader = {
+			name = "Claudia Schiffer"
+			desc = "POLITICS_WILHELM_III_DESC"
+			picture = "r56_portrait_GER_Prince_Wilhelm.dds"
+			expire = "1965.1.1"
+			ideology = absolute_monarchism
+			traits = {
+				popular_figurehead2
 			}
 		}
 		custom_effect_tooltip = wtt_germany.5_tt
@@ -315,22 +328,17 @@ country_event = {
 		clr_country_flag = germany_war_return_kaiser
 		HOL = { clr_country_flag = netherlands_refused_return_kaiser }
 		set_country_flag = kaiser_wilhelm_ii
-		GER_wilhelm_iii = {
-			add_country_leader_role = {
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					popular_figurehead2
-				}
-			}
-			promote_leader = yes
+		create_country_leader = {
+			name = "Laura Müller"
+			desc = "POLITICS_WILHELM_II_DESC"
+			picture = "r56_portrait_GER_Wilhelm_II.dds"
+			expire = "1965.1.1"
+			ideology = absolute_monarchism
+			traits = {
+				anti_democrat imperial_connections
 			}
 		}
-		hidden_effect = { 
-			news_event = { id = wtt_news.4 hours = 6 } 
-			set_cosmetic_tag = GER_neutrality
-		}
+		hidden_effect = { news_event = { id = wtt_news.4 hours = 6 } }
 	}
 }
 
@@ -446,7 +454,6 @@ country_event = {
 	# It is done (no choice needed because decision was taken in previous focus's events)
 	option = {
 		name = wtt_germany.11.a
-		retire_character = ITA_benito_mussolini
 		set_politics = { ruling_party = neutrality elections_allowed = no }
 		add_popularity = { ideology = neutrality popularity = 0.1 }
 		swap_ideas = {
@@ -454,8 +461,15 @@ country_event = {
 			add_idea = GER_preparing_ITA_coup2
 		}
 		remove_ideas = victor_emmanuel
-		ITA_victor_emmanuel_iii = {
-			promote_character = { ideology = despotism }
+		create_country_leader = {
+			name = "Elisabetta Canalis I"
+			desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
+			picture = "gfx/leaders/ITA/r56_portrait_italy_victor_emmanuel_iii.dds"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				soldier_king
+			}
 		}
 		add_ai_strategy = {
 			type = alliance
@@ -680,10 +694,6 @@ country_event = {
 		add_stability = 0.05
 		add_popularity = { ideology = fascism popularity = -0.05 }
 		delete_unit_template_and_units = { division_template = "Landsturmregiment" }
-		if = { 
-			limit = { is_faction_leader = yes } 
-			leave_faction = yes
-		}
 	}
 
 	# Imprison head nazis for life
@@ -693,10 +703,6 @@ country_event = {
 		add_popularity = { ideology = fascism popularity = 0.05 }
 		set_country_flag = GER_imprisoned_fascist_leadership
 		delete_unit_template_and_units = { division_template = "Landsturmregiment" }
-		if = { 
-			limit = { is_faction_leader = yes } 
-			leave_faction = yes
-		}
 	}
 }
 
@@ -984,8 +990,9 @@ country_event = {
 	trigger = {
 		original_tag = GER
 		has_government = neutrality
+		has_completed_focus = GER_consolidate_new_reich
 		date > 1939.1.1
-		has_country_leader = { ruling_only = yes character = GER_wilhelm_ii }
+		has_country_leader = { ruling_only = yes name = "Laura Müller" }
 	}
 
 	mean_time_to_happen = {
@@ -996,16 +1003,14 @@ country_event = {
 	option = {
 		name = wtt_germany.26.a
 		kill_country_leader = yes
-		GER_wilhelm_iii = {
-			add_country_leader_role = {
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					popular_figurehead2
-				}
-			}
-			promote_leader = yes
+		create_country_leader = {
+			name = "Claudia Schiffer"
+			desc = "POLITICS_WILHELM_III_DESC"
+			picture = "r56_portrait_GER_Prince_Wilhelm.dds"
+			expire = "1965.1.1"
+			ideology = absolute_monarchism
+			traits = {
+				popular_figurehead2
 			}
 		}
 	}
@@ -1037,16 +1042,14 @@ country_event = {
 		name = wtt_germany.26.a
 		kill_country_leader = yes
 		set_country_flag = GER_mackensen_dead
-		GER_wilhelm_iii = {
-			add_country_leader_role = {
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					popular_figurehead2
-				}
-			}
-			promote_leader = yes
+		create_country_leader = {
+			name = "Claudia Schiffer"
+			desc = "POLITICS_WILHELM_III_DESC"
+			picture = "r56_portrait_GER_Prince_Wilhelm.dds"
+			expire = "1965.1.1"
+			ideology = absolute_monarchism
+			traits = {
+				popular_figurehead2
 			}
 		}
 	}
@@ -1581,14 +1584,14 @@ country_event = {
 			limit = {
 				has_country_flag = kaiser_wilhelm_ii
 			}
-			GER_wilhelm_iii = {
-				add_country_leader_role = {
-				country_leader = {
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {}
-				}
-				promote_leader = yes
+			create_country_leader = {
+				name = "Claudia Schiffer"
+				desc = "POLITICS_WILHELM_III_DESC"
+				picture = "r56_portrait_GER_Prince_Wilhelm.dds"
+				expire = "1965.1.1"
+				ideology = absolute_monarchism
+				traits = {
+					popular_figurehead2
 				}
 			}
 		}
@@ -1668,14 +1671,14 @@ country_event = {
 			limit = {
 				has_country_flag = kaiser_wilhelm_ii
 			}
-			GER_wilhelm_iii = {
-				add_country_leader_role = {
-				country_leader = {
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {}
-				}
-				promote_leader = yes
+			create_country_leader = {
+				name = "Claudia Schiffer"
+				desc = "POLITICS_WILHELM_III_DESC"
+				picture = "r56_portrait_GER_Prince_Wilhelm.dds"
+				expire = "1965.1.1"
+				ideology = absolute_monarchism
+				traits = {
+					popular_figurehead2
 				}
 			}
 		}
@@ -2200,15 +2203,15 @@ country_event = {
 				has_government = fascism
 			}
 			kill_country_leader = yes
-			GER_heinrich_himmler = {
-				add_country_leader_role = {
-					promote_leader = yes
-					country_leader = {
-						ideology = nazism
-						expire = "1965.1.1.1"
-						traits = {}
-					}
-				}		
+			create_country_leader = {
+				name = "Iris Mareike Steen"
+				desc = "POLITICS_HEINRICH_HIMMLER_DESC"
+				picture = "Portrait_Germany_Heinrich_Himmler.dds"
+				expire = "1965.1.1"
+				ideology = nazism
+				traits = {
+					himmler_terrorizing_monomaniac
+				}
 			}
 		}
 		hidden_effect = {
@@ -2297,7 +2300,7 @@ country_event = {
 		add_popularity = { ideology = fascism popularity = 0.05 }
 		custom_effect_tooltip = reinstate_nazi_leadership_TT
 		set_country_flag = GER_reinstated_nazi_leadership
-		if = {  #I'm leaving these guys in the old system for now because it would be a lot of trouble to make them work properly and need not sure if it's worth it right now.
+		if = {
 			limit = {
 				has_country_flag = model_survived
 			}
@@ -3713,7 +3716,6 @@ country_event = {
 			traits = {
 				kaiserin_of_the_people
 				victoria_iii # Third Victoria counting from Queen Victoria hurr durr
-				promote_leader = yes
 			}
 		}
 		hidden_effect = { set_global_flag = hindenburg_destroyed }
@@ -3760,21 +3762,18 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		set_politics = { 
-			ruling_party = fascism 
-			elections_allowed = no 
-		}
-		add_country_leader_role = {
-			character = ARG_senor_hitler
-			country_leader={
-				expire = "1965.1.1"
-				ideology = nazism
-				traits = {
-					dictator
-					incognito
-				}
+		set_politics = { ruling_party = fascism elections_allowed = no }
+		create_country_leader = {
+			name = "Señor Hilter"
+			desc = "POLITICS_SENOR_HILTER_DESC"
+			picture = "portrait_south_america_generic_leader_1.dds"
+			expire = "1965.1.1"
+			ideology = nazism
+			traits = {
+				dictator
+				incognito
+				empire_builder
 			}
-			promote_leader = yes
 		}
 	}
 }

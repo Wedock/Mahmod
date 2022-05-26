@@ -1,6 +1,6 @@
 
 
-r56_ADR_france_friend = {
+ADR_france_friend = {
 	allowed = {
 		original_tag = ADR
 	}
@@ -18,8 +18,7 @@ r56_ADR_france_friend = {
 		value = 200
 	}
 }
-
-r56_ADR_france_friend = {
+ADR_france_friend = {
 	allowed = {
 		original_tag = ADR
 	}

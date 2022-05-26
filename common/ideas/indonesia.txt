@@ -17,10 +17,12 @@ ideas = {
 			modifier = {
 				conscription_factor = -0.5
 				war_support_factor = -0.20
-				planning_speed = -0.20
-				land_doctrine_cost_factor = 0.30
-				air_doctrine_cost_factor = 0.20
-				naval_doctrine_cost_factor = 0.15
+				planning_speed = -0.20	
+			}
+			research_bonus = {
+				land_doctrine = -0.50
+				air_doctrine = -0.30
+				naval_doctrine = -0.25
 			}	
 		}
 
@@ -39,13 +41,15 @@ ideas = {
 
 			picture = tfv_can_conscription_crisis
 
+			research_bonus = {
+				land_doctrine = -0.50
+				air_doctrine = -0.30
+				naval_doctrine = -0.25
+			}
 			modifier = {
 				conscription_factor = -0.3
 				war_support_factor = -0.15
-				planning_speed = -0.20
-				land_doctrine_cost_factor = 0.30
-				air_doctrine_cost_factor = 0.20
-				naval_doctrine_cost_factor = 0.15	
+				planning_speed = -0.20			
 			}
 	}
 	INS_army_idea_two_1 = {
@@ -67,9 +71,11 @@ ideas = {
 				conscription_factor = -0.20
 				military_leader_cost_factor = -0.25
 				war_support_factor = -0.10
-				land_doctrine_cost_factor = 0.30
-				air_doctrine_cost_factor = 0.20
-				naval_doctrine_cost_factor = 0.15
+			}
+			research_bonus = {
+				land_doctrine = -0.50
+				air_doctrine = -0.30
+				naval_doctrine = -0.25
 			}
 		}
 	INS_army_idea_two_2 = {
@@ -88,10 +94,13 @@ ideas = {
 		modifier = {
 			conscription = 0.03
 			military_leader_cost_factor = -0.25
-			land_doctrine_cost_factor = 0.30
-			air_doctrine_cost_factor = 0.20
-			naval_doctrine_cost_factor = 0.15
-		}	
+		}
+
+		research_bonus = {
+			land_doctrine = -0.50
+			air_doctrine = -0.30
+			naval_doctrine = -0.25
+		}		
 	}
 	INS_army_idea_two_3 = {
 			
@@ -111,9 +120,12 @@ ideas = {
 			modifier = {
 				conscription = 0.03
 				military_leader_cost_factor = -0.25
-				land_doctrine_cost_factor = 0.05
-				air_doctrine_cost_factor = 0.05
-				naval_doctrine_cost_factor = 0.05
+			}
+
+			research_bonus = {
+				land_doctrine = -0.05
+				air_doctrine = -0.05
+				naval_doctrine = -0.05
 			}
 			
 	}
@@ -140,9 +152,11 @@ ideas = {
 				land_reinforce_rate = 0.20
 				army_morale_factor = 0.10
 				war_support_factor = 0.15
-				land_doctrine_cost_factor = -0.1
-				air_doctrine_cost_factor = -0.1
-				naval_doctrine_cost_factor = -0.1 #assumed 1% was a mistake
+			}
+			research_bonus = {
+				land_doctrine = 0.15
+				air_doctrine = 0.10
+				naval_doctrine = 0.010
 			}
 			
 	}

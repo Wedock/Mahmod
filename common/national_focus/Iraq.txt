@@ -686,7 +686,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 10
 			add_doctrine_cost_reduction = {
 				name = IRQ_reform_the_army
 				cost_reduction = 0.5
@@ -830,8 +829,8 @@ focus_tree = {
 		id = IRQ_remove_dependency_on_british_equipment
 		icon = GFX_goal_generic_small_arms
 		prerequisite = { focus = IRQ_reform_the_army }
-		relative_position_id = IRQ_reform_the_army
-		x = -2
+
+		x = 8
 		y = 1
 		cost = 10
 
@@ -842,7 +841,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 5
 			add_tech_bonus = {
 				name = IRQ_remove_dependency_on_british_equipment
 				bonus = 1
@@ -857,10 +855,10 @@ focus_tree = {
 	focus = {
 		id = IRQ_motorized_army
 		icon = GFX_goal_generic_modernizing_the_cavalry
-		prerequisite = { focus = IRQ_reform_the_army }
-		relative_position_id = IRQ_reform_the_army
-		x = 0
-		y = 1
+		prerequisite = { focus = IRQ_remove_dependency_on_british_equipment }
+
+		x = 8
+		y = 2
 		cost = 10
 
 		ai_will_do = {
@@ -884,10 +882,10 @@ focus_tree = {
 	focus = {
 		id = IRQ_study_new_land_doctrines
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = IRQ_motorized_army focus = IRQ_remove_dependency_on_british_equipment }
-		relative_position_id = IRQ_motorized_army
-		x = -1
-		y = 1
+		prerequisite = { focus = IRQ_motorized_army }
+
+		x = 8
+		y = 3
 		cost = 10
 
 		ai_will_do = {
@@ -960,9 +958,9 @@ focus_tree = {
 		id = IRQ_special_forces
 		icon = GFX_goal_generic_special_forces
 		prerequisite = { focus = IRQ_study_new_land_doctrines }
-		relative_position_id = IRQ_study_new_land_doctrines
-		x = 0
-		y = 1
+
+		x = 8
+		y = 4
 		cost = 10
 
 		ai_will_do = {
@@ -1015,9 +1013,9 @@ focus_tree = {
 		id = IRQ_army_modernisation
 		icon = GFX_goal_small_infantry
 		prerequisite = { focus = IRQ_elte_tank_forces focus = IRQ_special_forces }
-		relative_position_id = IRQ_special_forces
-		x = 1
-		y = 1
+
+		x = 10
+		y = 6
 		cost = 10
 
 		ai_will_do = {
@@ -1044,7 +1042,7 @@ focus_tree = {
 		icon = GFX_goal_generic_license_tanks
 		prerequisite = { focus = IRQ_reform_the_army }
 
-		x = 11
+		x = 10
 		y = 1
 		cost = 10
 
@@ -1055,7 +1053,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 5
 			add_tech_bonus = {
 				name = IRQ_study_foreign_tanks
 				bonus = 1
@@ -1070,10 +1067,10 @@ focus_tree = {
 	focus = {
 		id = IRQ_improve_army_logistics
 		icon = GFX_goal_generic_modernizing_the_cavalry2
-		prerequisite = { focus = IRQ_study_foreign_tanks focus = IRQ_motorized_army  }
-		relative_position_id = IRQ_motorized_army
-		x = 2
-		y = 1
+		prerequisite = { focus = IRQ_study_foreign_tanks }
+
+		x = 10
+		y = 2
 		cost = 10
 
 		ai_will_do = {
@@ -1097,9 +1094,9 @@ focus_tree = {
 		id = IRQ_cruisers_experiments
 		icon = GFX_goal_generic_production
 		prerequisite = { focus = IRQ_improve_army_logistics }
-		relative_position_id = IRQ_improve_army_logistics
-		x = 1
-		y = 1
+
+		x = 10
+		y = 3
 		cost = 8
 
 		ai_will_do = {
@@ -1122,10 +1119,10 @@ focus_tree = {
 	focus = {
 		id = IRQ_elte_tank_forces
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = IRQ_improve_army_logistics }
-		relative_position_id = IRQ_improve_army_logistics
-		x = -1
-		y = 1
+		prerequisite = { focus = IRQ_cruisers_experiments }
+
+		x = 10
+		y = 4
 		cost = 10
 
 		ai_will_do = {
@@ -1155,7 +1152,7 @@ focus_tree = {
 		id = IRQ_air_base_expansion
 		icon = GFX_goal_generic_air_production
 
-		x = 15
+		x = 14
 		y = 0
 		cost = 5
 
@@ -1178,6 +1175,7 @@ focus_tree = {
 
 		completion_reward = {
 			random_owned_controlled_state = {
+				prioritize = { 10 }
 				limit = {
 					free_building_slots = {
 						building = air_base
@@ -1194,11 +1192,10 @@ focus_tree = {
 			#Add 2 Airbases in Warsaw
 			add_doctrine_cost_reduction = {
 				name = FRA_interwar_experience
-				cost_reduction = 0.5
+				cost_reduction = 0.35
 				uses = 1
 				category = air_doctrine
-			}
-			air_experience = 10			
+			}			
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
@@ -1253,7 +1250,7 @@ focus_tree = {
 			add_doctrine_cost_reduction = {
 				name = IRQ_air_innovations
 				cost_reduction = 0.5
-				uses = 2
+				uses = 1
 				category = air_doctrine
 			}
 			#1x50% research bonus to Air Doctrine Research
@@ -1454,9 +1451,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			navy_experience = 10
 			random_owned_controlled_state = {
-				prioritize = { 291 }
+				prioritize = { 85 }
 				limit = {
 					free_building_slots = {
 						building = dockyard
@@ -1492,7 +1488,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			navy_experience = 5
 			add_tech_bonus = {
 				name = POL_study_foreign_built_ships
 				bonus = 1
@@ -1573,7 +1568,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			navy_experience = 5
 			add_tech_bonus = {
 				name = POL_import_submarine_technology
 				bonus = 1
@@ -1618,10 +1612,10 @@ focus_tree = {
 
 		available_if_capitulated = yes
 
-		completion_reward = {				
-			add_doctrine_cost_reduction = {
+		completion_reward = {
+			add_tech_bonus = {
 				name = POL_commerce_attack
-				cost_reduction = 0.75		
+				bonus = 2
 				uses = 1
 				category = submarine_doctrine
 			}
@@ -1649,8 +1643,8 @@ focus_tree = {
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = IRQ_the_twin_threats
-				cost_reduction = 0.5			#was 150% instead of described 50%
-				uses = 2
+				cost_reduction = 0.35			#was 150% instead of described 50%
+				uses = 1
 				category = naval_doctrine
 			}
 			#1x50% bonus to Naval Doctrine Research
@@ -1745,7 +1739,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			navy_experience = 25
 			add_doctrine_cost_reduction = {
 				name = IRQ_persian_gulf_navy
 				cost_reduction = 0.5
@@ -1854,81 +1847,17 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	focus = {
-		id = IRQ_opportunistic_oil_nationalization
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		prerequisite = { focus = IRQ_reinforce_the_monarchy }
-		x = -4
-		y = 1
-		relative_position_id = IRQ_reinforce_the_monarchy
-
-		available = {
-			ENG = {
-				OR = {
-					has_war_with = ROOT
-					has_capitulated = yes
-					is_puppet = yes
-				}
-			}
-			controls_state = 676
-			controls_state = 291
-		}
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			every_country = {
-				limit = {
-					tag = ENG
-					
-					NOT = {
-						has_war_with = ROOT
-					}
-					NOT = {
-						is_subject_of = ROOT
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = sanctions
-				}
-				#country_event = {
-				#	days = 1
-				#	id = mexico.2
-				#}
-				#custom_effect_tooltip = tooltip_mexico_they_may_declare_war
-			}
-			#remove_ideas = MEX_oil_concessions
-
-			ENG = { 
-				remove_resource_rights = 676
-				remove_resource_rights = 291
-			}
-			remove_ideas = IRQ_oil_concessions
-			hidden_effect = {
-				set_country_flag = IRQ_nationalized_oil_fields
-			}			
-		}
-		search_filters = { FOCUS_FILTER_OIL }
-	}	
-	focus = {
 		id = IRQ_british_embassy2
 		icon = GFX_focus_chi_british_cooperation
 		prerequisite = { focus = IRQ_reinforce_the_monarchy}
 		available = {
 			country_exists = ENG
-			ENG = {
-				has_completed_focus = ENG_steady_as_she_goes
-			}
+			ENG = 
+				{has_completed_focus = ENG_steady_as_she_goes}
 		}
 		relative_position_id = IRQ_reinforce_the_monarchy
 		x = 4
-		y = 2
+		y = 1
 		cost = 10
 
 		ai_will_do = {
@@ -1962,7 +1891,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_on_the_british_side
-		icon = GFX_focus_generic_commonwealth_build_infantry
+		icon = GFX_focus_chi_british_cooperation
 		prerequisite = { focus = IRQ_british_embassy2 }
 		prerequisite = { focus = IRQ_seek_foreign_industrial_support }
 		relative_position_id = IRQ_british_embassy2
@@ -1991,8 +1920,8 @@ focus_tree = {
 			}
 		}
 
-		x = 1
-		y = 1
+		x = 0
+		y = 2
 		cost = 10
 
 		ai_will_do = {
@@ -2414,54 +2343,9 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = IRQ_foreign_industrial_support
 		}
+
+
 	}
-	focus = {
-		id = IRQ_tip_the_oil_balance
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		prerequisite = { focus = IRQ_british_embassy2 }
-		prerequisite = { focus = IRQ_seek_foreign_industrial_support }
-		x = 1
-		y = 1
-		relative_position_id = IRQ_seek_foreign_industrial_support
-
-		available = {
-			NOT = {
-				ENG = {
-					OR = {
-						has_war_with = ROOT
-						has_capitulated = yes
-						is_puppet = yes
-					}
-				}
-			}
-			controls_state = 291
-		}
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			ENG = { 
-				remove_resource_rights = 291
-			}
-			swap_ideas = {
-				remove_idea = IRQ_oil_concessions 
-				add_idea = IRQ_oil_concessions2
-			}
-			add_tech_bonus = {
-				name = industrial_bonus
-				bonus = 1.0
-				uses = 1
-				category = excavation_tech
-			}				
-		}
-		search_filters = { FOCUS_FILTER_OIL }
-	}	
 	focus = {
 		id = IRQ_the_end_of_the_monarchy
 		icon = GFX_focus_rom_abdicate
@@ -2574,65 +2458,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER }
 	}
-	focus = {
-		id = IRQ_fascist_oil_nationalization
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		prerequisite = { focus = IRQ_political_purification }
-		x = 2
-		y = 1
-		relative_position_id = IRQ_political_purification
 
-		available = {
-			NOT = {
-				is_puppet_of = ENG
-			}
-			controls_state = 676
-			controls_state = 291
-		}
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			every_country = {
-				limit = {
-					tag = ENG
-					
-					NOT = {
-						has_war_with = ROOT
-					}
-					NOT = {
-						is_subject_of = ROOT
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = sanctions
-				}
-				#country_event = {
-				#	days = 1
-				#	id = mexico.2
-				#}
-				#custom_effect_tooltip = tooltip_mexico_they_may_declare_war
-			}
-			#remove_ideas = MEX_oil_concessions
-
-			ENG = { 
-				remove_resource_rights = 676
-				remove_resource_rights = 291
-			}
-			remove_ideas = IRQ_oil_concessions
-			hidden_effect = {
-				set_country_flag = IRQ_nationalized_oil_fields
-			}
-		}
-		search_filters = { FOCUS_FILTER_OIL }
-	}
 	focus = {
 		id = IRQ_cult_of_personaility
 		icon = GFX_goal_anschluss
@@ -2643,7 +2469,7 @@ focus_tree = {
 		prerequisite = { focus = IRQ_officers_coup }
 
 		relative_position_id = IRQ_officers_coup
-		x = 3
+		x = 1
 		y = 1
 		cost = 10
 
@@ -2662,7 +2488,7 @@ focus_tree = {
 		prerequisite = { focus =  IRQ_cult_of_personaility }
 
 		relative_position_id = IRQ_officers_coup
-		x = 3
+		x = 1
 		y = 2
 		cost = 10
 
@@ -2721,11 +2547,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			GER = {
-				country_event = { id = irq.1}
-			}
+		GER = {
+			country_event = { id = irq.1}
 		}
 	}
+}
 
 	focus = {
 		id = IRQ_establish_the_republican_guard
@@ -3260,7 +3086,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 0.5
 			modifier = {
 				is_historical_focus_on = yes
 				factor = 0
@@ -3270,73 +3096,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_timed_idea = { idea = internationalism days = 1395 }
-			add_popularity = {
-			    ideology = communism
-			    popularity = 0.1
-			}
+			add_timed_idea = { idea = communist_influence days = 1395 }
 	    #Increases Communist Support
 			remove_ideas = IRQ_religious_schism
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
-	focus = {
-		id = IRQ_communist_oil_nationalization
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		prerequisite = { focus = IRQ_workers_revolution }
-		x = -3
-		y = 1
-		relative_position_id = IRQ_workers_revolution
 
-		available = {
-			NOT = {
-				is_puppet_of = ENG
-			}
-		}
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			every_country = {
-				limit = {
-					tag = ENG
-					
-					NOT = {
-						has_war_with = ROOT
-					}
-					NOT = {
-						is_subject_of = ROOT
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = sanctions
-				}
-				#country_event = {
-				#	days = 1
-				#	id = mexico.2
-				#}
-				#custom_effect_tooltip = tooltip_mexico_they_may_declare_war
-			}
-			#remove_ideas = MEX_oil_concessions
-
-			ENG = { 
-				remove_resource_rights = 676
-				remove_resource_rights = 291
-			}
-			remove_ideas = IRQ_oil_concessions
-			hidden_effect = {
-				set_country_flag = IRQ_nationalized_oil_fields
-			}
-		}
-		search_filters = { FOCUS_FILTER_OIL }
-	}
 	focus = {
 		id = IRQ_appease_the_army
 		icon = GFX_goal_manpower
@@ -3344,7 +3110,7 @@ focus_tree = {
 
 		relative_position_id = IRQ_workers_revolution
 
-		x = 3
+		x = 4
 		y = 1
 		cost = 10
 
@@ -3462,7 +3228,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = IRQ_militarized_settlements
-			add_war_support = 0.1
 			#As Per Generic Focus
 		}
 		search_filters = { FOCUS_FILTER_MANPOWER }
@@ -3567,7 +3332,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_join_the_comitern
-		icon = GFX_focus_chi_mission_to_the_soviet_union
+		icon = GFX_focus_generic_join_comintern
 		prerequisite = { focus = IRQ_secret_police focus = IRQ_ministry_of_propaganda }
 		mutually_exclusive = { focus = IRQ_form_the_socialist_union_of_the_mashriq }
 
@@ -3603,7 +3368,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_the_parition_of_persia
-		icon = GFX_goal_generic_attack_persia
+		icon = GFX_goal_molotov_ribbentrop_pact
 		prerequisite = { focus = IRQ_join_the_comitern }
 
 		relative_position_id = IRQ_join_the_comitern
@@ -3740,7 +3505,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_invite_arabia
-		icon = GFX_focus_generic_befriend_saudi_arabia
+		icon = GFX_goal_generic_improve_relations
 		prerequisite = { focus = IRQ_form_the_socialist_union_of_the_mashriq }
 
 		relative_position_id = IRQ_form_the_socialist_union_of_the_mashriq
@@ -3751,40 +3516,16 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		available = {
-			is_faction_leader = yes
-			is_subject = no
-			country_exists = SAU
-			SAU = {
-				is_in_faction = no
-				is_subject = no 
-				is_in_faction = no				
-				NOT = {
-					has_war_with = ROOT
-				}
-				has_opinion = {
-					target = ROOT
-					value > -15
-				}
-			}
-		}
-		bypass = {
-			SAU = {
-				OR = {
-					is_in_faction = yes
-					has_war_with = ROOT
-				}
-			}
-		}
+
 		available_if_capitulated = yes
 
 		completion_reward = {
-			SAU = {
-				country_event = { id = arab.1}
-			}
+		SAU = {
+			country_event = { id = arab.1}
 		}
-		search_filters = { FOCUS_FILTER_ALLIANCE }
 	}
+	search_filters = { FOCUS_FILTER_ALLIANCE }
+}
 
 	focus = {
 		id = IRQ_invite_yemen
@@ -3799,31 +3540,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		available = {
-			is_faction_leader = yes
-			is_subject = no
-			country_exists = YEM
-			YEM = {
-				is_in_faction = no
-				is_subject = no 
-				is_in_faction = no				
-				NOT = {
-					has_war_with = ROOT
-				}
-				has_opinion = {
-					target = ROOT
-					value > -15
-				}
-			}
-		}
-		bypass = {
-			YEM = {
-				OR = {
-					is_in_faction = yes
-					has_war_with = ROOT
-				}
-			}
-		}
+
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -3847,31 +3564,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		available = {
-			is_faction_leader = yes
-			is_subject = no
-			country_exists = OMA
-			OMA = {
-				is_in_faction = no
-				is_subject = no 
-				is_in_faction = no				
-				NOT = {
-					has_war_with = ROOT
-				}
-				has_opinion = {
-					target = ROOT
-					value > -15
-				}
-			}
-		}
-		bypass = {
-			OMA = {
-				OR = {
-					is_in_faction = yes
-					has_war_with = ROOT
-				}
-			}
-		}
+
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -3881,176 +3574,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_ALLIANCE }
 	}
-	focus = {
-		id = IRQ_ally_the_turkish_communists
-		icon = GFX_focus_generic_befriend_turkey
-		prerequisite = { focus = IRQ_invite_oman }
-		prerequisite = { focus = IRQ_invite_arabia }
-		prerequisite = { focus = IRQ_invite_yemen }
-		mutually_exclusive = { focus = IRQ_conquer_turkey }
-		relative_position_id = IRQ_invite_oman
-		x = 1
-		y = 2
-		cost = 5
-		available = {
-			OR = {
-				is_faction_leader = yes
-				TUR ={
-					is_faction_leader = yes
-				}
-			}
-			TUR = {
-				has_government = communism
-			}
-			
-		}
-		bypass = {
-			OR = {
-				NOT = { country_exists = TUR }
-				TUR = { is_subject = yes }
-				TUR = {
-					is_in_faction = yes
-					is_faction_leader = no
-				}
-			}
-		}
-		completion_reward = {
-			if = {
-				limit = {
-					TUR = {
-						is_in_faction = no
-					}
-				}
-				TUR = { country_event = { days = 1 id = generic.5 } }  #bra.8
-			}
-			if = {
-				limit = {
-					TUR = {
-						is_faction_leader = yes
-						NOT = {
-							has_government = communism
-						}
-					}
-				}
-				every_country = {
-					limit = {
-						OR = {
-							tag = ROOT
-							is_in_faction_with = ROOT
-						}
-					}
-					TUR = {
-						add_to_faction = PREV
-						add_opinion_modifier = { target = PREV modifier = huge_increase }
-					}
-					
-					
-				}
-				
-				hidden_effect = {
-					TUR = {
-						save_event_target_as = alliance_inviter					
-						set_country_flag = alliance_inviter@ROOT
-					}
-					
-					ROOT = { 
-						set_country_flag = alliance_applicant@ROOT 
-						save_event_target_as = alliance_applicant
-					}
-					
-					news_event = { id = r56i.event.16 hours = 12 }
-				}					
-				
-			}			
-		
-		}
-		search_filters = { FOCUS_FILTER_ALLIANCE }
-	}
-	focus = {
-		id = IRQ_ally_the_iranian_communists
-		icon = GFX_goal_PER_recreate_the_persian_socialist_soviet_republic
-		prerequisite = { focus = IRQ_invite_oman }
-		prerequisite = { focus = IRQ_invite_arabia }
-		prerequisite = { focus = IRQ_invite_yemen }
-		mutually_exclusive = { focus = IRQ_conquer_persia }
-		relative_position_id = IRQ_invite_oman
-		x = -5
-		y = 2
-		cost = 5
-		available = {
-			OR = {
-				is_faction_leader = yes
-				PER ={
-					is_faction_leader = yes
-				}
-			}
-			PER = {
-				has_government = communism
-			}
-			
-		}
-		bypass = {
-			OR = {
-				NOT = { country_exists = PER }
-				PER = { is_subject = yes }
-				PER = {
-					is_in_faction = yes
-					is_faction_leader = no
-				}
-			}
-		}
-		completion_reward = {
-			if = {
-				limit = {
-					PER = {
-						is_in_faction = no
-					}
-				}
-				PER = { country_event = { days = 1 id = generic.5 } }  #bra.8
-			}
-			if = {
-				limit = {
-					PER = {
-						is_faction_leader = yes
-						NOT = {
-							has_government = communism
-						}
-					}
-				}
-				every_country = {
-					limit = {
-						OR = {
-							tag = ROOT
-							is_in_faction_with = ROOT
-						}
-					}
-					PER = {
-						add_to_faction = PREV
-						add_opinion_modifier = { target = PREV modifier = huge_increase }
-					}
-					
-					
-				}
-				
-				hidden_effect = {
-					PER = {
-						save_event_target_as = alliance_inviter					
-						set_country_flag = alliance_inviter@ROOT
-					}
-					
-					ROOT = { 
-						set_country_flag = alliance_applicant@ROOT 
-						save_event_target_as = alliance_applicant
-					}
-					
-					news_event = { id = r56i.event.16 hours = 12 }
-				}					
-				
-			}			
-		
-		}
-		search_filters = { FOCUS_FILTER_ALLIANCE }
-	}	
+
 	focus = {
 		id = IRQ_assisted_development
 		icon = GFX_goal_generic_consumer_goods
@@ -4059,7 +3583,7 @@ focus_tree = {
 		prerequisite = { focus = IRQ_invite_arabia }
 
 		relative_position_id = IRQ_form_the_socialist_union_of_the_mashriq
-		x = 2
+		x = 0
 		y = 2
 		cost = 20
 
@@ -4067,130 +3591,165 @@ focus_tree = {
 			factor = 10
 		}
 
-		available = {
-			292 = {
-				CONTROLLER = {
-					OR = {
-						tag = ROOT
-						is_in_faction_with = ROOT
-					}
-				}
+		available_if_capitulated = yes
+
+		completion_reward = {
+		292 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
 			}
-			679 = {
-				CONTROLLER = {
-					OR = {
-						tag = ROOT
-						is_in_faction_with = ROOT
-					}
-				}
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
 			}
+		}
+		679 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
 			678 = {
-				CONTROLLER = {
-					OR = {
-						tag = ROOT
-						is_in_faction_with = ROOT
-					}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
 				}
-			}	
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 			293 = {
-				CONTROLLER = {
-					OR = {
-						tag = ROOT
-						is_in_faction_with = ROOT
-					}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
 				}
 			}
 			294 = {
-				CONTROLLER = {
-					OR = {
-						tag = ROOT
-						is_in_faction_with = ROOT
-					}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
 				}
-			}											
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+	  }
+	  search_filters = { FOCUS_FILTER_INDUSTRY }
+	}
+
+	focus = {
+		id = IRQ_conquer_persia
+		icon = GFX_goal_generic_attack_persia
+		prerequisite = { focus = IRQ_assisted_development }
+
+		relative_position_id = IRQ_assisted_development
+		x = -2
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
 		}
 
 		available_if_capitulated = yes
 
-		completion_reward = {
-			292 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-			679 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-			678 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-			293 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-			294 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
+		available = {
+			r56_script_i_am_sane = yes
+			PER = {
+				r56_script_target_is_sane = yes
 			}
 		}
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-	}
+
+		bypass = {
+			PER = {
+				r56_script_standard_bypass = yes
+			}
+		}
+
+		completion_reward = {
+		create_wargoal = {
+			type = take_state_focus
+			target = PER
+			expire = 0
+			generator = { 413 421 }
+		   }
+    	}
+    	search_filters = { FOCUS_FILTER_ANNEXATION }
+		}
+
+	focus = {
+		id = IRQ_conquer_turkey
+		icon = GFX_focus_generic_attack_turkey
+		prerequisite = { focus = IRQ_assisted_development }
+
+		relative_position_id = IRQ_assisted_development
+		x = 2
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		available = {
+			r56_script_i_am_sane = yes
+			TUR = {
+				r56_script_target_is_sane = yes
+			}
+		}
+
+		bypass = {
+			TUR = {
+				r56_script_standard_bypass = yes
+			}
+		}
+
+		completion_reward = {
+		create_wargoal = {
+			type = take_state_focus
+			target = TUR
+			expire = 0
+			generator = { 413 }
+			 }
+			}
+			search_filters = { FOCUS_FILTER_ANNEXATION }
+		}
 
 
 	focus = {
 		id = IRQ_Mawtini
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = IRQ_invite_oman }
-		prerequisite = { focus = IRQ_invite_arabia }
-		prerequisite = { focus = IRQ_invite_yemen }
+		prerequisite = { focus = IRQ_assisted_development }
 
-		relative_position_id = IRQ_form_the_socialist_union_of_the_mashriq
+		relative_position_id = IRQ_assisted_development
 		x = 0
 		y = 2
 		cost = 10
@@ -4207,85 +3766,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_MANPOWER }
 	}
-	focus = {
-		id = IRQ_conquer_persia
-		icon = GFX_goal_generic_attack_persia
-		prerequisite = { focus = IRQ_Mawtini }
-		mutually_exclusive = { focus = IRQ_ally_the_iranian_communists }
-		relative_position_id = IRQ_Mawtini
-		x = -1
-		y = 1
-		cost = 10
 
-		ai_will_do = {
-			factor = 10
-		}
-
-		available_if_capitulated = yes
-
-		available = {
-			r56_script_i_am_sane = yes
-			PER = {
-				r56_script_target_is_sane = yes
-			}
-		}
-
-		bypass = {
-			PER = {
-				r56_script_standard_bypass = yes
-			}
-		}
-
-		completion_reward = {
-			create_wargoal = {
-				type = take_state_focus
-				target = PER
-				expire = 0
-				generator = { 413 421 }
-			}
-    	}
-    	search_filters = { FOCUS_FILTER_ANNEXATION }
-	}
-
-	focus = {
-		id = IRQ_conquer_turkey
-		icon = GFX_focus_generic_attack_turkey
-		prerequisite = { focus = IRQ_Mawtini }
-		mutually_exclusive = { focus = IRQ_ally_the_turkish_communists }
-		relative_position_id = IRQ_Mawtini
-		x = 1
-		y = 1
-		cost = 10
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		available_if_capitulated = yes
-
-		available = {
-			r56_script_i_am_sane = yes
-			TUR = {
-				r56_script_target_is_sane = yes
-			}
-		}
-
-		bypass = {
-			TUR = {
-				r56_script_standard_bypass = yes
-			}
-		}
-
-		completion_reward = {
-			create_wargoal = {
-				type = take_state_focus
-				target = TUR
-				expire = 0
-				generator = { 413 }
-			}
-		}
-		search_filters = { FOCUS_FILTER_ANNEXATION }
-	}
 
 	focus = {
 		id = IRQ_the_secular_movement
@@ -4293,7 +3774,7 @@ focus_tree = {
 		prerequisite = { focus = IRQ_the_end_of_the_monarchy }
 		mutually_exclusive = { focus = IRQ_workers_revolution }
 
-		x = 40
+		x = 42
 		y = 3
 		cost = 10
 
@@ -4305,10 +3786,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_timed_idea = { idea = democratic_influence days = 1395 }
-			add_popularity = {
-			    ideology = democratic
-			    popularity = 0.15
-			}			
 			#Increase in Democratic Support
 			remove_ideas = IRQ_religious_schism
 		}
@@ -4387,17 +3864,15 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_sell_oil_to_the_allies
-		icon = GFX_goal_generic_oil_refinery
+		icon = GFX_goal_generic_positive_trade_relations
 		prerequisite = { focus = IRQ_british_embassy }
 		available = {
 			country_exists = ENG
 			ENG = {
 				NOT = {
-					has_war_with = ROOT
+					has_war_with = IRQ
 				}	
 			}
-			controls_state = 676
-			controls_state = 291			
 		}
 
 		relative_position_id = IRQ_the_secular_movement
@@ -4412,25 +3887,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			ENG = { 
-				remove_resource_rights = 676
-				remove_resource_rights = 291
-			}
-			remove_ideas = IRQ_oil_concessions
-			add_tech_bonus = {
-				name = industrial_bonus
-				bonus = 1.0
-				uses = 1
-				category = excavation_tech
-			}			
-			add_resource = {
-				type = oil
-				amount = 6
-				state = 291
-			}
-		}
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_OIL}
+		add_resource = {
+		 type = oil
+		 amount = 12
+		 state = 291
+	 }
 	}
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_OIL}
+}
 
 	focus = {
 		id = IRQ_join_the_allies
