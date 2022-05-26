@@ -200,7 +200,7 @@
 				add_popularity = { ideology = communism popularity = 0.05 }
 				if = {
 					limit = {
-						has_country_leader = { ruling_only = yes name = "Hirohito" }
+						has_country_leader = { ruling_only = yes name = "Erika Sawajiri" }
 					}
 					remove_country_leader_trait = imperial_sanction
 				}

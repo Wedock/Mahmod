@@ -883,7 +883,7 @@ ideas = {
 
 			cancel = { # if kodha faction gains power
 				has_country_leader = {
-					name = "Michinomiya Hirohito"
+					name = "Erika Sawajiri"
 					ruling_only = yes
 				}
 			}

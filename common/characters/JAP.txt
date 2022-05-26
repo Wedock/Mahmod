@@ -1,21 +1,43 @@
 characters={
-	JAP_emperor_hirohito={
-		name=JAP_emperor_hirohito
+	JAP_fumimaro_konoe={
+		name="Ayano Washizu"
 		portraits={
 			civilian={
-				large="gfx/leaders/JAP/Portrait_Japan_Hirohito.dds"
+				large="gfx/leaders/JAP/r56_portrait_JAP_Fumimaro_Konoe.dds"
+				small="GFX_idea_advisor_JAP_Fumimaro_Konoe"
 			}
 		}
 		country_leader={
 			ideology=fascism_ideology
 			traits={ 		
-				warrior_code
-				emperor_showa
 				imperial_sanction
-				r56_trait_opposed_to_communismn
+				r56_trait_opposed_to_communism
 			}
 			expire="1989.1.1.1"
 			id=700
+		}
+		advisor={
+			cost = 150
+			slot = political_advisor
+			idea_token = fumimaro_konoe
+			allowed = {
+				original_tag = JAP
+			}
+			available = {
+				has_completed_focus = JAP_national_mobilization_law
+			}
+			traits = {
+				mobilization_proponent
+			}
+		}
+	}
+
+	JAP_emperor_hirohito={
+		name="Erika Sawajiri"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP/Portrait_Japan_Hirohito.dds"
+			}
 		}
 	}
 
