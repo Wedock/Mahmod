@@ -44,7 +44,7 @@
 		}
 	}	
 	BEL_julien_lahaut={
-		name="Julien Lahaut"
+		name="Sherelle de Jong"
 		portraits={
 			civilian={
 				large="gfx/leaders/BEL/r56_portrait_BEL_Julien_Lahaut.dds"
@@ -113,7 +113,7 @@
 	}
 	
 	BEL_xavier_relecom={
-		name="Xavier Relecom"
+		name="Ella Leyers"
 		portraits={
 			civilian={
 				large="gfx/leaders/BEL/portrait_xavier_relecom.dds"
@@ -342,7 +342,7 @@
 		}
 	}			
 	BEL_leopold_iii={
-		name="Léopold III"
+		name="Eline Powell"
 		portraits={
 			army = {
 				large="gfx/leaders/BEL/Portrait_BEL_Leopold_III.dds"
@@ -361,7 +361,7 @@
 	}
 
 	BEL_edouard_van_den_bergen={#partisan of reserve corps for more effective mobilization (rejected because it would disturb the economic plans)
-		name="Édouard Van den Bergen"
+		name="Sarah De Herdt"
 		portraits={
 			army={
 				large="gfx/leaders/BEL/Portrait_Belgium_Edouard_van_den_Bergen.dds"
@@ -392,7 +392,7 @@
 		}
 	}
 	BEL_mcl_keyaerts={
-		name="Maurice Keyaerts"
+		name="Camille Rochette"
 		portraits={
 			army={
 				large="gfx/leaders/BEL/r56_portrait_BEL_MCL_Keyaerts.dds"
@@ -410,7 +410,7 @@
 		}
 	}
 	BEL_georges_deffontaine={
-		name="Georges Deffontaine"
+		name="Lisa Moerman"
 		portraits={
 			army={
 				large="gfx/leaders/BEL/r56_portrait_BEL_Georges_Deffontaine.dds"
@@ -428,7 +428,7 @@
 		}
 	}	
 	BEL_maximilien_de_neve_de_roden={
-		name="Maximilien de Neve de Roden"
+		name="Stella Maxwell"
 		portraits={
 			army={
 				large="gfx/leaders/BEL/portrait_DE_NEVE_DE_RODEN.dds"
@@ -478,7 +478,7 @@
 				factor = 1.000
 			}
 		}
-		name = "Victor Van Strydonck de Burkel"
+		name = "Fanny François"
 		portraits={
 			army={
 				small="GFX_idea_BEL_victor_van_strydonck_de_burkel"
@@ -496,7 +496,7 @@
 		}		
 	}
 	FLA_alexis_vander_veken={
-		name="Alexis Vander Veken"
+		name="Joyce Verheyen"
 		portraits={
 			army={
 				large="gfx/leaders/BEL/r56_portrait_BEL_Alexis_Vander_Veken.dds"
@@ -719,7 +719,7 @@
 	}
 
 	BEL_lambert_robins={
-		name="Lambert Robins"
+		name="Amelie Belain"
 		portraits={
 			army={
 				large="gfx/leaders/BEL/Portrait_Belgium_Lambert_Robins.dds"
@@ -737,7 +737,7 @@
 		}
 	}	
 	#create_navy_leader = {
-	#name = "Lambert Robins"
+	#name = "Amelie Belain"
 	#portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Lambert_Robins.dds"
 	#traits = { walloon spotter }
 	#skill = 1

@@ -855,7 +855,7 @@ den_collab_denmark_init = {
             name = "Collaborationists"
         }
         #create_country_leader = {	#Conservatives
-        #    name = "Erik Scavenius"
+        #    name = "Mathilde Goehler"
         #    desc = "POLITICS_CHRISTMAN_MOLLER_DESC"
         #    picture = "gfx/leaders/DEN/Portrait_Denmark_Erik_Scavenius.dds"
         #    expire = "1965.1.1"
@@ -895,7 +895,7 @@ den_become_generic = {
             long_name = "Glücksburg Restorationists"
         }
 		create_country_leader = {
-			name = "Christian X"
+			name = "Helena Christensen"
 			desc = "POLITICS_CHRISTIAN_X_DESC"
 			picture = "gfx/leaders/DEN/r56_portrait_DEN_Christian_X.dds"
 			expire = "1965.1.1"

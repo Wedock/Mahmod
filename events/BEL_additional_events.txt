@@ -78,7 +78,7 @@ country_event = {
 		tag = COG
 		
 		NOT =  {
-			has_country_leader = { ruling_only = yes name = "Pierre Ryckmans" }
+			has_country_leader = { ruling_only = yes name = "Marisa Papen" }
 			has_country_leader = { ruling_only = yes name = "Albert Decoster" }					
 			has_government = fascism
 			has_global_flag = COG_renamed_cities
@@ -2281,8 +2281,8 @@ country_event = {
 		remove_ideas = FRA_disjointed_government
 		remove_ideas = tblra_peacetime_national_union
 		create_country_leader = {
-			name = "Paul-Emile Janson"
-			desc = "Paul-Emile Janson"
+			name = "Frances Lefebure"
+			desc = "Frances Lefebure"
 			picture = "Portrait_Belgium_Paul-Emile_Janson.dds"
 			expire = "1939.1.1"
 			ideology = liberalism
@@ -3562,8 +3562,8 @@ country_event = { # we are flanders!
 					neutrality = 0.73
 				}
 				create_country_leader = {
-					name = "Pierre Ryckmans"
-					desc = "Pierre Ryckmans, Governor General of the Belgian Congo"
+					name = "Marisa Papen"
+					desc = "Marisa Papen, Governor General of the Belgian Congo"
 					picture = "gfx/leaders/COG/Pierre_Ryckmans.dds"
 					expire = "1965.1.1"
 					ideology = despotism
@@ -4610,8 +4610,8 @@ country_event = { # we are wallonia!
 					elections_allowed = no
 				}
 				create_country_leader = {
-					name = "Pierre Ryckmans"
-					desc = "Pierre Ryckmans, Governor General of the Belgian Congo"
+					name = "Marisa Papen"
+					desc = "Marisa Papen, Governor General of the Belgian Congo"
 					picture = "gfx/leaders/COG/Pierre_Ryckmans.dds"
 					expire = "1965.1.1"
 					ideology = despotism

@@ -76,7 +76,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jef Van Extergem"
+	name = "Jenna Peij"
 	desc = "POLITICS_JEF_VAN_EXTERGEM_DESC"
 	picture = "gfx/leaders/FLA/portrait_Belgium_Jef_Van_Extergem.dds"
 	expire = "1965.1.1"

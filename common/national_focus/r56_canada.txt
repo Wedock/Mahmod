@@ -1705,10 +1705,7 @@ focus_tree = {
 		
 		
 		bypass = {
-			OR = {
-				has_tech = advanced_light_tank_chassis
-				has_tech = advanced_light_tank
-			} 
+			has_tech = advanced_light_tank
 		}
 
 		available_if_capitulated = yes
@@ -1717,26 +1714,12 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = available_designer
 			show_ideas_tooltip = CAN_montreal_locomotive_works
-			if = {
-				limit = {
-					has_dlc = "No Step Back"
-				}
-				add_tech_bonus = {
-					name = r56_CAN_valentine_tech
-					ahead_reduction = 1
-					bonus = 1
-					uses = 1
-					technology = advanced_light_tank_chassis
-				}				
-			}
-			else = {
-				add_tech_bonus = {
-					name = r56_CAN_valentine_tech
-					ahead_reduction = 1
-					bonus = 1
-					uses = 1
-					technology = advanced_light_tank
-				}
+			add_tech_bonus = {
+				name = r56_CAN_valentine_tech
+				ahead_reduction = 1
+				bonus = 1
+				uses = 1
+				technology = advanced_light_tank
 			}
 		}
 	}
@@ -1834,35 +1817,18 @@ focus_tree = {
 		
 		
 		bypass = {
-			OR = {
-				has_tech = improved_medium_tank
-				has_tech = improved_medium_tank_chassis
-			}
-			
+			has_tech = improved_medium_tank
 		}
 
 		available_if_capitulated = yes
 
 
 		completion_reward = {
-			if = {
-				limit = {
-					has_dlc = "No Step Back"
-				}
-				add_tech_bonus = {
-					name = r56_CAN_the_ram
-					bonus = 1
-					uses = 1
-					technology = improved_medium_tank_chassis
-				}				
-			}
-			else = {
-				add_tech_bonus = {
-					name = r56_CAN_the_ram
-					bonus = 1
-					uses = 1
-					technology = improved_medium_tank
-				}
+			add_tech_bonus = {
+				name = r56_CAN_the_ram
+				bonus = 1
+				uses = 1
+				technology = improved_medium_tank
 			}
 		}
 	}
@@ -1898,25 +1864,8 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					has_dlc = "No Step Back"
 					NOT = {
 						has_tech = advanced_medium_tank
-					}
-				}
-				add_tech_bonus = {
-					name = armor_bonus
-					bonus = 1
-					uses = 1
-					technology = advanced_medium_tank
-				}				
-			}			
-			if = {
-				limit = {
-					NOT = {
-						AND = {
-							has_dlc = "No Step Back"
-							has_tech = advanced_medium_tank
-						}
 					}
 				}
 				add_tech_bonus = {
@@ -3608,7 +3557,7 @@ focus_tree = {
 					}
 				}
 				create_country_leader = {
-					name = "Alexander Cambridge"
+					name = "Elisha Cuthbert"
 					desc = "POLITICS_JS_WOODSWORTH_DESC"
 					picture = "gfx/leaders/CAN/r56_portrait_CAN_Alexander_Cambridge.dds"
 					expire = "1965.1.1"
@@ -5016,7 +4965,7 @@ focus_tree = {
 		available = {
 			has_government = fascism
 			has_country_leader = {
-				name = "Adrien Arcand"
+				name = "Cobie Smulders"
 				ruling_only = yes
 			}
 			NOT = { has_country_flag = britain_enforced_our_loyalty }

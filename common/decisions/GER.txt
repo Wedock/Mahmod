@@ -523,7 +523,7 @@ GER_reichskommissariats = {
 					}
 					set_cosmetic_tag = NOR_reichskommissariat
 					create_country_leader = {
-						name = "Josef Terboven"
+						name = "Monica Hansen"
 						desc = " "
 						picture = "gfx/leaders/NOR/r56_portrait_NOR_josef_terboven.dds"
 						expire = "1965.1.1"
@@ -539,7 +539,7 @@ GER_reichskommissariats = {
 					transfer_state = 144
 					set_cosmetic_tag = NOR_reichskommissariat
 					create_country_leader = {
-						name = "Josef Terboven"
+						name = "Monica Hansen"
 						desc = " "
 						picture = "gfx/leaders/NOR/r56_portrait_NOR_josef_terboven.dds"
 						expire = "1965.1.1"
@@ -1056,7 +1056,7 @@ GER_reichskommissariats = {
 				}
 				set_cosmetic_tag = UKR_reichskommissariat
 				create_country_leader = {
-					name = "Erich Koch"
+					name = "Caroline Einhoff"
 					desc = "POLITICS_HINRICH_LOHSE_DESC"
 					picture = "gfx/leaders/GER/r56_portrait_GER_Erich_Koch.dds"
 					expire = "1965.1.1"
@@ -1148,8 +1148,8 @@ political_actions = {
 		}
 		visible = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Wilhelm II" }
-				has_country_leader = { ruling_only = yes name = "Wilhelm III" }
+				has_country_leader = { ruling_only = yes name = "Laura Müller" }
+				has_country_leader = { ruling_only = yes name = "Claudia Schiffer" }
 				has_country_leader = { ruling_only = yes name = "Victoria" }
 			}
 		}
@@ -1160,8 +1160,8 @@ political_actions = {
 		}
 		complete_effect = {
 			create_corps_commander = {
-				name = "Paul von Lettow-Vorbeck"
-				gfx = GFX_portrait_ger_von_lettow_vorbeck
+				name = "Denise Cotte"
+				picture = "portrait_ger_von_lettow_vorbeck.dds"
 				traits = { trickster war_hero media_personality jungle_rat}
 				skill = 4
 				id = 499

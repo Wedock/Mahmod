@@ -2338,7 +2338,7 @@ HOL = {
 		prefix = "HrMs"
 		generic = { "Vliegdekschip" }
 		unique = {
-			"Karel Doorman" "De Zeven Provinciën" "De Ruyter" "Tromp" "Piet Hein" 
+			"Roos van Montfort" "De Zeven Provinciën" "De Ruyter" "Tromp" "Piet Hein" 
 		}
 	}
 	air_wing_names_template = AIR_WING_NAME_HOL_FALLBACK

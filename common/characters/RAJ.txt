@@ -1088,7 +1088,7 @@ characters={
 				}
 				NOT = {
 					has_country_leader = {
-						name = "Louis Mountbatten"
+						name = "Sophia Knight"
 						ruling_only = yes
 					}
 				}

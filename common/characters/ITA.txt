@@ -644,7 +644,7 @@ characters={
 	### ROAD TO 56 COMMANDERS###
 	
 	ITA_ettore_bastico={
-		name="Ettore Bastico"
+		name="Melita Toniolo"
 		portraits={
 			army={
 				large="gfx/leaders/ITA/r56_portrait_ITA_Ettore_Bastico.dds"
@@ -662,7 +662,7 @@ characters={
 	}
 
 	ITA_giulio_martinat={
-		name="Giulio Martinat"
+		name="Nunzia Amato"
 		portraits={
 			army={
 				large="gfx/leaders/ITA/r56_portrait_ITA_Giulio_Martinat.dds"
@@ -680,7 +680,7 @@ characters={
 	}
 
 	ITA_alessandro_pirzio_biroli={
-		name="Alessandro Pirzio Biroli"
+		name="Erika Marcato"
 		portraits={
 			army={
 				large="gfx/leaders/ITA/r56_protrait_ITA_Alessandro_Pirzio_Biroli.dds"
@@ -698,7 +698,7 @@ characters={
 	}
 
 	ITA_italo_gariboldi={
-		name="Italo Gariboldi"
+		name="Valentina Matteucci"
 		portraits={
 			army={
 				large="gfx/leaders/ITA/r56_portrait_ITA_Italo_Gariboldi.dds"
@@ -716,7 +716,7 @@ characters={
 	}
 
 	ITA_attilio_terruzzi={
-		name="Attilio Terruzzi"
+		name="Barbara Chiappini"
 		portraits={
 			army={
 				large="gfx/leaders/ITA/Portrait_Italy_Attilio_Teruzzi.dds"
@@ -734,7 +734,7 @@ characters={
 	}
 
 	ITA_brunetto_brunetti={
-		name="Brunetto Brunetti"
+		name="Susanna Canzian"
 		portraits={
 			army={
 				large="gfx/leaders/ITA/r56_portrait_ITA_Brunetto_Brunetti.dds"
@@ -752,7 +752,7 @@ characters={
 	}
 
 	ITA_annibale_bergonzoli={
-		name="Annibale Bergonzoli"
+		name="Valentina Nappi"
 		portraits={
 			army={
 				large="gfx/leaders/ITA/r56_portrait_ITA_annibale_bergonzoli.dds"

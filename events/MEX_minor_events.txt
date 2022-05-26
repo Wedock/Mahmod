@@ -803,9 +803,9 @@ country_event = {
 				has_dlc = "Man the Guns"
 			}
 			create_country_leader = { 
-				name = "Vicente Lombardo Toledano"
+				name = "Paulina Goto"
 				desc = "mex_commune_leader_desc"
-				picture = "GFX_portrait_mex_vicente_lombardo"
+				picture = "gfx/leaders/MEX/r56_portrait_mex_vicente_lombardo.dds"
 				expire = "1965.1.1" 
 				ideology = stalinism
 				traits = {}
@@ -813,9 +813,9 @@ country_event = {
 		}
 		else = {
 			create_country_leader = { 
-				name = "Vicente Lombardo Toledano"
+				name = "Paulina Goto"
 				desc = "mex_commune_leader_desc"
-				picture = "gfx//leaders//South America//Portrait_South_America_Generic_4.dds"
+				picture = "gfx/leaders/MEX/r56_portrait_mex_vicente_lombardo.dds"
 				expire = "1965.1.1" 
 				ideology = stalinism
 				traits = {}
@@ -1437,18 +1437,18 @@ country_event = {
 					has_dlc = "Man the Guns"
 				}
 				create_country_leader = { 
-					name = "Fransisco J. Mugica"
+					name = "Karol Sevilla"
 					desc = "mex_mugica_desc"
-					picture = "GFX_portrait_mex_francisco_mugica"
+					picture = "gfx/leaders/MEX/portrait_mex_francisco_mugica.dds" 
 					expire = "1965.1.1" 
 					ideology = stalinism
 				}
 			}
 			else = {
 				create_country_leader = { 
-					name = "Fransisco J. Mugica"
+					name = "Karol Sevilla"
 					desc = "mex_mugica_desc"
-					picture = "gfx/leaders/MEX/Portrait_Mexico_Francisco_J_Munica.dds" 
+					picture = "gfx/leaders/MEX/portrait_mex_francisco_mugica.dds" 
 					expire = "1965.1.1" 
 					ideology = stalinism
 				}
@@ -1484,7 +1484,7 @@ country_event = {
 					has_dlc = "Man the Guns"
 				}
 				create_country_leader = { 
-					name = "Manuel Ávila Camacho"
+					name = "Yanet Garcia"
 					desc = "mex_manuel_desc"
 					picture = "GFX_portrait_mex_avila_civil"
 					expire = "1965.1.1" 
@@ -1493,7 +1493,7 @@ country_event = {
 			}
 			else = {
 				create_country_leader = { 
-					name = "Manuel Ávila Camacho"
+					name = "Yanet Garcia"
 					desc = "mex_manuel_desc"
 					picture = "gfx/leaders/MEX/r56_portrait_MEX_manuel_avila.dds" 
 					expire = "1965.1.1" 
@@ -1525,7 +1525,7 @@ country_event = {
 				}
 			}
 			create_country_leader = { 
-				name = "Joaquin Amaro"
+				name = "Dulce María"
 				desc = "mex_amaro_desc"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Joaquin_Amaro.dds" 
 				expire = "1965.1.1" 
@@ -1553,7 +1553,7 @@ country_event = {
 				}
 			}
 			create_country_leader = { 
-				name = "Juan Almazan"
+				name = "Angela Vazquez"
 				desc = "mex_juan_desc"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Juan_Almazan.dds" 
 				expire = "1965.1.1" 
@@ -1632,7 +1632,7 @@ country_event = {
 		remove_unit_leader = 1822
 		hidden_effect = {
 			create_field_marshal = {
-				name = "Fransisco J. Mugica"
+				name = "Karol Sevilla"
 				portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Francisco_J_Munica.dds"
 				traits = { old_guard war_hero trickster swamp_fox trait_mountaineer hill_fighter }
 				skill = 5
@@ -1676,7 +1676,7 @@ country_event = {
 					has_dlc = "Man the Guns"
 				}
 				create_field_marshal = {
-					name = "Manuel Ávila Camacho"
+					name = "Yanet Garcia"
 					gfx = "GFX_portrait_mex_avila_military"
 					traits = { old_guard politically_connected trait_reckless harsh_leader}
 					skill = 5
@@ -1689,7 +1689,7 @@ country_event = {
 			}
 			else = {
 				create_field_marshal = {
-					name = "Manuel Ávila Camacho"
+					name = "Yanet Garcia"
 					portrait_path = "gfx/leaders/MEX/r56_portrait_MEX_manuel_avila.dds"
 					traits = { old_guard politically_connected trait_reckless harsh_leader}
 					skill = 5
@@ -1724,7 +1724,7 @@ country_event = {
 		remove_unit_leader = 1826
 		hidden_effect = {
 			create_field_marshal = {
-				name = "Juan Andreu Almazán"
+				name = "Neeko Lul"
 				portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Juan_Almazan.dds"
 				traits = { old_guard war_hero politically_connected infantry_officer urban_assault_specialist trait_mountaineer hill_fighter}
 				skill = 5
@@ -1763,7 +1763,7 @@ country_event = {
 		clr_country_flag = election_1940
 		hidden_effect = {
 			create_field_marshal = {
-				name = "Joaquin Amaro"
+				name = "Dulce María"
 				portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Joaquin_Amaro.dds"
 				traits = { old_guard organisational_leader offensive_doctrine }
 				skill = 5

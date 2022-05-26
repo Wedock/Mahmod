@@ -4,7 +4,7 @@ characters = {
 		name = POR_antonio_de_oliveira_salazar
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/POR/portrait_por_antonio_de_oliveira_salazar.dds"
+				large = "gfx/leaders/POR/r56_portrait_POR_Antonio_de_Oliveira_Salazar.dds"
 			}
 		}
 		country_leader = {
@@ -16,7 +16,7 @@ characters = {
 	}
 
 	POR_antonio_resende={
-		name = "Antonio Resende"
+		name = "Bárbara Bandeira"
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/POR/r56_portrait_POR_Antonio_Resende.dds"

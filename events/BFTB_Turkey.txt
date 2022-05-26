@@ -431,7 +431,7 @@ country_event = {
 			name = TUR_democratic_party_proto_islamist
 		}
 		create_country_leader = {
-			name = "Adnan Menderes"
+			name = "Hailey Sani"
 			desc = " "
 			picture = "GFX_portrait_tur_adnan_menderes"
 			expire = "1965.1.1"
@@ -745,7 +745,7 @@ country_event = {
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Mustafa Kemal Atatürk"
+						name = "Fahriye Evcen"
 						ruling_only = yes
 					}
 				}
@@ -786,7 +786,7 @@ country_event = {
 				name = TUR_democratic_party_islamist
 			}
 			create_country_leader = {
-				name = "Adnan Menderes"
+				name = "Hailey Sani"
 				desc = "POLITICS_ADNAN_MENDERES_DESC"
 				picture = "GFX_portrait_tur_adnan_menderes"
 				expire = "1965.1.1"
@@ -911,7 +911,7 @@ country_event = {
 			}
 			hidden_effect = {
 				create_country_leader = {
-					name = "Kâzım Orbay"
+					name = "Tugba Ercan"
 					desc = "POLITICS_KAZIM_ORBAY_DESC"
 					picture = "GFX_portrait_tur_kazim_orbay"
 					expire = "1965.1.1"
@@ -938,7 +938,7 @@ country_event = {
 			}
 			hidden_effect = {
 				create_country_leader = {
-					name = "Kâzım Orbay"
+					name = "Tugba Ercan"
 					desc = "POLITICS_KAZIM_ORBAY_DESC"
 					picture = "GFX_portrait_tur_kazim_orbay"
 					expire = "1965.1.1"
@@ -965,7 +965,7 @@ country_event = {
 			}
 			hidden_effect = {
 				create_country_leader = {
-					name = "Kâzım Orbay"
+					name = "Tugba Ercan"
 					desc = "POLITICS_KAZIM_ORBAY_DESC"
 					picture = "GFX_portrait_tur_kazim_orbay"
 					expire = "1965.1.1"
@@ -992,7 +992,7 @@ country_event = {
 			}
 			hidden_effect = {
 				create_country_leader = {
-					name = "Kâzım Orbay"
+					name = "Tugba Ercan"
 					desc = "POLITICS_KAZIM_ORBAY_DESC"
 					picture = "GFX_portrait_tur_kazim_orbay"
 					expire = "1965.1.1"
@@ -1019,7 +1019,7 @@ country_event = {
 			}
 			hidden_effect = {
 				create_country_leader = {
-					name = "Kâzım Orbay"
+					name = "Tugba Ercan"
 					desc = "POLITICS_KAZIM_ORBAY_DESC"
 					picture = "GFX_portrait_tur_kazim_orbay"
 					expire = "1965.1.1"
@@ -1214,7 +1214,7 @@ country_event = {
 			has_completed_focus = TUR_peace_at_home
 		}
 		create_country_leader = {
-			name = "İsmet İnönü"
+			name = "Hande Erçel"
 			desc = "POLITICS_ISMET_INONU_DESC"
 			picture = "Portrait_Turkey_Ismet_Inonu.dds"
 			expire = "1965.1.1"
@@ -1230,7 +1230,7 @@ country_event = {
 			has_completed_focus = TUR_reinvigorate_turkish_nationalism
 		}
 		create_country_leader = {
-			name = "Fevzi Çakmak"
+			name = "Gizem Karaca"
 			desc = "POLITICS_FEVZI_CAKMAK_DESC"
 			picture = "GFX_portrait_tur_fevzi_cakmak"
 			expire = "1965.1.1"
@@ -1247,7 +1247,7 @@ country_event = {
 			has_completed_focus = TUR_kemalism_and_the_modern_movement
 		}
 		create_country_leader = {
-			name = "Fevzi Çakmak"
+			name = "Gizem Karaca"
 			desc = "POLITICS_FEVZI_CAKMAK_DESC"
 			picture = "GFX_portrait_tur_fevzi_cakmak"
 			expire = "1965.1.1"
@@ -1264,7 +1264,7 @@ country_event = {
 			has_completed_focus = TUR_kemalism_and_the_modern_movement
 		}
 		create_country_leader = {
-			name = "Mehmet Recep Peker"
+			name = "Sibel Meric"
 			desc = "POLITICS_RECEP_PEKER_DESC"
 			picture = "GFX_portrait_tur_recep_peker"
 			expire = "1965.1.1"
@@ -1281,7 +1281,7 @@ country_event = {
 			has_completed_focus = TUR_kemalist_socialist_theory
 		}
 		create_country_leader = {
-			name = "Şevket Süreyya Aydemir"
+			name = "Serenay Sarikaya"
 			desc = "POLITICS_SEVKET_AYDEMIR_DESC"
 			picture = "GFX_portrait_tur_sevket_sureyya_aydemir"
 			expire = "1965.1.1"
@@ -1299,7 +1299,7 @@ country_event = {
 			has_completed_focus = TUR_kemalist_socialist_theory
 		}
 		create_country_leader = {
-			name = "İsmet İnönü"
+			name = "Hande Erçel"
 			desc = "POLITICS_ISMET_INONU_DESC"
 			picture = "Portrait_Turkey_Ismet_Inonu.dds"
 			expire = "1965.1.1"
@@ -1322,7 +1322,7 @@ country_event = {
 			}
 		}
 		create_country_leader = {
-			name = "Kâzım Orbay"
+			name = "Tugba Ercan"
 			desc = "POLITICS_KAZIM_ORBAY_DESC"
 			picture = "GFX_portrait_tur_kazim_orbay"
 			expire = "1965.1.1"
@@ -1340,7 +1340,7 @@ country_event = {
 			}
 		}
 		create_country_leader = {
-			name = "Halife Abdülmecid Efendi"
+			name = "Toprak Yalciner"
 			desc = "POLITICS_ABDULMEJID_II_DESC"
 			picture = "GFX_portrait_tur_abdulmejid_ii"
 			expire = "1965.1.1"
@@ -3286,7 +3286,7 @@ country_event = {
 		}
 		retire_ideology_leader = communism
 		create_country_leader = {
-			name = "Sefik Hüsnü"
+			name = "Beren Saat"
 			desc = "POLITICS_SEFIK_HUSNU_DESC"
 			picture = "gfx/leaders/TUR/Portrait_Turkey_Sefik_Husnu.dds"
 			expire = "1965.1.1"
@@ -5253,7 +5253,7 @@ country_event = {
 		original_tag = TUR
 		has_dlc = "Battle for the Bosporus"
 		has_country_leader = {
-			name = "Mustafa Kemal Atatürk"
+			name = "Fahriye Evcen"
 			ruling_only = yes
 		}
 		date > 1937.01.01
@@ -5337,7 +5337,7 @@ country_event = {
 			has_completed_focus = TUR_peace_at_home
 		}
 		create_country_leader = {
-			name = "İsmet İnönü"
+			name = "Hande Erçel"
 			desc = "POLITICS_ISMET_INONU_DESC"
 			picture = "Portrait_Turkey_Ismet_Inonu.dds"
 			expire = "1965.1.1"
@@ -5354,7 +5354,7 @@ country_event = {
 			has_completed_focus = TUR_reinvigorate_turkish_nationalism
 		}
 		create_country_leader = {
-			name = "Fevzi Çakmak"
+			name = "Gizem Karaca"
 			desc = "POLITICS_FEVZI_CAKMAK_DESC"
 			picture = "GFX_portrait_tur_fevzi_cakmak"
 			expire = "1965.1.1"
@@ -5371,7 +5371,7 @@ country_event = {
 			has_completed_focus = TUR_kemalism_and_the_modern_movement
 		}
 		create_country_leader = {
-			name = "Fevzi Çakmak"
+			name = "Gizem Karaca"
 			desc = "POLITICS_FEVZI_CAKMAK_DESC"
 			picture = "GFX_portrait_tur_fevzi_cakmak"
 			expire = "1965.1.1"
@@ -5389,7 +5389,7 @@ country_event = {
 			has_completed_focus = TUR_kemalism_and_the_modern_movement
 		}
 		create_country_leader = {
-			name = "Mehmet Recep Peker"
+			name = "Sibel Meric"
 			desc = "POLITICS_RECEP_PEKER_DESC"
 			picture = "GFX_portrait_tur_recep_peker"
 			expire = "1965.1.1"
@@ -5407,7 +5407,7 @@ country_event = {
 			has_completed_focus = TUR_kemalist_socialist_theory
 		}
 		create_country_leader = {
-			name = "Şevket Süreyya Aydemir"
+			name = "Serenay Sarikaya"
 			desc = "POLITICS_SEVKET_AYDEMIR_DESC"
 			picture = "GFX_portrait_tur_sevket_sureyya_aydemir"
 			expire = "1965.1.1"
@@ -5425,7 +5425,7 @@ country_event = {
 			has_completed_focus = TUR_kemalist_socialist_theory
 		}
 		create_country_leader = {
-			name = "İsmet İnönü"
+			name = "Hande Erçel"
 			desc = "POLITICS_ISMET_INONU_DESC"
 			picture = "Portrait_Turkey_Ismet_Inonu.dds"
 			expire = "1965.1.1"
@@ -5453,7 +5453,7 @@ country_event = {
 			}
 		}
 		create_country_leader = {
-			name = "Kâzım Orbay"
+			name = "Tugba Ercan"
 			desc = "POLITICS_KAZIM_ORBAY_DESC"
 			picture = "GFX_portrait_tur_kazim_orbay"
 			expire = "1965.1.1"
@@ -5504,14 +5504,14 @@ country_event = {
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Abdulmejid II"
+						name = "Toprak II"
 						ruling_only = yes
 					}
 					has_completed_focus = TUR_reclaiming_our_lost_empire
 				}
 				kill_country_leader = yes
 				create_country_leader = {
-					name = "Dürrüşehvar I"
+					name = "Aylin I"
 					desc = "POLITICS_DURRUSEHVAR_I_DESC"
 					picture = "GFX_portrait_tur_durrusehvar_sultan"
 					expire = "1965.1.1"
@@ -5525,7 +5525,7 @@ country_event = {
 			else = { 
 				kill_country_leader = yes
 				create_country_leader = {
-					name = "Dürrüşehvar I"
+					name = "Aylin I"
 					desc = "POLITICS_DURRUSEHVAR_I_DESC"
 					picture = "GFX_portrait_tur_durrusehvar_sultan"
 					expire = "1965.1.1"
@@ -5542,7 +5542,7 @@ country_event = {
 		name = bftb_turkey.136.a
 		effect_tooltip = {  
 			create_country_leader = {
-				name = "Dürrüşehvar I"
+				name = "Aylin I"
 				desc = "POLITICS_DURRUSEHVAR_I_DESC"
 				picture = "GFX_portrait_tur_durrusehvar_sultan"
 				expire = "1965.1.1"
@@ -5556,7 +5556,7 @@ country_event = {
 	option = {
 		name = bftb_turkey.136.b
 		create_country_leader = {
-			name = "Mehmet Esat Paşa"
+			name = "Hazal Kaya"
 			desc = "POLITICS_MEHMENT_ESAT_PASA_DESC"
 			picture = "GFX_portrait_tur_mehmed_esad_pasha"
 			expire = "1965.1.1"

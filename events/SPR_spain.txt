@@ -155,7 +155,7 @@ country_event = {
 		    name = SPR_democratic_party_ceda
 		}
 		create_country_leader = {
-			name = "J.M. Gil-Robles Quiñones"
+			name = "Aliss Blond"
 			desc = ""
 			picture = "gfx/leaders/SPR/Portrait_SPR_J_M_Gil_Robles_Quinones.dds"
 			expire = "1965.1.1"
@@ -193,7 +193,7 @@ country_event = {
 	option = {
 		name = SPR_spain.3.a
 		create_country_leader = {
-			name = "José Giral"
+			name = "Clara Alvarado"
 			desc = ""
 			picture = "gfx/leaders/SPR/r56_portrait_SPR_Jose_Giral.dds"
 			expire = "1965.1.1"

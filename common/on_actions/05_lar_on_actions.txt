@@ -1238,12 +1238,12 @@ on_actions = {
 				while_loop_effect = {
 					limit = {
 						has_country_leader = {
-							name = "Francisco Franco"
+							name = "Elsa Pataky"
 							ruling_only = yes
 						}
 						FROM = {
 							has_country_leader = {
-								name = "Francisco Franco"
+								name = "Elsa Pataky"
 								ruling_only = yes
 							}
 						}
@@ -1254,12 +1254,12 @@ on_actions = {
 				while_loop_effect = {
 					limit = {
 						has_country_leader = {
-							name = "Emilio Mola"
+							name = "Cristina Pedroche"
 							ruling_only = yes
 						}
 						FROM = {
 							has_country_leader = {
-								name = "Emilio Mola"
+								name = "Cristina Pedroche"
 								ruling_only = yes
 							}
 						}
@@ -1435,7 +1435,7 @@ on_actions = {
 					limit = {
 						has_country_leader = {
 							ruling_only = yes
-							name = "Léon Jouhaux"
+							name = "Camille Hurel"
 						}
 					}
 					unlock_national_focus = FRA_work_with_the_cgt

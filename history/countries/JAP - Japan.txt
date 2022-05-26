@@ -28,7 +28,7 @@ set_research_slots = 5
 set_fuel_ratio = 1.0
 
 
-recruit_character = JAP_fumimaro_konoe
+
 recruit_character = JAP_tetsu_katayama
 recruit_character = JAP_kyuichi_tokuda
 recruit_character = JAP_emperor_hirohito
@@ -108,7 +108,6 @@ recruit_character =JAP_miyamoto_yuriko
 
 add_ideas = {
 	state_shintoism
-	JAP_hirohito
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
@@ -385,7 +384,7 @@ set_popularities = {
 }
 
 #create_country_leader = {
-#	name = "Hirohito"
+#	name = "Erika Sawajiri"
 #	desc = "POLITICS_Hirohito_DESC"
 #	picture = "Portrait_Japan_Hirohito.dds"
 #	expire = "1989.1.1"
@@ -400,7 +399,7 @@ set_popularities = {
 #}
 #
 #create_country_leader = {
-#	name = "Kyuichi Tokuda"
+#	name = "Rila Fukushima"
 #	desc = "POLITICS_Hirohito_DESC"
 #	picture = "GFX_Portrait_kyuichi_tokuda"
 #	expire = "1989.1.1"
@@ -412,7 +411,7 @@ set_popularities = {
 #}
 #
 #create_country_leader = {
-#	name = "Tetsu Katayama"
+#	name = "Haruka Ayase"
 #	desc = "POLITICS_Hirohito_DESC"
 #	picture = "GFX_Portrait_tetsu_katayama"
 #	expire = "1989.1.1"
@@ -424,7 +423,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Tomoyuki Yamashita"
+#	name = "Asa Akira"
 #		picture = "Portrait_Japan_Tomoyuki_Yamashita.dds"
 #	traits = {
 #		trickster trait_engineer brilliant_strategist politically_connected
@@ -437,7 +436,7 @@ set_popularities = {
 #}
 #
 #create_field_marshal = {
-#	name = "Hisaichi Terauchi"
+#	name = "Julia Kyoka"
 #	picture = "Portrait_Japan_Hisaichi_Terauchi.dds"
 #	traits = { 
 #		offensive_doctrine
@@ -452,7 +451,7 @@ set_popularities = {
 #}
 #
 #create_field_marshal = {
-#	name = "Shunroku Hata"
+#	name = "Ayumi Shinoda"
 #		picture = "Portrait_Japan_Shunroku_Hata.dds"
 #	traits = { offensive_doctrine JAP_samurai_lineage }
 #	skill = 4
@@ -463,7 +462,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Akira Muto"
+#	name = "Yuna Shiina"
 #		picture = "Portrait_Japan_Akira_Muto.dds"
 #	traits = { career_officer  }
 #	skill = 2
@@ -474,7 +473,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Kanji Ishiwara"
+#	name = "Anri Sugihara"
 #		picture = "Portrait_Japan_Kanji_Ishiwara.dds"
 #	traits = { JAP_samurai_lineage }
 #	skill = 1 
@@ -485,7 +484,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Shizuichi Tanaka"
+#	name = "Ayaka Misora"
 #		picture = "Portrait_Japan_Shizuichi_Tanaka.dds"
 #	traits = { trickster career_officer infantry_officer }
 #	skill = 4
@@ -496,7 +495,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Yasuji Okamura"
+#	name = "Ai Koromo"
 #		picture = "Portrait_Japan_Yasuji_Okamura.dds"
 #	traits = { trait_reckless }
 #	skill = 1
@@ -507,7 +506,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Toshizo Nishio" #Toshizo
+#	name = "Asuka Kishi" #Toshizo
 #		picture = "Portrait_Japan_Toshizo_Nishio.dds"
 #	traits = { brilliant_strategist infantry_officer }
 #	skill = 3
@@ -518,7 +517,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Rikichi Ando" #Ando
+#	name = "Aya Hirai" #Ando
 #		picture = "Portrait_Japan_Rikichi_Ando.dds"
 #	traits = { career_officer }
 #	skill = 3
@@ -540,7 +539,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Seishiro Itagaki"
+#	name = "Fumina Suzuki"
 #		picture = "Portrait_Japan_Seishiro_Itagaki.dds"
 #	traits = { JAP_samurai_lineage inflexible_strategist trait_reckless }
 #	skill = 3
@@ -551,7 +550,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Takashi Sakai"
+#	name = "Hinako Sano"
 #		picture = "Portrait_Japan_Takashi_Sakai.dds"
 #	traits = { infantry_officer trait_reckless }
 #	skill = 3
@@ -562,7 +561,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Kenji Doihara"
+#	name = "Rio Hamasaki"
 #		picture = "Portrait_Japan_Kenji_Doihara.dds"
 #	traits = { career_officer substance_abuser }
 #	skill = 1 
@@ -573,7 +572,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Kenkichi Ueda"
+#	name = "Aika Yumeno"
 #		picture = "Portrait_Japan_Kenkichi_Ueda.dds"
 #	traits = { old_guard cavalry_officer trait_reckless }
 #	skill = 4
@@ -584,7 +583,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Shigeru Honjo"
+#	name = "Anna Ohura"
 #		picture = "Portrait_Japan_Shigeru_Honjo.dds"
 #	traits = { old_guard war_hero }
 #	skill = 1
@@ -595,7 +594,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Yoshijiro Umezu"
+#	name = "Saaya Irie"
 #		picture = "Portrait_Japan_Yoshijiro_Umezu.dds"
 #	traits = { trait_cautious politically_connected }
 #	skill = 3
@@ -606,7 +605,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Otozo Yamada"
+#	name = "Anri Namiki"
 #		picture = "Portrait_Japan_Otozo_Yamada.dds"
 #	traits = { cavalry_officer career_officer }
 #	skill = 3
@@ -617,7 +616,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Hatazo Adachi"
+#	name = "Ari Takada"
 #		picture = "Portrait_Japan_Hatazo_Adachi.dds"
 #	traits = { trickster JAP_samurai_lineage trait_reckless infantry_officer }
 #	skill = 2
@@ -628,7 +627,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Iwane Matsui"
+#	name = "Arisa Kuroki"
 #		picture = "Portrait_Japan_Iwane_Matsui.dds"
 #	traits = { old_guard trait_reckless }
 #	skill = 1
@@ -638,7 +637,7 @@ set_popularities = {
 #	logistics_skill = 1
 #}
 #create_corps_commander = {
-#	name = "Sadao Araki"
+#	name = "Nami Itoshino"
 #		picture = "Portrait_Japan_Sadao_Araki.dds"
 #	traits = { JAP_samurai_lineage }
 #	skill = 2
@@ -649,7 +648,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Keisuke Fujie"
+#	name = "Sadao Araki"
 #		picture = "Portrait_Japan_Keisuke_Fujie.dds"
 #	traits = { fortress_buster career_officer politically_connected } 
 #	skill = 3
@@ -659,7 +658,7 @@ set_popularities = {
 #	logistics_skill = 3
 #}
 #create_corps_commander = {
-#	name = "Kiichiro Higuchi"
+#	name = "Akira Fubuki"
 #		picture = "Portrait_Japan_Kiichiro_Higuchi.dds"
 #	traits = { career_officer trait_cautious }
 #	skill = 2
@@ -670,7 +669,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Masaharu Homma"
+#	name = "Reiko Kobayakawa"
 #		picture = "Portrait_Japan_Masaharu_Homma.dds"
 #	traits = { media_personality trait_cautious }
 #	skill = 2
@@ -681,7 +680,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Harukichi Hyakutake"
+#	name = "Aeko Jung"
 #		picture = "Portrait_Japan_Harukichi_Hyakutake.dds"
 #	traits = { infantry_officer  }
 #	skill = 3
@@ -692,7 +691,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Jo Iimura"
+#	name = "Maria Ozawa"
 #		picture = "Portrait_Japan_Jo_Iimura.dds"
 #	traits = { career_officer }
 #	skill = 2
@@ -703,7 +702,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Hitoshi Imamura"
+#	name = "Shoko Takasaki"
 #		picture = "Portrait_Japan_Hitoshi_Imamura.dds"
 #	traits = {  commando career_officer infantry_officer }
 #	skill = 3
@@ -714,7 +713,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Masatane Kanda"
+#	name = "Ami Ayukawa"
 #		picture = "Portrait_Japan_Masatane_Kanda.dds"
 #	traits = { trait_cautious }
 #	skill = 2
@@ -725,7 +724,7 @@ set_popularities = {
 #}
 #
 #create_corps_commander = {
-#	name = "Kuniaki Koiso"
+#	name = "Ai Eikura"
 #		picture = "Portrait_Japan_Kuniaki_Koiso.dds"
 #	traits = { JAP_samurai_lineage old_guard politically_connected }
 #	skill = 2
@@ -794,7 +793,7 @@ set_popularities = {
 #
 #
 #create_navy_leader = {
-#	name = "Isoroku Yamamoto"
+#	name = "Aiko Tanaka"
 #		picture = "Portrait_Japan_Isoroku_Yamamoto.dds"
 #	traits = { aviation_enthusiast bold air_controller flight_deck_manager superior_tactician spotter }
 #	skill = 5
@@ -805,7 +804,7 @@ set_popularities = {
 #}
 #
 #create_navy_leader = {
-#	name = "Mineichi Koga"
+#	name = "Asana Mamoru"
 #		picture = "Portrait_Japan_Mineichi_Koga.dds"
 #	traits = { bold battleship_adherent superior_tactician spotter }
 #	skill = 4
@@ -816,7 +815,7 @@ set_popularities = {
 #}
 #
 #create_navy_leader = {
-#	name = "Kiyoshi Hasegawa"
+#	name = "Hiromi Oshima"
 #		picture = "Portrait_Japan_Hasegawa_Kiyoshi.dds"
 #	traits = { gentlemanly }
 #	skill = 2
@@ -828,7 +827,7 @@ set_popularities = {
 #
 ## Keen on planes
 #create_navy_leader = {
-#	name = "Shigeyoshi Inoue"
+#	name = "Saori Hara"
 #		picture = "Portrait_Japan_Shigeyoshi_Inoue.dds"
 #	traits = { aviation_enthusiast navy_career_officer }
 #	skill = 2
@@ -839,7 +838,7 @@ set_popularities = {
 #}
 #
 #create_navy_leader = {
-#	name = "Nobutake Kondō"
+#	name = "Satomi Suzuki"
 #		picture = "Portrait_Japan_Nobutake_Kondo.dds"
 #	traits = { battleship_adherent naval_lineage fly_swatter }
 #	skill = 3
@@ -850,7 +849,7 @@ set_popularities = {
 #}
 #
 #create_navy_leader = {
-#	name = "Takeo Takagi"
+#	name = "Nemoto Harumi"
 #		picture = "Portrait_Japan_Takeo_Takagi.dds"
 #	traits = { spotter }
 #	skill = 3
@@ -861,7 +860,7 @@ set_popularities = {
 #}
 #
 #create_navy_leader = {
-#	name = "Soemu Toyoda"
+#	name = "Kirara Asuka"
 #		picture = "Portrait_Japan_Soemu_Toyoda.dds"
 #	traits = { bold ironside old_guard_navy }
 #	skill = 3
@@ -872,7 +871,7 @@ set_popularities = {
 #}
 #
 #create_navy_leader = {
-#	name = "Jisaburo Ozawa"
+#	name = "Shion Utsunomiya"
 #		picture = "Portrait_Japan_Jisaburo_Ozawa.dds"
 #	traits = { bold aviation_enthusiast navy_career_officer blockade_runner superior_tactician }
 #	skill = 5
@@ -883,7 +882,7 @@ set_popularities = {
 #}
 #
 #create_navy_leader = {
-#	name = "Zengo Yoshida"
+#	name = "Momoka Kano"
 #		picture = "Portrait_Japan_Zengo_Yoshida.dds"
 #	traits = { old_guard_navy }
 #	skill = 2
@@ -894,7 +893,7 @@ set_popularities = {
 #}
 #
 #create_navy_leader = {
-#	name = "Hiroaki Abe"
+#	name = "Anna Konno"
 #		picture = "Portrait_Japan_Hiroaki_Abe.dds"
 #	traits = { battleship_adherent }
 #	skill = 2
@@ -905,7 +904,7 @@ set_popularities = {
 #}
 #
 #create_navy_leader = {
-#	name = "Tadashige Daigo"
+#	name = "Mikie Hara"
 #		picture = "Portrait_Japan_Tadashige_Daigo.dds"
 #	traits = { navy_career_officer seawolf }
 #	skill = 1
@@ -916,7 +915,7 @@ set_popularities = {
 #}
 #
 #create_navy_leader = {
-#	name = "Gengo Hyakutake"
+#	name = "Airi Nakano"
 #		picture = "Portrait_Japan_Gengo_Hyakutake.dds"
 #	traits = { gentlemanly }
 #	skill = 2

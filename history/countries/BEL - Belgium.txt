@@ -201,7 +201,7 @@ if = {
 # characters may need to be added for these
 
 #create_country_leader = {
-	#name = "Hubert Pierlot"
+	#name = "Olga Leyers"
 	#desc = "POLITICS_HUBERT_PIERLOT_DESC"
 	#picture = "Portrait_Belgium_Hubert_Pierlot.dds"
 	#expire = "1965.1.1"
@@ -213,8 +213,8 @@ if = {
 #}
 #tblra belgian Prime Ministers
 #create_country_leader = {
-	#name = "Achille van Acker"
-	#desc = "Achille van Acker"
+	#name = "Lea Haesaert"
+	#desc = "Lea Haesaert"
 	#picture = "r56_portrait_BEL_Achille_Van_Acker.dds"
 	#expire = "1939.1.1"
     #ideology = socialism
@@ -224,8 +224,8 @@ if = {
 #}
 
 #create_country_leader = {
-	#name = "Paul-Emile Janson"
-	#desc = "Paul-Emile Janson"
+	#name = "Frances Lefebure"
+	#desc = "Frances Lefebure"
 	#picture = "Portrait_Belgium_Paul-Emile_Janson.dds"
 	#expire = "1939.1.1"
     #ideology = liberalism
@@ -236,8 +236,8 @@ if = {
 
 
 #create_country_leader = {
-	#name = "Paul-Henri Spaak"
-	#desc = "Paul-Henri Spaak"
+	#name = "Kjell Bracke"
+	#desc = "Kjell Bracke"
 	#picture = "gfx/leaders/BEL/r56_portrait_BEL_Paul_Henri_Spaak.dds"
 	#expire = "1939.1.1"
     #ideology = socialism
@@ -247,8 +247,8 @@ if = {
 #}
 
 #create_country_leader = {
-	#name = "Paul Van Zeeland"
-	#desc = "Paul Van Zeeland"
+	#name = "Eliza Sys"
+	#desc = "Eliza Sys"
 	#picture = "Portrait_Belgium_Paul_Van_Zeeland.dds"
 	#expire = "1938.1.1"
     #ideology = conservatism
@@ -257,8 +257,8 @@ if = {
 	#}
 #}
 #create_country_leader = {
-	#name = "Xavier Relecom"
-	#desc = "Xavier Relecom"
+	#name = "Ella Leyers"
+	#desc = "Ella Leyers"
 	#picture = "portrait_xavier_relecom.dds"
 	#expire = "1965.1.1"
 	#ideology = stalinism
@@ -267,8 +267,8 @@ if = {
 	#}
 #}
 #create_country_leader = {
-	#name = "Julien Lahaut"
-	#desc = "Julien Lahaut"
+	#name = "Sherelle de Jong"
+	#desc = "Sherelle de Jong"
 	#picture = "r56_portrait_BEL_Julien_Lahaut.dds"
 	#expire = "1965.1.1"
 	#ideology = stalinism
@@ -277,7 +277,7 @@ if = {
 	#}
 #}
 #create_country_leader = {
-	#name = "Joseph Jacquemotte"
+	#name = "Sylvie Meis"
 	#desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
 	#picture = "r56_portrait_BEL_Joseph_Jacquemotte.dds"
 	#expire = "1965.1.1"
@@ -287,7 +287,7 @@ if = {
 	#}
 #}
 #create_country_leader = {
-	#name = "Léon Degrelle"
+	#name = "Ella-June Henrard"
 	#desc = "POLITICS_LEON_DEGRELLE_DESC"
 	#picture = "Portrait_Belgium_LEON_DEGRELLE.dds"
 	#expire = "1965.1.1"
@@ -298,8 +298,8 @@ if = {
 	#}
 #}
 #create_country_leader = {
-	#name = "Léopold III"
-	#desc = "Léopold III"
+	#name = "Eline Powell"
+	#desc = "Eline Powell"
 	#picture = "Portrait_BEL_Leopold_III.dds"
 	#expire = "1965.1.1"
 	#ideology = moderatism
@@ -310,7 +310,7 @@ if = {
 #}
 
 #create_field_marshal = {
-	#name = "Édouard Van den Bergen"
+	#name = "Sarah De Herdt"
 	#picture = "Portrait_Belgium_Edouard_van_den_Bergen.dds"
 	#traits = { walloon artillerist }
 	#skill = 2
@@ -321,7 +321,7 @@ if = {
 	#id = 11000
 #}
 #create_corps_commander = {
-	#name = "Victor Van Strydonck de Burkel"
+	#name = "Fanny François"
 	#picture = "Portrait_Belgium_Victor_van_Strydonck_de_Burkel.dds"
 	#traits = { flemish career_officer cavalry_leader }
 	#skill = 2
@@ -331,7 +331,7 @@ if = {
 	#logistics_skill = 2	
 #}
 #create_corps_commander = {
-	#name = "Maurice Keyaerts"
+	#name = "Camille Rochette"
 	#portrait_path = "gfx/leaders/BEL/r56_portrait_BEL_MCL_Keyaerts.dds"
 	#traits = { walloon ranger }
 	#skill = 3
@@ -341,13 +341,13 @@ if = {
 	#logistics_skill = 4	
 #}
 #create_corps_commander = {
-#	name = "Auguste-Édouard Gilliaert"
+#	name = "Camille Ringoir"
 #	portrait_path = "gfx/leaders/BEL/r56_portrait_BEL_Auguste_Edouard_Gilliaert.dds"
 #	traits = { flemish jungle_rat }
 #	skill = 2
 #}
 #create_corps_commander = {
-	#name = "Georges Deffontaine"
+	#name = "Lisa Moerman"
 	#portrait_path = "gfx/leaders/BEL/r56_portrait_BEL_Georges_Deffontaine.dds"
 	#traits = { walloon meticulous caring_leader }
 	#skill = 2
@@ -357,7 +357,7 @@ if = {
 	#logistics_skill = 2	
 #}
 #create_corps_commander = {
-	#name = "Maximilien de Neve de Roden"
+	#name = "Stella Maxwell"
 	#portrait_path = "gfx/leaders/BEL/portrait_DE_NEVE_DE_RODEN.dds"
 	#traits = { flemish cavalry_officer }
 	#skill = 2
@@ -367,7 +367,7 @@ if = {
 	#logistics_skill = 1	
 #}
 #create_corps_commander = {
-	#name = "Alexis Vander Veken"
+	#name = "Joyce Verheyen"
 	#portrait_path = "gfx/leaders/BEL/r56_portrait_BEL_Alexis_Vander_Veken.dds"
 	#traits = { flemish }
 	#skill = 1
@@ -377,7 +377,7 @@ if = {
 	#logistics_skill = 1	
 #}
 #create_corps_commander = {
-	#name = "Auguste Baesens"
+	#name = "Kay Morgan"
 	#portrait_path = "gfx/leaders/BEL/r56_portrait_BEL_Auguste_Baesens.dds"
 	#traits = { flemish artillerist obsessed_by_artillery}
 	#skill = 1
@@ -387,7 +387,7 @@ if = {
 	#logistics_skill = 1
 #}
 #create_navy_leader = {
-	#name = "Georges Timmermans"
+	#name = "Julie Jodar"
 	#portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Georges_Timmermans.dds"
 	#traits = { bold }
 	#skill = 4
@@ -397,7 +397,7 @@ if = {
 	#coordination_skill = 4
 #}
 #create_navy_leader = {
-	#name = "Lambert Robins"
+	#name = "Amelie Belain"
 	#portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Lambert_Robins.dds"
 	#traits = { walloon spotter }
 	#skill = 1

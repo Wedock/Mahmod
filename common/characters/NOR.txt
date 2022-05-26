@@ -221,7 +221,7 @@ characters={
 	
 	###--Military Leaders--###
 	NOR_otto_ruge = {
-		name = "Otto Ruge"
+		name = "Loretta Randen"
 		portraits = {
 			army = {
 				large = "gfx/leaders/NOR/r56_Portrait_NOR_Otto_Ruge.dds"
@@ -260,13 +260,13 @@ characters={
 	}
 	
 	NOR_kristian_laake = {
-		name = "Kristian K. Laake"
+		name = "Yani Nastya"
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/NOR/Portrait_Norway_Kristian_Laake.dds"
 			}
 			army = {
-				large = "gfx/leaders/NOR/r56_Portrait_NOR_Kristian_Laake.dds"
+				large = "gfx/leaders/NOR/Portrait_Norway_Kristian_Laake.dds"
 				small = "GFX_idea_NOR_kristian_laake"
 			}
 		}
@@ -320,7 +320,7 @@ characters={
 	}
 	
 	NOR_jacob_ager_laurantzon = {
-		name = "Jacob Ager Laurantzon"
+		name = "Aurora Mohn"
 		portraits={
 			army={
 				large="gfx/leaders/NOR/Portrait_Norway_Jacob_Ager_Laurantzon.dds"
@@ -339,7 +339,7 @@ characters={
 	}
 	
 	NOR_carl_gustav_fleischer = {
-		name = "Carl Gustav Fleischer"
+		name = "Silja Danielsen"
 		portraits={
 			army={
 				large="gfx/leaders/NOR/r56_Portrait_NOR_Carl_Gustav_Fleischer.dds"
@@ -376,7 +376,7 @@ characters={
 	}
 
 	NOR_william_steffens = {
-		name = "William Steffens"
+		name = "Lizelda Steffens"
 		portraits={
 			army={
 				large="gfx/leaders/NOR/Portrait_Norway_William_Steffens.dds"
@@ -395,7 +395,7 @@ characters={
 	}
 
 	NOR_jacob_hvinden_haug = {
-		name = "Jacob Hvinden Haug"
+		name = "Kelsie Jean Smeby"
 		portraits={
 			army={
 				large="gfx/leaders/NOR/Portrait_Norway_Jacob_Hvinden_Haug.dds"
@@ -414,7 +414,7 @@ characters={
 	}
 
 	NOR_wilhelm_von_tangen_hansteen = {
-		name = "Wilhelm von Tangen Hansteen"
+		name = "Nicoline Devik"
 		portraits={
 			army={
 				large="gfx/leaders/NOR/Portrait_Norway_Wilhelm_von_Tangen_Hansteen.dds"
@@ -462,7 +462,7 @@ characters={
 	}
 
 	NOR_birger_eriksen = {
-		name = "Birger Eriksen"
+		name = "Eline Lykke"
 		portraits={
 			army={
 				large="gfx/leaders/NOR/r56_Portrait_NOR_Birger_Eriksen.dds"
@@ -481,7 +481,7 @@ characters={
 	}
 
 	NOR_erling_munthe-dahl = {
-		name = "Erling Munthe-Dahl"
+		name = "Erli Munthe-Dahl"
 		portraits={
 			army={
 				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
@@ -500,7 +500,7 @@ characters={
 	}
 
 	NOR_hans_reidar_holtermann = {
-		name = "Hans Reidar Holtermann"
+		name = "Victoria Sandaker"
 		portraits={
 			army={
 				large="gfx/leaders/NOR/Portrait_Norway_Hans_Reidar_Holtermann.dds"
@@ -519,7 +519,7 @@ characters={
 	}
 
 	NOR_rasmus_larsen_hatledal = {
-		name = "Rasmus Larsen Hatledal"
+		name = "Rama Larsen Hatledal"
 		portraits={
 			army={
 				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
@@ -538,7 +538,7 @@ characters={
 	}
 
 	NOR_carl_johan_erichsen = {
-		name = "Carl Johan Erichsen"
+		name = "Thea Sofie Loch Naess"
 		portraits={
 			army={
 				large="gfx/leaders/NOR/r56_Portrait_NOR_Carl_Johan_Erichsen.dds"
@@ -557,7 +557,7 @@ characters={
 	}
 
 	NOR_oswald_nordlie = {
-		name = "Oswald Nordlie"
+		name = "Lene Marlin"
 		portraits={
 			army={
 				large="gfx/leaders/NOR/Portrait_Norway_Oswald_Nordlie.dds"
@@ -582,7 +582,7 @@ characters={
 	}
 
 	NOR_birger_ljungberg = {
-		name = "Birger Ljungberg"
+		name = "Amalie Olufsen"
 		portraits={
 			army={
 				large="gfx/leaders/NOR/Portrait_Norway_Birger_Ljungberg.dds"
@@ -622,7 +622,7 @@ characters={
 	}
 
 	NOR_trygve_frivold_graff-wang = {
-		name = "Trygve Frivold Graff-Wang"
+		name = "Kjersti Buaas"
 		portraits={
 			army={
 				large="gfx/leaders/NOR/Portrait_Norway_Trygve_Frivold_Graff-Wang.dds"
@@ -647,7 +647,7 @@ characters={
 	}
 
 	NOR_halvor_hansson = {
-		name = "Halvor Hansson"
+		name = "Halla Hansson"
 		portraits={
 			army={
 				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
@@ -666,7 +666,7 @@ characters={
 	}
 	
 	NOR_elias_corneliussen = {
-		name = "Elias Corneliussen"
+		name = "Ella Corneliussen"
 		portraits={
 			army={
 				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
@@ -685,7 +685,7 @@ characters={
 	}
 	
 	NOR_carsten_tank-nielsen = {
-		name = "Carsten Tank-Nielsen"
+		name = "Cathlin Ulrichsen"
 		portraits={
 			army={
 				large="gfx/leaders/NOR/Portrait_Norway_Carsten_Tank-Nielsen.dds"
@@ -734,7 +734,7 @@ characters={
 	}
 	
 	NOR_edgar_otto = {
-		name = "Edgar Otto"
+		name = "Juliane Snekkestad"
 		portraits={
 			army={
 				large="gfx/leaders/NOR/Portrait_Norway_Edgar_Otto.dds"
@@ -778,7 +778,7 @@ characters={
 	}
 	
 	NOR_henry_diesen = {
-		name = "Henry Diesen"
+		name = "Frida Aasen"
 		portraits={
 			army={
 				large="gfx/leaders/NOR/Portrait_Norway_Henry_Diesen.dds"

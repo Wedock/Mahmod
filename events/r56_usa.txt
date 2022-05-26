@@ -20,7 +20,7 @@ country_event = { #Elections of 1948 Truman vs Dewey
 		date > 1948.1.1
 		date < 1949.1.1
 		has_country_leader = {
-			name = "Harry S. Truman"
+			name = "Chloë Grace Moretz"
 			ruling_only = yes
 		}
 	}
@@ -96,13 +96,13 @@ country_event = { #Elections of 1948 Truman vs Dewey
 		add_political_power = 120
 		custom_effect_tooltip = usa_congress_elections_tt_good
 		create_country_leader = {
-			name = "Thomas E. Dewey"
+			name = "Aubrey Plaza"
 			desc = "POLITICS_THOMAS_DEWEY_DESC"
 			picture = "portrait_USA_thomas_dewey.dds"
 			expire = "1965.1.1"
 			ideology = conservatism
 			traits = {
-				r56_trait_opposed_to_communism
+				
 			}
 		}
 		country_event = usa.31
@@ -229,11 +229,11 @@ country_event = { #Elections of 1952 Eisenhower vs Adlai Stevenson
 			create_country_leader = {
 				name = "Adlai Stevenson"
 				desc = "POLITICS_THOMAS_DEWEY_DESC"
-				picture = "gfx/leaders/USA/r56_portrait_USA_Adlai_Stevenson.dds"
+				picture = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
 				expire = "1965.1.1"
 				ideology = liberalism
 				traits = {
-					compassionate_gentleman
+
 				}
 			}			
 			country_event = usa.30
@@ -267,7 +267,6 @@ country_event = { #Elections of 1952 Eisenhower vs Adlai Stevenson
 			ideology = conservatism
 			traits = {
 				army_connections
-				r56_trait_opposed_to_communism
 			}
 		}
 		remove_unit_leader = 602
@@ -678,7 +677,7 @@ country_event = { #Elections of 1956 Ike vs Adlai Stevenson
 		create_country_leader = {
 			name = "Adlai Stevenson"
 			desc = "POLITICS_THOMAS_DEWEY_DESC"
-			picture = "gfx/leaders/USA/r56_portrait_USA_Adlai_Stevenson.dds"
+			picture = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
 			expire = "1965.1.1"
 			ideology = liberalism
 			traits = {
@@ -805,7 +804,7 @@ country_event = { #Elections of 1952 Earl Browder resigns
 		date > 1952.1.1
 		date < 1953.1.1
 		has_country_leader = {
-			name = "Earl Browder"
+			name = "Jennifer Lawrence"
 			ruling_only = yes
 		}
 	}
@@ -841,7 +840,7 @@ country_event = { #Elections of 1952 Earl Browder resigns
 			country_event = usa.32
 		}				
 		create_country_leader = {
-			name = "James W. Ford"
+			name = "Gabrielle Union"
 			desc = "POLITICS_THOMAS_DEWEY_DESC"
 			picture = "gfx/leaders/USA/r56_portrait_USA_James_W_Ford.dds"
 			expire = "1965.1.1"
@@ -1035,7 +1034,7 @@ country_event = {
 		ai_chance = {
 			base = 10
 			modifier = {
-				has_country_leader = { name = "Adam Hilt" ruling_only = yes }
+				has_country_leader = { name = "Emma Stone" ruling_only = yes }
 				factor = 0
 			}			
 		}

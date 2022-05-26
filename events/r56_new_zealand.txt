@@ -66,7 +66,7 @@ country_event = {
 				has_country_flag = NZL_gervan_macmillan_flag
 			}
 			create_country_leader = {
-				name = "Gervan McMillan"
+				name = "Anna Hutchison"
 				desc = "POLITICS_Gervan_McMillan"
 				picture = "gfx/leaders/NZL/r56_portrait_NZL_Gervan_McMillan.dds"
 				expire = "1965.1.1"
@@ -112,7 +112,7 @@ country_event = {
 			name = NZL_democartic_Nzational
 		}
 		create_country_leader = {
-				name = "Adam Hamilton"
+				name = "Anna Paquin"
 				desc = "POLITICS_Adam_Hamilton"
 				picture = "gfx/leaders/NZL/r56_portrait_NZL_Adam_Hamilton.dds"
 				expire = "1965.1.1"
@@ -182,7 +182,7 @@ country_event = {
 	option = {
 		name = new_zealand.10.a
 		create_country_leader = {
-			name = "Sidney Holland"
+			name = "Rachel Hunter"
 			desc = "POLITICS_Sidney_Holland"
 			picture = gfx/leaders/NZL/r56_portrait_NZL_Sidney_Holland.dds
 			expire = "1965.1.1"

@@ -250,7 +250,7 @@ war_measures = {
 
 		complete_effect = {
 			create_corps_commander = {
-				name = "Jules Pire"
+				name = "Brionie"
 				portrait_path = "gfx/leaders/r56_generic/r56_portrait_BEL_generic_land_3_jules_pire.dds"
 				traits = { walloon homeland_connoisseur caring_leader ranger}
 				skill = 2

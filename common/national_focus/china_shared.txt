@@ -1017,7 +1017,7 @@ shared_focus = {
 
 	completion_reward = {
 		create_corps_commander = {
-			name = "Aleksandr Cherepanov"
+			name = "Anastasia Orlova"
 			gfx = GFX_portrait_sov_aleksandr_cherepanov 
 			traits = { politically_connected infantry_officer }
 			skill = 3

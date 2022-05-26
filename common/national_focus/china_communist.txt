@@ -3575,7 +3575,7 @@ focus_tree = {
 				OR = {
 					NOT = {
 						has_country_leader = {
-							name = "Joseph Stalin"
+							name = "Anna Kournikova"
 							ruling_only = yes
 						}
 					}

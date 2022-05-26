@@ -103,7 +103,7 @@ war_measures = {
 		
 		remove_effect = {
 			create_corps_commander = {
-				name = "Percy Hobart"
+				name = "Rosamund Pike"
 				portrait_path = "gfx/leaders/ENG/r56_portrait_ENG_percy_hobart.dds"
 				traits = { unpopular funnies_inventor panzer_leader trait_engineer fortress_buster expert_improviser}
 				skill = 5
@@ -152,7 +152,7 @@ war_measures = {
 		
 		remove_effect = {
 			create_corps_commander = {
-				name = "Frederick Browning"
+				name = "Iga Wyrwal"
 				portrait_path = "gfx/leaders/ENG/r56_portrait_ENG_frederick_browning.dds"
 				traits = { air_force_ties commando paratrooper }
 				skill = 2
